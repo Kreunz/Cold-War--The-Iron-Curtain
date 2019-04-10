@@ -75,6 +75,30 @@
  SWE_infantry_equipment_4:0 "Automatkarbin 5"
  SWE_infantry_equipment_4_short:0 "Ak 5"
  SWE_infantry_equipment_4_desc:0 "The Beretta AR70/90 is a gas operated self-loading rifle chambered for the 5.56×45mm NATO cartridge, and is the standard issue service rifle of the Italian Armed Forces. The weapon is also designed to be fitted with a rifle grenade, and has grenade sight."
+
+##### MIDDLE EAST
+
+### Israel
+
+ ISR_infantry_equipment_0:0 "Sten Mark V"
+ ISR_infantry_equipment_0_short:0 "Sten"
+ ISR_infantry_equipment_0_desc:0 ""
+ 
+ ISR_infantry_equipment_1:0 "FAL Aleph"
+ ISR_infantry_equipment_1_short:0 "Aleph"
+ ISR_infantry_equipment_1_desc:0 "Isreali made FAL."
+ 
+ ISR_infantry_equipment_2:0 "IMI Galil"
+ ISR_infantry_equipment_2_short:0 "Galil"
+ ISR_infantry_equipment_2_desc:0 ""
+ 
+ ISR_infantry_equipment_3:0 "M16A2"
+ ISR_infantry_equipment_3_short:0 "M16A2"
+ ISR_infantry_equipment_3_desc:0 ""
+ 
+ ISR_infantry_equipment_4:0 "M4A1"
+ ISR_infantry_equipment_4_short:0 "M4A1"
+ ISR_infantry_equipment_4_desc:0 ""
  
 ##### NATO
 

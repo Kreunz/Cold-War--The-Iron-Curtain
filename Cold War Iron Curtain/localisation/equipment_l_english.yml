@@ -1585,137 +1585,6 @@
  BRA_cargo_helicopter_equipment_3_short:0 "CH-34 Super Puma"
  
  ########## END OF BRA
- ########## NEW ART ISR
- 
- ISR_anti_tank_equipment_5:0 "Nord MGM-32 Entac"
- ISR_anti_tank_equipment_5_short:0 "Entac"
- 
- ISR_motorized_rocket_equipment_5:0 "LAR-160"
- ISR_motorized_rocket_equipment_5_short:0 "LAR-160"
- ISR_motorized_rocket_equipment_6:0 "MAR-240"
- ISR_motorized_rocket_equipment_6_short:0 "MAR-240"
- ISR_motorized_rocket_equipment_7:0 "MAR-290"
- ISR_motorized_rocket_equipment_7_short:0 "MAR-290"
- 
- ISR_medium_tank_aa_equipment_2:0 "Drakon"
- ISR_medium_tank_aa_equipment_2_short:0 "Drakon"
- 
- ISR_heavy_tank_aa_equipment_1:0 "Shenav"
- ISR_heavy_tank_aa_equipment_1_short:0 "Shenav"
- ISR_heavy_tank_aa_equipment_2:0 "Shenav II"
- ISR_heavy_tank_aa_equipment_2_short:0 "Shenav II"
- 
- ISR_light_tank_aa_equipment_3:0 "BTR-152 TCM"
- ISR_light_tank_aa_equipment_3_short:0 "BTR-152 TCM"
- ISR_light_tank_aa_equipment_4:0 "Hovet"
- ISR_light_tank_aa_equipment_4_short:0 "Hovet"
- ISR_light_tank_aa_equipment_7:0 "Machbet"
- ISR_light_tank_aa_equipment_7_short:0 "Machbet"
- 
- ISR_medium_tank_artillery_equipment_6:0 "Rochev"
- ISR_medium_tank_artillery_equipment_6_short:0 "Rochev"
- ISR_medium_tank_artillery_equipment_7:0 "Romach ERFB"
- ISR_medium_tank_artillery_equipment_7_short:0 "Romach ERFB"
- ISR_medium_tank_artillery_equipment_8:0 "Kardom"
- ISR_medium_tank_artillery_equipment_8_short:0 "Kardom"
- ISR_medium_tank_artillery_equipment_9:0 "Sholef"
- ISR_medium_tank_artillery_equipment_9_short:0 "Sholef"
- 
- ISR_medium_tank_destroyer_equipment_1:0 "Hamer Orev"
- ISR_medium_tank_destroyer_equipment_1_short:0 "Hamer Orev"
- ISR_medium_tank_destroyer_equipment_2:0 "Hamer MAPATS"
- ISR_medium_tank_destroyer_equipment_2_short:0 "Hamer MAPATS"
- ISR_medium_tank_destroyer_equipment_3:0 "Djapas Orev"
- ISR_medium_tank_destroyer_equipment_3_short:0 "Djapas Orev"
- ISR_medium_tank_destroyer_equipment_4:0 "Girraffe TOW"
- ISR_medium_tank_destroyer_equipment_4_short:0 "Girraffe TOW"
- ISR_medium_tank_destroyer_equipment_5:0 "Hafiz"
- ISR_medium_tank_destroyer_equipment_5_short:0 "Hafiz"
- ISR_medium_tank_destroyer_equipment_6:0 "Pereh"
- ISR_medium_tank_destroyer_equipment_6_short:0 "Pereh"
- 
- ######### END OF ISR
- 
- ######### NEW ISR ARMOR
- 
- ISR_lt_equipment_6:0 "M113 HVMS 60mm"
- ISR_lt_equipment_6_short:0 "M113 HVMS"
- 
- ISR_mbt_equipment_0:0 "M4 Sherman"
- ISR_mbt_equipment_0_short:0 "M4 Sherman"
- ISR_mbt_equipment_1:0 "A34 Comet"
- ISR_mbt_equipment_1_short:0 "A34 Comet" 
- ISR_mbt_equipment_2:0 "Centurion"
- ISR_mbt_equipment_2_short:0 "Centurion"
- ISR_mbt_equipment_3:0 "Sho't"
- ISR_mbt_equipment_3_short:0 "Sho't"
- ISR_mbt_equipment_4:0 "Magach 3"
- ISR_mbt_equipment_4_short:0 "Magach 3"
- ISR_mbt_equipment_5:0 "Magach 6"
- ISR_mbt_equipment_5_short:0 "Magach 6"
- ISR_mbt_equipment_6:0 "Merkava Mark I"
- ISR_mbt_equipment_6_short:0 "Merkava MkI"
- ISR_mbt_equipment_7:0 "Merkava Mk II"
- ISR_mbt_equipment_7_short:0 "Merkava Mark II"
- ISR_mbt_equipment_8:0 "Merkava Mark III"
- ISR_mbt_equipment_8_short:0 "Merkava MkIII"
- ISR_mbt_equipment_9:0 "Merkava Mark IV"
- ISR_mbt_equipment_9_short:0 "Merkava MkIV"
-
- # ISR_motorized_equipment_1:0 "GMC CCKW"
- # ISR_motorized_equipment_1_short:0 "GMC CCKW"
- 
- ISR_mechanized_equipment_1:0 "Zachlam"
- ISR_mechanized_equipment_1_short:0 "Zachlam"
- ISR_mechanized_equipment_4:0 "BTR-152"
- ISR_mechanized_equipment_4_short:0 "BTR-152"
- ISR_mechanized_equipment_5:0 "BTR-152V"
- ISR_mechanized_equipment_5_short:0 "BTR-152V" 
- ISR_mechanized_equipment_6:0 "Zelda"
- ISR_mechanized_equipment_6_short:0 "Zelda"
- ISR_mechanized_equipment_7:0 "Nagmashot"
- ISR_mechanized_equipment_7_short:0 "Nagmashot"
- ISR_mechanized_equipment_8:0 "Achzarit"
- ISR_mechanized_equipment_8_short:0 "Achzarit"
- ISR_mechanized_equipment_9:0 "Kasman Magen"
- ISR_mechanized_equipment_9_short:0 "Magen"
- ISR_mechanized_equipment_10:0 "Kasman Maoz"
- ISR_mechanized_equipment_10_short:0 "Maoz"
- 
- ISR_mechanized_heavy_equipment_5:0 "Vayzata"
- ISR_mechanized_heavy_equipment_5_short:0 "Vayzata" 
- ISR_mechanized_heavy_equipment_6:0 "Nagman"
- ISR_mechanized_heavy_equipment_6_short:0 "Nagman" 
- ISR_mechanized_heavy_equipment_7:0 "Nakpadon HAPC"
- ISR_mechanized_heavy_equipment_7_short:0 "Nakpadon" 
- ISR_mechanized_heavy_equipment_8:0 "Namer HAPC"
- ISR_mechanized_heavy_equipment_8_short:0 "Namer"
- 
- ISR_mechanized_marine_equipment_3:0 "Bardelas"
- ISR_mechanized_marine_equipment_3_short:0 "Bardelas"
- 
- ISR_infantry_equipment_0:0 "Sten Mark V"
- ISR_infantry_equipment_0_short:0 "Sten"
- ISR_infantry_equipment_0_desc:0 ""
- 
- ISR_infantry_equipment_1:0 "FAL Aleph"
- ISR_infantry_equipment_1_short:0 "Aleph"
- ISR_infantry_equipment_1_desc:0 "Isreali made FAL."
- 
- ISR_infantry_equipment_2:0 "IMI Galil"
- ISR_infantry_equipment_2_short:0 "Galil"
- ISR_infantry_equipment_2_desc:0 ""
- 
- ISR_infantry_equipment_3:0 "M16A2"
- ISR_infantry_equipment_3_short:0 "M16A2"
- ISR_infantry_equipment_3_desc:0 ""
- 
- ISR_infantry_equipment_4:0 "M4A1"
- ISR_infantry_equipment_4_short:0 "M4A1"
- ISR_infantry_equipment_4_desc:0 ""
- 
- ########## END OF NEW ISR ARMOR
-
  ########### NEW ART CHI
  
  CHI_rocket_artillery_equipment_1:0 "Towed Rocket Artillery"
@@ -2305,6 +2174,134 @@
  ARG_artillery_equipment_1_short:0 "M101"
  
  ########## END OF ARG
+ 
+ ##################### MIDDLE EAST
+ 
+ ########## NEW ISR ARMOR
+ 
+ ISR_lt_equipment_5:0 "M113 HVMS 60mm"
+ ISR_lt_equipment_5_short:0 "M113 HVMS"
+ 
+ ISR_mbt_equipment_0:0 "M4 Sherman"
+ ISR_mbt_equipment_0_short:0 "M4 Sherman"
+ ISR_mbt_equipment_1:0 "A34 Comet"
+ ISR_mbt_equipment_1_short:0 "A34 Comet" 
+ ISR_mbt_equipment_2:0 "Centurion"
+ ISR_mbt_equipment_2_short:0 "Centurion"
+ ISR_mbt_equipment_3:0 "Sho't"
+ ISR_mbt_equipment_3_short:0 "Sho't"
+ ISR_mbt_equipment_4:0 "Magach 3"
+ ISR_mbt_equipment_4_short:0 "Magach 3"
+ ISR_mbt_equipment_5:0 "Magach 6"
+ ISR_mbt_equipment_5_short:0 "Magach 6"
+ ISR_mbt_equipment_6:0 "Merkava Mark I"
+ ISR_mbt_equipment_6_short:0 "Merkava Mk.I"
+ ISR_mbt_equipment_7:0 "Merkava Mark II"
+ ISR_mbt_equipment_7_short:0 "Merkava Mk.II"
+ ISR_mbt_equipment_8:0 "Merkava Mark III"
+ ISR_mbt_equipment_8_short:0 "Merkava Mk.III"
+ ISR_mbt_equipment_9:0 "Merkava Mark IV"
+ ISR_mbt_equipment_9_short:0 "Merkava Mk.IV"
+
+ ISR_motorized_equipment_1:0 "GMC CCKW"
+ ISR_motorized_equipment_1_short:0 "GMC CCKW"
+ 
+ ISR_mechanized_equipment_1:0 "Zachlam"
+ ISR_mechanized_equipment_1_short:0 "Zachlam"
+ ISR_mechanized_equipment_4:0 "BTR-152"
+ ISR_mechanized_equipment_4_short:0 "BTR-152"
+ ISR_mechanized_equipment_5:0 "BTR-152V"
+ ISR_mechanized_equipment_5_short:0 "BTR-152V" 
+ ISR_mechanized_equipment_6:0 "Zelda"
+ ISR_mechanized_equipment_6_short:0 "Zelda"
+ ISR_mechanized_equipment_7:0 "Nagmashot"
+ ISR_mechanized_equipment_7_short:0 "Nagmashot"
+ ISR_mechanized_equipment_8:0 "Achzarit"
+ ISR_mechanized_equipment_8_short:0 "Achzarit"
+ ISR_mechanized_equipment_9:0 "Kasman Magen"
+ ISR_mechanized_equipment_9_short:0 "Magen"
+ ISR_mechanized_equipment_10:0 "Kasman Maoz"
+ ISR_mechanized_equipment_10_short:0 "Maoz"
+ 
+ ISR_mechanized_heavy_equipment_5:0 "Vayzata"
+ ISR_mechanized_heavy_equipment_5_short:0 "Vayzata" 
+ ISR_mechanized_heavy_equipment_6:0 "Nagman"
+ ISR_mechanized_heavy_equipment_6_short:0 "Nagman" 
+ ISR_mechanized_heavy_equipment_7:0 "Nakpadon HAPC"
+ ISR_mechanized_heavy_equipment_7_short:0 "Nakpadon" 
+ ISR_mechanized_heavy_equipment_8:0 "Namer HAPC"
+ ISR_mechanized_heavy_equipment_8_short:0 "Namer"
+ 
+ ISR_mechanized_marine_equipment_3:0 "Bardelas"
+ ISR_mechanized_marine_equipment_3_short:0 "Bardelas"
+ 
+ ########### END OF NEW ISR ARMOR
+ ########### NEW ART ISR
+ 
+ ISR_auto_cannon_equipment_1:0 "L/70 Bofors 40 mm gun"
+ ISR_auto_cannon_equipment_1_short:0 "L/70 Bofors"
+ ISR_auto_cannon_equipment_3:0 "M167 PIVADS"
+ ISR_auto_cannon_equipment_3_short:0 "M167 PIVADS"
+
+ ISR_spaag_equipment_1:0 "M16 Multiple Gun Motor Carriage"
+ ISR_spaag_equipment_1_short:0 "M16 Half-Track" 
+ ISR_spaag_equipment_3:0 "M163 VADS"
+ ISR_spaag_equipment_3_short:0 "M163"
+
+ ISR_light_artillery_equipment_1:0 "Howitzer M101 105 mm"
+ ISR_light_artillery_equipment_1_short:0 "M101 105 mm"
+ ISR_light_artillery_equipment_2:0 "M101A1 105 mm"
+ ISR_light_artillery_equipment_2_short:0 "M101A1 105 mm"
+
+ ISR_light_sp_artillery_equipment_1:0 "M7 Priest"
+ ISR_light_sp_artillery_equipment_1_short:0 "M7 Priest" 
+ ISR_light_sp_artillery_equipment_5:0 "Cardom SP"
+ ISR_light_sp_artillery_equipment_5_short:0 "Cardom SP"
+
+ ISR_artillery_equipment_1:0 "M114 155 mm"
+ ISR_artillery_equipment_1_short:0 "M114 155 mm"
+ ISR_artillery_equipment_2:0 "M114A1 155 mm"
+ ISR_artillery_equipment_2_short:0 "M114A1 155 mm"
+ ISR_artillery_equipment_3:0 "Soltam M-68 155 mm"
+ ISR_artillery_equipment_3_short:0 "M-68 155 mm" 
+ ISR_artillery_equipment_4:0 "Soltam M-71 155 mm"
+ ISR_artillery_equipment_4_short:0 "M-71 155 mm"
+ 
+ ISR_sp_artillery_equipment_3:0 "M109"
+ ISR_sp_artillery_equipment_3_short:0 "M109"
+ ISR_sp_artillery_equipment_4:0 "M109 Doher"
+ ISR_sp_artillery_equipment_4_short:0 "M109 Doher"
+ ISR_sp_artillery_equipment_5:0 "ATMOS 2000"
+ ISR_sp_artillery_equipment_5_short:0 "ATMOS 2000"
+
+ ISR_heavy_artillery_equipment_3:0 "175 mm M113A1"
+ ISR_heavy_artillery_equipment_3_short:0 "175 mm M113A1"
+ ISR_heavy_artillery_equipment_4:0 "M201A1"
+ ISR_heavy_artillery_equipment_4_short:0 "M201A1"
+ ISR_heavy_artillery_equipment_5:0 "M201A2"
+ ISR_heavy_artillery_equipment_5_short:0 "M201A2"
+
+ ISR_heavy_sp_artillery_equipment_3:0 "M107 self-propelled gun"
+ ISR_heavy_sp_artillery_equipment_3_short:0 "M107"
+ ISR_heavy_sp_artillery_equipment_4:0 "M110"
+ ISR_heavy_sp_artillery_equipment_4_short:0 "M110"
+ ISR_heavy_sp_artillery_equipment_5:0 "M110A2"
+ ISR_heavy_sp_artillery_equipment_5_short:0 "M110A2"
+
+ ISR_direct_fire_gun_equipment_1:0 "Ordnance QF 6-pounder"
+ ISR_direct_fire_gun_equipment_1_short:0 "6 Pounder"
+
+ ISR_medium_tank_destroyer_equipment_1:0 "3-inch Gun Motor Carriage M10"
+ ISR_medium_tank_destroyer_equipment_1_short:0 "M10 Wolverine" 
+
+ ISR_motorized_rocket_equipment_2:0 "BM-21 Grad"
+ ISR_motorized_rocket_equipment_2_short:0 "BM-21 Grad" 
+ ISR_motorized_rocket_equipment_4:0 "M270 Multiple Launch Rocket System"
+ ISR_motorized_rocket_equipment_4_short:0 "M270"
+ ISR_motorized_rocket_equipment_5:0 "LAR-160"
+ ISR_motorized_rocket_equipment_5_short:0 "LAR-160"
+ 
+ ########## END OF ISR
  
  ##################### NATO 
    
@@ -2941,7 +2938,6 @@
  USA_motorized_equipment_5_desc:0 "The MTVR is a 7 ton 6x6 truck designed by Oshkosh Defense in 1996. It saw use in every western sphere conflict since 2001. The MTVR uses a C-12 Caterpillar engine, 4070P 7-speed automatic transmission with differential lock, and TAK-4 coil spring suspension with anti-roll. The vehicle is able to carry 7000 lbs. It can move at 65 mph for 300 miles and gets 4 mi/gal. The MTVR does not have the load capacity of the M939 and is less fuel efficient so it has not supplanted it, but it is still more reliable and capable in difficult conditions. Additionally, the MTVR is more survivable and more capable of dealing with potentially dangerous situations providing more small arms protection than the M939."
  
  ########### END OF NEW USA ARMOR 
-
  ########### NEW ART USA
  
  USA_auto_cannon_equipment_1:0 "L/70 Bofors 40 mm gun"
