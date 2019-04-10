@@ -222,7 +222,7 @@ country_event = {
 	id = israelelection.1
 	title = "1951 Knesset Election"
 	desc = "israelelection.1.d"
-	picture = GFX_israel_fashion
+	picture = GFX_politics
 	
 	is_triggered_only = yes
 	
@@ -318,7 +318,7 @@ country_event = {
 	id = israelelection.2
 	title = "1955 Knesset Election"
 	desc = "israelelection.2.d"
-	picture = GFX_israel_fashion
+	picture = GFX_politics
 	
 	is_triggered_only = yes
 	
@@ -446,7 +446,7 @@ country_event = {
 id = israelpresidents.1
 title = "1951 Presidential Election"
 desc = israelpresidents.1.d
-picture = GFX_israel_fashion
+picture = GFX_politics
 
 fire_only_once = yes
 
@@ -462,7 +462,7 @@ country_event = {
 id = israelpresidents.2
 title = "Chaim Weizmann passes away"
 desc = israelpresidents.2.d
-picture = GFX_israel_fashion
+picture = GFX_politics
 
 fire_only_once = yes
 
@@ -479,7 +479,7 @@ country_event = {
 id = israelpresidents.3
 title = "1952 Israeli Presidential Election"
 desc = israelpresidents.3.d
-picture = GFX_israel_fashion
+picture = GFX_politics
 
 fire_only_once = yes
 
@@ -496,7 +496,7 @@ country_event = {
 id = lavonmania.1
 title = "David Ben Gurion Retires from Politics"
 desc = lavonmania.1.d
-picture = GFX_israel_fashion
+picture = GFX_politics
 
 fire_only_once = yes
 
@@ -512,6 +512,22 @@ option = {
 			ideology = democratic_socialist
 			traits = { }
 		}
+	}
+}
+
+country_event = {
+id = lavonmania.2
+title = "A peculiar idea"
+desc = lavonmania.2.d
+picture = GFX_politics
+
+fire_only_once = yes
+
+is_triggered_only = yes
+
+option = {
+	   name = "A silly idea"
+	set_country_flag = OperationSusannah
 	}
 }
 
