@@ -4118,6 +4118,11 @@ spriteTypes = {
 		name = "GFX_idea_centralise_industry"
 		texturefile = "gfx/interface/goals/goal_generic_soviet_construction.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_gulag_war"
+		texturefile = "gfx/interface/ideas/sov/gulag_war.dds"
+	}
+
 
 	###################################################
 

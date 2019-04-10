@@ -220,8 +220,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Moshe Sneh"
-	picture = "Moshe_Sneh.dds"
+	name = "Shmuel Mikunis"
+	picture = "Shmuel_Mikunis.dds"
 	ideology = marxism_leninism
 }
 
