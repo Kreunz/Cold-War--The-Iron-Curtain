@@ -5953,7 +5953,7 @@ ic_pulse = {
 	if = {
         limit = {
             original_tag = ISR
-            date > 1951.7.29
+            date > 1951.6.29
             date < 1951.7.30
         }
         country_event = { id = israelelection.1 days = 0 }
@@ -5961,7 +5961,7 @@ ic_pulse = {
 	if = {
         limit = {
             original_tag = ISR
-            date > 1955.7.25
+            date > 1955.6.25
             date < 1955.7.26
         }
         country_event = { id = israelelection.2 days = 0 }
@@ -5969,8 +5969,8 @@ ic_pulse = {
 	if = {
         limit = {
             original_tag = ISR
-            date > 1954.1.25
-            date < 1954.1.26
+            date > 1954.1.1
+            date < 1954.2.2
 			has_country_flag = Mapai1951
         }
         country_event = { id = lavonmania.1 days = 0 }
@@ -5979,7 +5979,7 @@ ic_pulse = {
 	if = {
         limit = {
             original_tag = ISR
-            date > 1951.11.18
+            date > 1951.10.18
             date < 1951.11.19
         }
         country_event = { id = israelpresidents.1 days = 0 }
@@ -5987,7 +5987,7 @@ ic_pulse = {
 	if = {
         limit = {
             original_tag = ISR
-            date > 1952.11.9
+            date > 1952.10.9
             date < 1952.11.10
         }
         country_event = { id = israelpresidents.2 days = 0 }
@@ -5995,7 +5995,7 @@ ic_pulse = {
 	if = {
         limit = {
             original_tag = ISR
-            date > 1952.12.8
+            date > 1952.11.8
             date < 1952.12.9
         }
         country_event = { id = israelpresidents.3 days = 0 }

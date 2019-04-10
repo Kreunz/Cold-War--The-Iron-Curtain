@@ -67,7 +67,7 @@ technology_categories = {
 	capital_tech_weapon
 	naval_modules_general
 	naval_countermeasures
-	naval_sonar
+	maritime_sonar
 	naval_antisub
 	naval_subkiller
 	ciws

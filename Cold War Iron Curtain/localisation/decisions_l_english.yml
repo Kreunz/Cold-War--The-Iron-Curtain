@@ -56,3 +56,4 @@
  train_rebels_gua:0 "Train Rebels To Fight"
  start_revolution_gua:0 "Ignite The Revolution"
  send_weapons_gua:0 "Send Weapons To Rebels"
+ EFFECT_CHANGE_LAW_foreign_aggression_policy:0 "Change our Foreign Aggression Policy"

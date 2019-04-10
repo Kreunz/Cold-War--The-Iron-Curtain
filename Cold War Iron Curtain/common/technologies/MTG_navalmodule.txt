@@ -328,12 +328,12 @@ technologies = {
 			ciws
 		}
 	}
-	sonar_0 = {
+	maritime_sonar_0 = {
 		enable_equipment_modules = { 
-			sonar_0
+			maritime_sonar_0
 		}
 		path = {
-			leads_to_tech = sonar_1
+			leads_to_tech = maritime_sonar_1
 			research_cost_coeff = 1
 		}
 		
@@ -358,16 +358,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_sonar
+			maritime_sonar
 			naval_antisub
 		}
 	}
-	sonar_1 = {
+	maritime_sonar_1 = {
 		enable_equipment_modules = { 
-			sonar_1
+			maritime_sonar_1
 		}
 		path = {
-			leads_to_tech = sonar_2
+			leads_to_tech = maritime_sonar_2
 			research_cost_coeff = 1
 		}
 		
@@ -392,16 +392,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_sonar
+			maritime_sonar
 			naval_antisub
 		}
 	}
-	sonar_2 = {
+	maritime_sonar_2 = {
 		enable_equipment_modules = { 
-			sonar_2
+			maritime_sonar_2
 		}
 		path = {
-			leads_to_tech = sonar_3
+			leads_to_tech = maritime_sonar_3
 			research_cost_coeff = 1
 		}
 		
@@ -426,16 +426,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_sonar
+			maritime_sonar
 			naval_antisub
 		}
 	}
-	sonar_3 = {
+	maritime_sonar_3 = {
 		enable_equipment_modules = { 
-			sonar_3
+			maritime_sonar_3
 		}
 		path = {
-			leads_to_tech = sonar_4
+			leads_to_tech = maritime_sonar_4
 			research_cost_coeff = 1
 		}
 		path = {
@@ -464,13 +464,13 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_sonar
+			maritime_sonar
 			naval_antisub
 		}
 	}
-	sonar_4 = {
+	maritime_sonar_4 = {
 		enable_equipment_modules = { 
-			sonar_4
+			maritime_sonar_4
 		}
 		
 		research_cost = 1.5
@@ -494,13 +494,13 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_sonar
+			maritime_sonar
 			naval_antisub
 		}
 	}
 	subkiller_0 = {
 		enable_equipment_modules = { 
-			subkiller_0
+			ship_subkiller_0
 		}
 		path = {
 			leads_to_tech = subkiller_1
@@ -534,7 +534,7 @@ technologies = {
 	}
 	subkiller_1 = {
 		enable_equipment_modules = { 
-			subkiller_1
+			ship_subkiller_1
 		}
 		path = {
 			leads_to_tech = subkiller_2
@@ -568,7 +568,7 @@ technologies = {
 	}
 	subkiller_2 = {
 		enable_equipment_modules = { 
-			subkiller_2
+			ship_subkiller_2
 		}
 		path = {
 			leads_to_tech = subkiller_3
@@ -602,7 +602,7 @@ technologies = {
 	}
 	subkiller_3 = {
 		enable_equipment_modules = { 
-			subkiller_3
+			ship_subkiller_3
 		}
 		path = {
 			leads_to_tech = subkiller_4
@@ -640,7 +640,7 @@ technologies = {
 	}
 	subkiller_4 = {
 		enable_equipment_modules = { 
-			subkiller_4
+			ship_subkiller_4
 		}
 		path = {
 			leads_to_tech = subkiller_5
@@ -674,7 +674,7 @@ technologies = {
 	}
 	subkiller_5 = {
 		enable_equipment_modules = { 
-			subkiller_5
+			ship_subkiller_5
 		}
 		path = {
 			leads_to_tech = subkiller_6
@@ -708,7 +708,7 @@ technologies = {
 	}
 	subkiller_6 = {
 		enable_equipment_modules = { 
-			subkiller_6
+			ship_subkiller_6
 		}
 		
 		research_cost = 1.5
