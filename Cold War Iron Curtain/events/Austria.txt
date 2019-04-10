@@ -13,12 +13,41 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		every_owned_state = {
-		    limit = {
-			    is_core_of = AUS
-		    }
-		    AUS = { transfer_state = PREV }
-	    }
+		if = {
+			limit = {
+				original_tag = USA
+			}
+			ENG = { country_event = austria.1 }
+		}
+		if = {
+			limit = {
+				original_tag = ENG
+			}
+			FRA = { country_event = austria.1 }
+		}
+		if = {
+			limit = {
+				original_tag = FRA
+			}
+			SOV = { country_event = austria.1 }
+		}
+		if = {
+			limit = {
+				original_tag = SOV
+			}
+			release = AUS
+			every_state = {
+				limit {
+					is_core_of = AUS
+					NOT = {
+						is_owned_by = ITA
+					}
+				}
+				AUS = { transfer_state = PREV }
+			}
+			set_global_flag = aus_questions_over
+			news_event = austria.3
+		}
 	}
 	
 	option = {
@@ -28,6 +57,7 @@ country_event = {
 		}
 		add_political_power = -20
 		add_named_threat = { threat = 5 name = "Rejected Austrian Unification" }	
+		set_global_flag = neutral_austria_rejected
 	}
 
 }
