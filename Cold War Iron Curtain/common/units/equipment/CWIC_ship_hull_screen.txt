@@ -29,7 +29,7 @@ equipments = {
 			}
 			fixed_maritime_slot = {
 				required = no
-				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
+				allowed_module_categories = { maritime_ew_ss maritime_sonar maritime_navigation maritime_ta_fcs }
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
@@ -71,7 +71,7 @@ equipments = {
 		}
 		
 		module_count_limit = {
-			category = ship_sonar
+			category = maritime_sonar
 			count < 2
 		}
 		
@@ -382,11 +382,11 @@ equipments = {
 			}
 			fixed_maritime_slot = {
 				required = no
-				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
+				allowed_module_categories = { maritime_ew_ss maritime_sonar maritime_navigation maritime_ta_fcs }
 			}
 			fixed_maritime_slot_2 = {
 				required = no
-				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
+				allowed_module_categories = { maritime_ew_ss maritime_sonar maritime_navigation maritime_ta_fcs }
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
@@ -430,7 +430,7 @@ equipments = {
 		}
 		
 		module_count_limit = {
-			category = ship_sonar
+			category = maritime_sonar
 			count < 2
 		}
 		
@@ -786,11 +786,11 @@ equipments = {
 			}
 			fixed_maritime_slot = {
 				required = no
-				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
+				allowed_module_categories = { maritime_ew_ss maritime_sonar maritime_navigation maritime_ta_fcs }
 			}
 			fixed_maritime_slot_2 = {
 				required = no
-				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
+				allowed_module_categories = { maritime_ew_ss maritime_sonar maritime_navigation maritime_ta_fcs }
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
@@ -845,7 +845,7 @@ equipments = {
 		}
 		
 		module_count_limit = {
-			category = ship_sonar
+			category = maritime_sonar
 			count < 2
 		}
 		

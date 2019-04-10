@@ -583,6 +583,7 @@ add_ideas = {
 	foreign_aggression_policy_6
 	comecon_member
 	defcon_system_5
+	Suchyi_voyny
 }
 
 set_politics = {
@@ -621,8 +622,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Boris Yeltsin"
-	picture = "Boris_Yeltsin.dds"
+	name = "Georgy Zhukov"
+	portrait_path = "gfx/leaders/SOV/FIELD_MARSHALS/Georgy_Zhukov.dds"
 	ideology = independent
 }
 

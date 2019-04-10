@@ -266,4 +266,84 @@ equipment_modules = {
 			convert_cost_ic = 120
 		}
 	}
+	maritime_sonar_0 = {
+		category = maritime_sonar
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {	
+			build_cost_ic = 400
+			sub_detection = 4
+		}
+		build_cost_resources = {
+			aluminium = 2
+		}
+		can_convert_from = {
+			module_category = maritime_sonar
+			convert_cost_ic = 120
+		}
+	}
+	maritime_sonar_1 = {
+		category = maritime_sonar
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {	
+			build_cost_ic = 500
+			sub_detection = 6
+		}
+		build_cost_resources = {
+			aluminium = 2
+		}
+		can_convert_from = {
+			module_category = maritime_sonar
+			convert_cost_ic = 120
+		}
+	}
+	maritime_sonar_2 = {
+		category = maritime_sonar
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {	
+			build_cost_ic = 600
+			sub_detection = 8
+		}
+		build_cost_resources = {
+			aluminium = 3
+		}
+		can_convert_from = {
+			module_category = maritime_sonar
+			convert_cost_ic = 120
+		}
+	}
+	maritime_sonar_3 = {
+		category = maritime_sonar
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {	
+			build_cost_ic = 700
+			sub_detection = 10
+		}
+		build_cost_resources = {
+			aluminium = 3
+		}
+		can_convert_from = {
+			module_category = maritime_sonar
+			convert_cost_ic = 120
+		}
+	}
+	maritime_sonar_4 = {
+		category = maritime_sonar
+		sfx = sfx_ui_sd_module_sonar
+
+		add_stats = {	
+			build_cost_ic = 800
+			sub_detection = 12
+		}
+		build_cost_resources = {
+			aluminium = 4
+		}
+		can_convert_from = {
+			module_category = maritime_sonar
+			convert_cost_ic = 120
+		}
+	}
 }
