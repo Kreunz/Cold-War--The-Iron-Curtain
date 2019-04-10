@@ -82,7 +82,7 @@ ideas = {
         }
         allowed = {
             original_tag = ZIM
-                
+            
             }
 		traits = { army_chief_drill_1 }
         }

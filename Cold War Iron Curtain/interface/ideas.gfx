@@ -5326,4 +5326,20 @@ spriteTypes = {
 		name = "GFX_idea_Idemitsu"
 		texturefile = "gfx/interface/ideas/jap/Idemitsu.tga"
     }
+  spriteType = {
+		name = "GFX_idea_Ma_Xulun"
+		texturefile = "gfx/interface/ideas/prc/Braindamagedude.tga"
+    }
+  spriteType = {
+		name = "GFX_idea_Mao_Dun"
+		texturefile = "gfx/interface/ideas/prc/MaoDun.tga"
+    }
+  spriteType = {
+		name = "GFX_idea_LuDingyi"
+		texturefile = "gfx/interface/ideas/prc/LuDingyi.tga"
+    }
+  spriteType = {
+		name = "GFX_idea_fawzia_faud"
+		texturefile = "gfx/interface/ideas/Fawziadvisor.tga"
+    }
 }
