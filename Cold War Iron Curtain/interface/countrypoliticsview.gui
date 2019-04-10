@@ -55,7 +55,7 @@ guiTypes = {
 			name = "chart_explanation"
 			position = { x = 95 y = 46 }
 			size = { width = 665 height = 375 }
-			clipping = yes
+			clipping = no
 			verticalScrollbar = "right_vertical_slider"		
 			
 			background = {
@@ -76,9 +76,8 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x= 311 y = 144 }
+			position = { x= 210 y = 75 }
 			size = { width=100 height=100 }
-			Scale = 1.27
 			clipping = no
 
 			iconType = {
