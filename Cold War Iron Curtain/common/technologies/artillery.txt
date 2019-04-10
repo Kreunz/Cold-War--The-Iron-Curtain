@@ -22,6 +22,10 @@ technologies = {
 			auto_cannon_equipment_1
 		}
 		
+		enable_equipment_modules = { 
+			ship_AA_gun_1
+		}
+		
 		path = {
 			leads_to_tech = spaag_1
 			research_cost_coeff = 1
@@ -212,6 +216,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		enable_equipment_modules = { 
+			ship_AA_gun_2
+		}
+		
 		research_cost = 1.5
 		
 		dependencies = {
@@ -390,6 +398,10 @@ technologies = {
 		path = {
 			leads_to_tech = aa_upgrade_3
 			research_cost_coeff = 1
+		}
+		
+		enable_equipment_modules = { 
+			ship_AA_gun_3
 		}
 		
 		research_cost = 1.5
@@ -573,6 +585,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		enable_equipment_modules = { 
+			ship_AA_gun_4
+		}
+		
 		research_cost = 1.5
 		
 		dependencies = {
@@ -752,6 +768,10 @@ technologies = {
 		path = {
 			leads_to_tech = aa_upgrade_5
 			research_cost_coeff = 1
+		}
+		
+		enable_equipment_modules = { 
+			ship_AA_gun_5
 		}
 		
 		research_cost = 1.5
