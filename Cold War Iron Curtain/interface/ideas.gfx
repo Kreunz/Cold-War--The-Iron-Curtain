@@ -5355,4 +5355,20 @@ spriteTypes = {
 		name = "GFX_idea_Calius_Julius_Ceaser"
 		texturefile = "gfx/interface/ideas/caio_gulio_cesare.tga"
     }
+	spriteType = {
+		name = "GFX_idea_stagnation"
+		texturefile = "gfx/interface/ideas/Stagnation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_massive_growth"
+		texturefile = "gfx/interface/ideas/massive_growth.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rapid_growth"
+		texturefile = "gfx/interface/ideas/rapid_growth.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slow_growth"
+		texturefile = "gfx/interface/ideas/slow_growth.dds"
+	}
 }

@@ -577,7 +577,7 @@ set_cosmetic_tag = SOV_FLAG
 
 add_ideas = {
 	home_of_revolution
-	population_growth_aliyah_soviet
+	population_growth_steady
 	limited_conscription
 	UN_Security_Council_Member_Perm
 	foreign_aggression_policy_6

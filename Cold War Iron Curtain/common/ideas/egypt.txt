@@ -222,5 +222,57 @@ ideas = {
 
 			picture = generic_manpower_bonus
 		}
+		EGY_incompetent_officer_corps_big = {
+		
+			picture = incompetent_officer_corps
+			
+			modifier = {
+				army_org_factor = -0.15
+				conscription_factor = -0.10
+				training_time_factor = 0.15
+				army_org_factor = -0.15
+				army_defence_factor = -0.10
+				army_attack_factor = -0.10
+				experience_gain_army_factor = -0.15
+
+			}			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		EGY_incompetent_officer_corps_normal = {
+		
+			picture = incompetent_officer_corps
+			
+			modifier = {
+				army_org_factor = -0.10
+				conscription_factor = -0.10
+				training_time_factor = 0.10
+				army_org_factor = -0.10
+				army_defence_factor = -0.05
+				army_attack_factor = -0.05
+				experience_gain_army_factor = -0.10
+
+			}			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		EGY_incompetent_officer_corps_low = {
+		
+			picture = incompetent_officer_corps
+			
+			modifier = {
+				army_org_factor = -0.05
+				conscription_factor = -0.05
+				training_time_factor = 0.10
+				army_org_factor = -0.05
+				experience_gain_army_factor = -0.05
+
+			}			
+			ai_will_do = {
+				factor = 1
+			}
+		}
     }
 }

@@ -1,7 +1,11 @@
 focus_tree = {
 	id = FRA_1950s_53_elections
 	country = {
-		factor = 100
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
 	}
 	default = no
 	shared_focus = FRA_Elections_of_1951
@@ -11,7 +15,7 @@ focus_tree = {
 	shared_focus = FRA_The_French_Airforce
 	focus = {
 		id = FRA_1953_Presidential
-		icon = GFX_unknown
+		icon = GFX_new_democratic_elections
 		cost = 10.00
 		x = 6
 		y = 0
@@ -21,7 +25,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_RPF_1953
-		icon = GFX_unknown
+		icon = GFX_Gaulism
 		prerequisite = {
 			focus = FRA_1953_Presidential
 		}
@@ -34,7 +38,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Strategic_Nationalization_1953
-		icon = GFX_unknown
+		icon = GFX_DAH_FR_Prod
 		prerequisite = {
 			focus = FRA_RPF_1953
 			focus = FRA_CNIP_1953
@@ -49,7 +53,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Extend_Welfare_1953
-		icon = GFX_unknown
+		icon = GFX_Monetary_Reform
 		prerequisite = {
 			focus = FRA_RPF_1953
 			focus = FRA_CNIP_1953
@@ -64,7 +68,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Promote_Constitutional_Reform_1953
-		icon = GFX_unknown
+		icon = GFX_Paper
 		prerequisite = {
 			focus = FRA_RPF_1953
 		}
@@ -79,7 +83,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Fight_4th_Republic_Institution_1953
-		icon = GFX_unknown
+		icon = GFX_French_Glory
 		prerequisite = {
 			focus = FRA_Promote_Constitutional_Reform_1953
 		}
@@ -91,7 +95,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Promote_Gaullism_1953
-		icon = GFX_unknown
+		icon = GFX_FRA_Yes_De_Gaulle
 		prerequisite = {
 			focus = FRA_Fight_4th_Republic_Institution_1953
 		}
@@ -104,19 +108,20 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_SFIO_1953
-		icon = GFX_unknown
+		icon = GFX_socialdemokraterna
 		prerequisite = {
 			focus = FRA_1953_Presidential
 		}
 		cost = 10.00
 		x = 1
 		y = 1
-		completion_reward = {
+		available = {
+			always = no
 		}
 	}
 	focus = {
 		id = FRA_Reform_Parliament_1953
-		icon = GFX_unknown
+		icon = GFX_new_democratic_elections
 		prerequisite = {
 			focus = FRA_SFIO_1953
 		}
@@ -128,7 +133,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Repair_the_Party_1953
-		icon = GFX_unknown
+		icon = GFX_Communist_Liberalization
 		prerequisite = {
 			focus = FRA_SFIO_1953
 		}
@@ -136,11 +141,12 @@ focus_tree = {
 		x = 2
 		y = 2
 		completion_reward = {
+			add_political_power = 150
 		}
 	}
 	focus = {
 		id = FRA_Expanded_Welfare_1953
-		icon = GFX_unknown
+		icon = GFX_healthcare
 		prerequisite = {
 			focus = FRA_Reform_Parliament_1953
 		}
@@ -148,11 +154,12 @@ focus_tree = {
 		x = 0
 		y = 3
 		completion_reward = {
+			add_ideas = welfare_state_plus
 		}
 	}
 	focus = {
 		id = FRA_Empower_Trade_Unions_1953
-		icon = GFX_unknown
+		icon = GFX_SP_focus_trade_unions
 		prerequisite = {
 			focus = FRA_Repair_the_Party_1953
 		}
@@ -160,11 +167,12 @@ focus_tree = {
 		x = 2
 		y = 3
 		completion_reward = {
+		add_ideas = gen_pro_union_2
 		}
 	}
 	focus = {
 		id = FRA_Reafirmed_Fourth_Republic_1953
-		icon = GFX_unknown
+		icon = GFX_versailles
 		prerequisite = {
 			focus = FRA_Empower_Trade_Unions_1953
 		}
@@ -180,7 +188,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_CNIP_1953
-		icon = GFX_unknown
+		icon = GFX_focus_conservative
 		prerequisite = {
 			focus = FRA_1953_Presidential
 		}
@@ -193,7 +201,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Anti_Communism_1953
-		icon = GFX_unknown
+		icon = GFX_Anti_Communist
 		prerequisite = {
 			focus = FRA_Extend_Welfare_1953
 		}
@@ -205,12 +213,12 @@ focus_tree = {
 		y = 3
 		completion_reward = {
             
-            sadd_ideas = communism_banned
+            add_ideas = communism_banned
 		}
 	}
 	focus = {
 		id = FRA_European_Integration_1953
-		icon = GFX_unknown
+		icon = GFX_European_Relations
 		prerequisite = {
 			focus = FRA_CNIP_1953
 		}
@@ -228,7 +236,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Employers_Favors_1953
-		icon = GFX_unknown
+		icon = GFX_CapitalistSystems
 		prerequisite = {
 			focus = FRA_European_Integration_1953
 		}
@@ -243,7 +251,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Support_French_Algeria_1953
-		icon = GFX_unknown
+		icon = GFX_French_Algeria
 		prerequisite = {
 			focus = FRA_Employers_Favors_1953
 		}
@@ -256,7 +264,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Poujade_1953
-		icon = GFX_unknown
+		icon = GFX_France_Flag_Focus
 		prerequisite = {
 			focus = FRA_1953_Presidential
 		}
@@ -269,7 +277,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Protect_Small_Buisness_1953
-		icon = GFX_unknown
+		icon = GFX_Spread_Industrialization
 		prerequisite = {
 			focus = FRA_Poujade_1953
 		}
@@ -284,7 +292,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Empower_Middle_Class_1953
-		icon = GFX_unknown
+		icon = GFX_middle_class_power
 		prerequisite = {
 			focus = FRA_Protect_Small_Buisness_1953
 		}
@@ -296,7 +304,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Obstruct_Parliament_1953
-		icon = GFX_unknown
+		icon = GFX_versailles
 		prerequisite = {
 			focus = FRA_Poujade_1953
 		}
@@ -308,7 +316,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_State_Corporatism_1953
-		icon = GFX_unknown
+		icon = GFX_State_Control
 		prerequisite = {
 			focus = FRA_Obstruct_Parliament_1953
 		}
@@ -323,7 +331,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Strong_President_1953
-		icon = GFX_unknown
+		icon = GFX_Puppet_President
 		prerequisite = {
 			focus = FRA_State_Corporatism_1953
 		}

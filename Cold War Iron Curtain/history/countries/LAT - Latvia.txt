@@ -2,7 +2,7 @@
 
 add_ideas = {
 	limited_conscription
-	population_growth_aliyah_soviet
+	population_growth_steady
 }
 
 set_technology = {
