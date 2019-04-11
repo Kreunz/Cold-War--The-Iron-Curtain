@@ -5,7 +5,7 @@ ideas = {
 		
 		Kharkiv_Morozov_Machine_Building_Design_Bureau = {
 
-			picture = GFX_idea_KharkivMorozovMachineBuildingDesignBureau
+			picture = KharkivMorozovMachineBuildingDesignBureau
 			
 			allowed = {
 				tag = HUN
@@ -27,7 +27,7 @@ ideas = {
 	
 		GMAVAG_naval = {
 			
-			picture = GFX_idea_Magyar_Villamosagi_GanzMAVAG
+			picture = Magyar_Villamosagi_GanzMAVAG
 
 			allowed = {
 				tag = HUN
@@ -50,7 +50,7 @@ ideas = {
 		
 		GMAVAG = {
 			
-			picture = GFX_idea_Magyar_Villamosagi_GanzMAVAG
+			picture = Magyar_Villamosagi_GanzMAVAG
 
 			allowed = {
 				tag = HUN
@@ -72,7 +72,7 @@ ideas = {
 	
 		GanzMAVAG = {
 			
-			picture = GFX_idea_Magyar_Villamosagi_GanzMAVAG
+			picture = Magyar_Villamosagi_GanzMAVAG
 
 			allowed = {
 				tag = HUN
@@ -90,7 +90,7 @@ ideas = {
 
 		Magyar_VillamosAgi_Muvek = {
 			
-			picture = GFX_idea_Magyar_Villamosagi_Muvek
+			picture = Magyar_Villamosagi_Muvek
 
 			allowed = {
 				tag = HUN
@@ -113,7 +113,7 @@ ideas = {
                 
        CSEPEL = {
 			
-			picture = GFX_idea_CSEPEL
+			picture = CSEPEL
 
 			allowed = {
 				tag = HUN
@@ -131,7 +131,7 @@ ideas = {
 		
 		FEG = {
 			
-			picture = GFX_idea_FEG
+			picture = FEG
 
 			allowed = {
 				tag = HUN
@@ -149,7 +149,7 @@ ideas = {
 		
 		Motovilikha_Plants = {
 			
-			picture = GFX_idea_Motovilikha_Plants
+			picture = Motovilikha_Plants
 
 			allowed = {
 				tag = HUN
