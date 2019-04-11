@@ -136,7 +136,7 @@ set_variable = { var = influencer1_amount value = 2000 }
 set_variable = { var = influencer2 value = ITA.id }
 set_variable = { var = influencer2_amount value = 2000 }
 create_country_leader = {
-	name = "Terrence Sydney Airey"
-	picture = "Terence_Sydney_Airey.dds"
+	name = "United Nations Mandate"
+	picture = "un.dds"
 	ideology = military_junta
 }

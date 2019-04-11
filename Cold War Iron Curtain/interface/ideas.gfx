@@ -5347,6 +5347,14 @@ spriteTypes = {
 		name = "GFX_idea_fawzia_faud"
 		texturefile = "gfx/interface/ideas/Fawziadvisor.tga"
     }
+  spriteType = {
+		name = "GFX_idea_Albert_einstein"
+		texturefile = "gfx/interface/ideas/usa/einstein.tga"
+    }
+  spriteType = {
+		name = "GFX_idea_Calius_Julius_Ceaser"
+		texturefile = "gfx/interface/ideas/caio_gulio_cesare.tga"
+    }
 	spriteType = {
 		name = "GFX_idea_stagnation"
 		texturefile = "gfx/interface/ideas/Stagnation.dds"
