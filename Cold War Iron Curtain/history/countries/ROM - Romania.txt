@@ -122,7 +122,7 @@ set_technology = {
 }
  
 add_ideas = {
-	population_growth_aliyah_soviet
+	population_growth_steady
 	hungarian_seperatism
 	foreign_aggression_policy_6
 	comecon_member

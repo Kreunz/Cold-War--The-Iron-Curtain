@@ -105,7 +105,7 @@ set_convoys = 47
 add_ideas = {
 	population_growth_rapid
 	idea_EGY_Mobilizate_League_Arabe
-	incompetent_officer_corps
+	EGY_incompetent_officer_corps_big
 }
 
 set_variable = { var = domestic_influence_amount value = 1500 }

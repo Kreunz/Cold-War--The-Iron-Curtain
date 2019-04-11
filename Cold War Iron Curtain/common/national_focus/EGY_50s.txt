@@ -53,6 +53,10 @@ focus_tree = {
 			army_experience = 25
 			air_experience = 25
 			navy_experience = 25
+			swap_ideas = {
+				remove_idea = EGY_incompetent_officer_corps_big
+				add_idea = EGY_incompetent_officer_corps_normal
+			}
 		}
 	}
 	focus = {
@@ -183,6 +187,10 @@ focus_tree = {
 			add_political_power = 100
 			add_manpower = 25000
 			army_experience = -10
+			swap_ideas = {
+				remove_idea = EGY_incompetent_officer_corps_normal
+				add_idea = EGY_incompetent_officer_corps_low
+			}
 		}
 	}
 	focus = {
@@ -211,15 +219,16 @@ focus_tree = {
 		x = 9
 		y = 4
 		completion_reward = {
+			remove_ideas = EGY_incompetent_officer_corps_low
 			custom_effect_tooltip = 1_EGY_tt
-			hidden_effect = {
-				create_field_marshal = {
-						name = "Abdel Hakim Amer"
-						picture = "Abdel_Hakim_Amer.dds"
-						traits = { } 
-						skill = 2
-					}	
-				}
+				hidden_effect = {
+					create_field_marshal = {
+							name = "Abdel Hakim Amer"
+							picture = "Abdel_Hakim_Amer.dds"
+							traits = { } 
+							skill = 2
+						}	
+					}
 			}
 	}
 	focus = {
