@@ -23,6 +23,16 @@ spriteTypes = {
 		name = "GFX_ISR_main_battle_tanks_3_medium"
 		texturefile = "gfx/interface/technologies/ISR_mbt_3.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_ISR_main_battle_tanks_4_medium"
+		texturefile = "gfx/interface/technologies/ISR_mbt_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ISR_main_battle_tanks_5_medium"
+		texturefile = "gfx/interface/technologies/ISR_mbt_5.dds"
+	}	
 
 	SpriteType = {
 		name = "GFX_ISR_main_battle_tanks_6_medium"
@@ -48,7 +58,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_ISR_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/USA_mot_1.dds"
+		texturefile = "gfx/interface/technologies/USA_truck_1.dds"
 	}
 
 ##APC
