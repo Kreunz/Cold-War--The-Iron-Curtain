@@ -1,7 +1,7 @@
 focus_tree = {
 	id = FRA_1950s
 	country = {
-		factor = 100
+		factor = 0
 		modifier = {
 			add = 10
 			tag = FRA
@@ -772,7 +772,7 @@ focus_tree = {
 						}
 					create_country_leader = {
 							name = "Henri Queuille"
-							picture = "Portrait_France_Henri_Queuille.dds"
+							picture = "Henri_Queuille.dds"
 							ideology = social_liberal
 						}
 				}
@@ -856,7 +856,7 @@ focus_tree = {
 						}
 					create_country_leader = {
 							name = "Henri Queuille"
-							picture = "Portrait_France_Henri_Queuille.dds"
+							picture = "Henri_Queuille.dds"
 							ideology = social_liberal
 						}
 				}

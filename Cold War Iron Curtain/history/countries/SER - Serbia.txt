@@ -114,7 +114,7 @@ set_technology = {
 
 
 add_ideas = {
-	population_growth_aliyah_soviet
+	population_growth_steady
 }
 
 set_convoys = 200

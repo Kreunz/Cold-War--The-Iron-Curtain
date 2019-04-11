@@ -5,39 +5,26 @@ ideas = {
 	country = {
 		population_growth_explosion = {	##Asia
 		
-			picture = neutrality_idea
+			picture = massive_growth
 			
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
 			
 			modifier = { 
-				MONTHLY_POPULATION = 0.4
-				consumer_goods_factor = 0.05
-			}
-			
-		}	
-		population_growth_islamic_migration_to_turkey = {	##Asia
-		
-			picture = neutrality_idea
-			
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			
-			modifier = { 
-				MONTHLY_POPULATION = 0.90
-				consumer_goods_factor = 0.06
+				MONTHLY_POPULATION = 0.5
+				consumer_goods_factor = 0.04
 			}
 			
 		}	
 		population_growth_rapid = {	##Middle East
 			
-			picture = neutrality_idea
+			picture = rapid_growth
 			
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
 			
 			modifier = { 
-				MONTHLY_POPULATION = 0.05
+				MONTHLY_POPULATION = 0.04
 				consumer_goods_factor = 0.04
 			}
 			
@@ -45,7 +32,7 @@ ideas = {
 		
 		population_growth_steady = {	##Europe
 			
-			picture = neutrality_idea
+			picture = slow_growth
 			
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
@@ -59,7 +46,7 @@ ideas = {
 		
 		population_growth_stagnation = {	##America
 			
-			picture = neutrality_idea
+			picture = idea_stagnation
 			
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
@@ -69,33 +56,6 @@ ideas = {
 				consumer_goods_factor = -0.02
 			}
 			
-		}
-		
-		population_growth_decline = {
-			
-			picture = neutrality_idea
-			
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			
-			modifier = { 
-				MONTHLY_POPULATION = -0.8
-				consumer_goods_factor = -0.06
-			}
-			
-		}
-		
-		population_growth_aliyah_soviet = {		##Communist
-		
-			picture = neutrality_idea
-			
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			
-			modifier = { 
-				MONTHLY_POPULATION = -0.2
-				consumer_goods_factor = 0.02
-			}	
 		}
 	}
 }
