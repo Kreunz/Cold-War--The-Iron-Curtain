@@ -153,9 +153,9 @@ create_country_leader = {
 	ideology = monarchy
 }
 create_country_leader = {
-	name = "Navvab_Safavi"
-	picture = "Navvab_Safavi.dds"
-	ideology = shia_monarchy
+	name = "Ruhollah Khomeini"
+	picture = "Ruhollah_Khomeini.dds"
+	ideology = shia_islamism
 }
 
 create_country_leader = {
@@ -168,9 +168,54 @@ create_country_leader = {
 	picture = "Mosaddegh.dds"
 	ideology = left_nationalist
 }
+create_country_leader = {
+	name = "Navvab Safavi"
+	picture = "Navvab_Safavi.dds"
+	ideology = shia_monarchy
+}
 create_corps_commander = {
 	name = "Hasan Arfa"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	traits = {  desert_fox }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	#planning_skill = 3
+	#logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Nematollah Nassiri"
+	picture = "Nematollah_Nassiri.dds"
+	traits = {  desert_fox }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	#planning_skill = 3
+	#logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Gholam Reza Azhari"
+	picture = "PER_Gholam.dds"
+	traits = {  desert_fox }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	#planning_skill = 3
+	#logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Mohammad Amir Khatami"
+	picture = "Mohammad_Amir _Khatami.dds"
+	traits = {  desert_fox }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	#planning_skill = 3
+	#logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Gholamreza Pahlavi"
+	picture = "Gholamreza_Pahlavi.dds"
 	traits = {  desert_fox }
 	skill = 3
 	attack_skill = 3
