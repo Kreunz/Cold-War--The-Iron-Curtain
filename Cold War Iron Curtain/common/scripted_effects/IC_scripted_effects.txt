@@ -1467,15 +1467,7 @@ ic_pulse = {
 					date < 1965.07.22					
 				}
 				country_event = ROM.1
-			}
-			if = {
-				limit = {
-					tag = FRA
-					date > 1954.11.01
-					date < 1955.01.01					
-				}
-				country_event = algeria_war.1
-			}			
+			}		
 			if = {
 				limit = {
 					date > 1952.07.01
@@ -4003,15 +3995,6 @@ ic_pulse = {
 		}
 		country_event = vie.1
 	}			
-	if = {
-		limit = {
-			has_global_flag = VIE_yes_Geneva
-			has_global_flag = FRA_yes_Geneva
-			date < 1954.07.20
-			NOT = { has_global_flag = Geneva_Conference }
-		}
-		news_event = vie.3
-	}		
 	if = {
 		limit = {
 			VIN = {
