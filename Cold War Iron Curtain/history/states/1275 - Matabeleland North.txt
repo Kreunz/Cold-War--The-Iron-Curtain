@@ -1,34 +1,27 @@
 
 state={
-	id=987
-	name="STATE_987"
-	resources={
-		tungsten=20.000
-	}
+	id=1275
+	name="STATE_1275"
 
 	history={
 		owner = ZIM
 		set_state_flag = temperate
+		set_state_flag = riverlarge
 		set_state_flag = nominal
 		set_state_flag = poor
 		add_core_of = ZIM
-		victory_points = {
-			2151 5 
-		}
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2
-
-			industrial_complex = 1
 
 		}
 
 	}
 
 	provinces={
-		669 2151 6807
+		784 1874 13358
 	}
-	manpower=803783
+	manpower=401891
 	buildings_max_level_factor=1.000
 	state_category=pop1dev1
 }

@@ -9,7 +9,6 @@ state={
 	history={
 		owner = ZIM
 		set_state_flag = temperate
-		set_state_flag = riverlarge
 		set_state_flag = medium
 		set_state_flag = undeveloped
 		add_core_of = ZIM
@@ -60,9 +59,9 @@ state={
 	}
 
 	provinces={
-		2216 3931 3936 6894 10929 13607 
+		10929 13607 
 	}
-	manpower=1606000
+	manpower=803000
 	buildings_max_level_factor=1.000
 	state_category=pop1dev2
 }
