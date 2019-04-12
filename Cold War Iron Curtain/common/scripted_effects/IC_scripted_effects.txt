@@ -2451,19 +2451,7 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = ENG 
-					has_country_flag = Anthony_Eden_flag 
-							OR = {
-								has_government = conservative
-								has_government = socialist
-								has_government = democratic
-								has_government = centrist
-								has_government = liberal
-								has_government = Liberal_Conservatism
-								has_government = Christian_Democratic
-								has_government = Social_Liberalism
-								has_government = Social_Democratic
-							}	
-					
+					has_country_flag = Anthony_Eden_flag		
 					date > 1957.05.01
 					date < 1958.12.01
 				}

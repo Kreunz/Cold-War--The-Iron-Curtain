@@ -24,21 +24,6 @@ bookmarks = {
 			}
 		}
 		
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-				home_of_revolution
-				UN_Security_Council_Member_Perm
-				comecon_member
-			}
-			focuses = {
-				SOV_Partition_of_Turkey
-				SOV_Second_Treaty_of_Sevres
-				SOV_stalin_notes
-			}
-		}
-		
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = conservative
@@ -70,12 +55,32 @@ bookmarks = {
 			}
 		}
 		
-		"CHI"={
-			history = "CHI_GATHERING_STORM_DESC"
-			ideology = neutrality
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				home_of_revolution
+				UN_Security_Council_Member_Perm
+				comecon_member
+			}
+			focuses = {
+				SOV_Partition_of_Turkey
+				SOV_Second_Treaty_of_Sevres
+				SOV_stalin_notes
+			}
+		}
+		
+		"KOR"={
+			history = "KOR_GATHERING_STORM_DESC"
+			ideology = conservative
 			ideas={
 				CHI_disorganized_military
 				UN_Security_Council_Member_Perm
+			}
+			focuses = {
+				KOR_rhee_administration
+				KOR_Yi_Si_yeong_1952
+				KOR_Peaceful_Reunification
 			}	
 			
 		}
@@ -163,14 +168,16 @@ bookmarks = {
 		"ISR"={
 			minor = yes
 			history = "ISR_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = socialist
 			ideas = {
 				idea_ISR_Defence_of_the_Sionist_Nation
                 idea_ISR_Trump_to_Victory
                 idea_Chaim_Weizmann
 			}
 			focuses = {
-				
+				ISR_The_Slansky_Trial
+				ISR_Seize_Sinai
+				ISR_Designate_Jerusalem_as_the_Capital
 			}
 		}
 		
@@ -217,18 +224,6 @@ bookmarks = {
 		"GRE"={
 			minor = yes
 			history = "GRE_GATHERING_STORM_DESC"
-			ideology = nationalism
-			ideas = {
-			
-			}
-			focuses = {
-			
-			}
-		}
-		
-		"ARG"={
-			minor = yes
-			history = "ARG_GATHERING_STORM_DESC"
 			ideology = nationalism
 			ideas = {
 			

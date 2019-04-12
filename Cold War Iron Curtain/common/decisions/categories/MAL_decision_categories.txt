@@ -6,3 +6,12 @@ malaysian_emergency_category = {
 		original_tag = MLA
 	}
 }
+
+manipur_decisions = {
+	visible = {
+
+	}
+	allowed = {
+		always = yes
+	}
+}
