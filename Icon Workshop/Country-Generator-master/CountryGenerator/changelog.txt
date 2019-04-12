@@ -1,2 +1,0 @@
-Changelog 6
-Fixed an issue where the localization wouldn't generate _DEF and _ADJ definitions.
