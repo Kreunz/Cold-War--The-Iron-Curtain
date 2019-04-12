@@ -422,6 +422,21 @@ on_actions = {
                 ic_pulse = yes
 
             }
+			RAJ = {
+				869 = {
+					add_province_modifier = {
+						static_modifiers = { insurgency_tier1 }
+						province = {
+							all_provinces 
+						}
+					}
+					add_state_modifier = {
+						modifier = {
+							local_factory_sabotage = 0.15
+						}
+					}
+				}
+			}
 			USA = {
 				country_event = focus_check.1
 			}

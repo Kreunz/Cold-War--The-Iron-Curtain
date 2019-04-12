@@ -10,7 +10,9 @@ manipur_decisions = {
 		days_mission_timeout = 180
 
 		activation = {
-			has_state_flag = lv3_insurgency
+			869 = {
+				has_state_flag = lv3_insurgency
+			}
 			check_variable = {
 				var = manipuri_insurgency
 				value = 100
