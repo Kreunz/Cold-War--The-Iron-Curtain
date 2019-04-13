@@ -1,4 +1,38 @@
-ai_historical_focus_list_IRQ = {
+Iraq_historical = {
+	name = "Iraq historical plan"
+	desc = "historical behaviour for Iraq"
+
+	enable = {
+		original_tag = IRQ
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = IRQ_ai_behavior
+					option = DEFAULT
+				}	
+			}
+			has_game_rule = {
+				rule = IRQ_ai_behavior
+				option = HISTORICAL
+			}
+		}
+	}
+	abort = {
+		OR = {
+			PER = { has_completed_focus = PER_Shah_Refuses }
+			PER = { has_completed_focus = PER_Assasination_of_the_Shah }
+			AND = {
+				SYR = { has_completed_focus = SYR_bowtothebaghdadpact }
+				NOT = { PER = { has_completed_focus = PER_Shah_Refuses } }
+			}
+		}
+		has_game_rule = {
+			rule = IRQ_ai_behavior
+			option = DEFAULT
+		}
+	}
+
 	ai_national_focuses = {
 		IRQ_al_Nakba
 		IRQ_Expel_Jewish_Population
@@ -37,6 +71,17 @@ ai_historical_focus_list_IRQ = {
 		IRQ_Consolidate_Power
 		IRQ_governmental_stability
 		IRQ_the_mosul_uprising
-		
 	}
+
+
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
 }
