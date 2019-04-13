@@ -203,6 +203,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "David Ben-Gurion"
+	desc = "BEN_GURION_DESC"
 	picture = "David_Ben-Gurion.dds"
 	ideology = democratic_socialist
 }

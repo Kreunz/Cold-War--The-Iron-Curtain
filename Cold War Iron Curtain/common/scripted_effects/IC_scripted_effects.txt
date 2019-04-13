@@ -5946,6 +5946,7 @@ ic_pulse = {
         }
         country_event = { id = lavonmania.1 days = 0 }
 		set_country_flag = PMSharett
+		set_country_flag = LavonDefenseMinister
     }
 	if = {
         limit = {
@@ -6035,5 +6036,14 @@ ic_pulse = {
             date < 1953.11.5
         }
         country_event = { id = israel.17 days = 0 }
+    }
+	if = {
+        limit = {
+            original_tag = ISR
+            date > 1954.1.30
+            date < 1954.5.25
+		has_country_flag = LavonDefenseMinsiter
+        }
+        country_event = { id = lavonmania.2 days = 0 }
     }
 }

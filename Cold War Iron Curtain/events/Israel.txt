@@ -229,6 +229,7 @@ country_event = {
 
 	option = {
 		name = "They're Welcome!"
+		add_manpower = 50000
 	}
 }
 
@@ -337,6 +338,89 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = israel.18
+	title = "A deal with Mapai"
+	desc = "israel.18.d"
+    picture = GFX_politics
+
+    trigger = {
+        tag = ISR
+		has_country_flag = GenZionist1951
+        }
+    mean_time_to_happen = {
+        days = 7
+    }
+
+	option = {
+		name = "Ok, if it secures our position then sure"
+	add_political_power = 5
+	set_country_flag = LavonDefenseMinister
+	}
+}
+
+country_event = {
+	id = israel.19
+	title = "An offer from Mapai"
+	desc = "israel.19.d"
+    picture = GFX_politics
+
+    trigger = {
+        tag = ISR
+		has_country_flag = Mapam1951
+        }
+    mean_time_to_happen = {
+        days = 7
+    }
+
+	option = {
+		name = "Ok, if it secures our position then sure"
+	add_political_power = 5
+	set_country_flag = LavonDefenseMinister
+	}
+}
+
+country_event = {
+	id = israel.20
+	title = "An agreement with Mapai"
+	desc = "israel.20.d"
+    picture = GFX_politics
+
+    trigger = {
+        tag = ISR
+		has_country_flag = Religious1951
+        }
+    mean_time_to_happen = {
+        days = 7
+    }
+
+	option = {
+		name = "Ok, if it secures our position then sure"
+	add_political_power = 5
+	set_country_flag = LavonDefenseMinister
+	}
+}
+
+country_event = {
+	id = israel.21
+	title = "A deal with the devil"
+	desc = "israel.21.d"
+    picture = GFX_politics
+
+    trigger = {
+        tag = ISR
+		has_country_flag = Herut1951
+        }
+    mean_time_to_happen = {
+        days = 7
+    }
+
+	option = {
+		name = "Ok, if it secures our position then sure"
+	add_political_power = 5
+	set_country_flag = LavonDefenseMinister
+	}
+}
 
 
 country_event = {
