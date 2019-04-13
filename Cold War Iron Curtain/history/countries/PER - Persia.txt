@@ -223,6 +223,26 @@ create_corps_commander = {
 	#planning_skill = 3
 	#logistics_skill = 3
 }
+create_corps_commander = {
+	name = "Ali Sayad Shirazi"
+	picture = "Ali_Sayad_Shirazi.dds"
+	traits = {  desert_fox }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	#planning_skill = 3
+	#logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Ali"
+	picture = "Combat_Ali.dds"
+	traits = {  desert_fox }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	#planning_skill = 3
+	#logistics_skill = 3
+}
 create_field_marshal = {
 	name = "Qasem-Ali_Zahirnejad"
 	picture = "Qasem-Ali_Zahirnejad.dds"
@@ -232,7 +252,7 @@ create_field_marshal = {
 	defense_skill = 3
 	#planning_skill = 3
 	#logistics_skill = 3
-}Qasem-Ali_Zahirnejad
+}
 1960.1.1 = {
 	#load_focus_tree = IRAN_1960s
 	remove_ideas = entrenched_aristocracy
