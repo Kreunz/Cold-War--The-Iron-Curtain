@@ -77,7 +77,10 @@ technologies = {
 			sub_hull_large_single_0
 		}
 		enable_equipment_modules = { 
-			medium_sub_engine_0
+			sub_engine_alpha_0
+		}
+		enable_equipment_modules = { 
+			sub_engine_beta_0
 		}
 		path = {
 			leads_to_tech = sub_hull_large_single_1
@@ -131,7 +134,10 @@ technologies = {
 			sub_hull_large_single_1
 		}
 		enable_equipment_modules = { 
-			medium_sub_engine_1
+			sub_engine_alpha_1
+		}
+		enable_equipment_modules = { 
+			sub_engine_beta_1
 		}
 		path = {
 			leads_to_tech = sub_hull_large_single_2
@@ -185,7 +191,10 @@ technologies = {
 			sub_hull_large_single_2
 		}
 		enable_equipment_modules = { 
-			medium_sub_engine_2
+			sub_engine_alpha_2
+		}
+		enable_equipment_modules = { 
+			sub_engine_beta_2
 		}
 		path = {
 			leads_to_tech = sub_hull_large_single_3
@@ -239,7 +248,10 @@ technologies = {
 			sub_hull_large_single_3
 		}
 		enable_equipment_modules = { 
-			medium_sub_engine_3
+			sub_engine_alpha_3
+		}
+		enable_equipment_modules = { 
+			sub_engine_beta_3
 		}
 		path = {
 			leads_to_tech = sub_hull_large_single_4
@@ -293,7 +305,10 @@ technologies = {
 			sub_hull_large_single_4
 		}
 		enable_equipment_modules = { 
-			medium_sub_engine_4
+			sub_engine_alpha_4
+		}
+		enable_equipment_modules = { 
+			sub_engine_beta_4
 		}
 		path = {
 			leads_to_tech = sub_hull_small_single_4
@@ -343,7 +358,10 @@ technologies = {
 			sub_hull_small_single_0
 		}
 		enable_equipment_modules = { 
-			small_sub_engine_0
+			sub_engine_alpha_0
+		}
+		enable_equipment_modules = { 
+			sub_engine_beta_0
 		}
 		path = {
 			leads_to_tech = sub_hull_small_single_1
@@ -381,7 +399,10 @@ technologies = {
 			sub_hull_small_single_1
 		}
 		enable_equipment_modules = { 
-			small_sub_engine_1
+			sub_engine_alpha_1
+		}
+		enable_equipment_modules = { 
+			sub_engine_beta_1
 		}
 		path = {
 			leads_to_tech = sub_hull_small_single_2
@@ -419,7 +440,10 @@ technologies = {
 			sub_hull_small_single_2
 		}
 		enable_equipment_modules = { 
-			small_sub_engine_2
+			sub_engine_alpha_2
+		}
+		enable_equipment_modules = { 
+			sub_engine_beta_2
 		}
 		path = {
 			leads_to_tech = sub_hull_small_single_3
@@ -457,7 +481,10 @@ technologies = {
 			sub_hull_small_single_3
 		}
 		enable_equipment_modules = { 
-			small_sub_engine_3
+			sub_engine_alpha_3
+		}
+		enable_equipment_modules = { 
+			sub_engine_beta_3
 		}
 		path = {
 			leads_to_tech = sub_hull_small_single_4
@@ -495,7 +522,10 @@ technologies = {
 			sub_hull_small_single_4
 		}
 		enable_equipment_modules = { 
-			small_sub_engine_4
+			sub_engine_alpha_4
+		}
+		enable_equipment_modules = { 
+			sub_engine_beta_4
 		}
 		path = {
 			leads_to_tech = sub_hull_small_single_5
@@ -533,7 +563,7 @@ technologies = {
 			sub_hull_large_double_0
 		}
 		enable_equipment_modules = { 
-			large_sub_engine_0
+			sub_engine_mega_0
 		}
 		path = {
 			leads_to_tech = sub_hull_large_double_1
@@ -575,7 +605,7 @@ technologies = {
 			sub_hull_large_double_1
 		}
 		enable_equipment_modules = { 
-			large_sub_engine_1
+			sub_engine_mega_1
 		}
 		path = {
 			leads_to_tech = sub_hull_large_double_2
@@ -617,7 +647,7 @@ technologies = {
 			sub_hull_large_double_2
 		}
 		enable_equipment_modules = { 
-			large_sub_engine_2
+			sub_engine_mega_2
 		}
 		path = {
 			leads_to_tech = sub_hull_large_double_3
@@ -659,7 +689,7 @@ technologies = {
 			sub_hull_large_double_3
 		}
 		enable_equipment_modules = { 
-			large_sub_engine_3
+			sub_engine_mega_3
 		}
 		path = {
 			leads_to_tech = slbm_silo_3
@@ -694,7 +724,10 @@ technologies = {
 	
 	torpedo_small_0 = {
 		enable_equipment_modules = { 
-			ship_torpedo_small
+			ship_torpedo_small_0
+		}
+		enable_equipment_modules = { 
+			sub_torpedo_small_0
 		}
 		path = {
 			leads_to_tech = torpedo_medium_0
@@ -735,6 +768,9 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_torpedo_small_1
 		}
+		enable_equipment_modules = { 
+			sub_torpedo_small_1
+		}
 		path = {
 			leads_to_tech = torpedo_medium_1
 			research_cost_coeff = 1
@@ -769,6 +805,9 @@ technologies = {
 	torpedo_small_2 = {
 		enable_equipment_modules = { 
 			ship_torpedo_small_2
+		}
+		enable_equipment_modules = { 
+			sub_torpedo_small_2
 		}
 		path = {
 			leads_to_tech = torpedo_medium_2
@@ -805,6 +844,9 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_torpedo_small_3
 		}
+		enable_equipment_modules = { 
+			sub_torpedo_small_3
+		}
 		path = {
 			leads_to_tech = torpedo_medium_3
 			research_cost_coeff = 1
@@ -840,6 +882,9 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_torpedo_small_4
 		}
+		enable_equipment_modules = { 
+			sub_torpedo_small_4
+		}
 		
 		research_cost = 1
 		
@@ -870,6 +915,9 @@ technologies = {
 	torpedo_medium_0 = {
 		enable_equipment_modules = { 
 			ship_torpedo_medium_0
+		}
+		enable_equipment_modules = { 
+			sub_torpedo_medium_0
 		}
 		
 		research_cost = 1
@@ -902,6 +950,9 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_torpedo_medium_1
 		}
+		enable_equipment_modules = { 
+			sub_torpedo_medium_1
+		}
 		
 		research_cost = 1
 		
@@ -933,6 +984,9 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_torpedo_medium_2
 		}
+		enable_equipment_modules = { 
+			sub_torpedo_medium_2
+		}
 		
 		research_cost = 1
 		
@@ -963,6 +1017,9 @@ technologies = {
 	torpedo_medium_3 = {
 		enable_equipment_modules = { 
 			ship_torpedo_medium_3
+		}
+		enable_equipment_modules = { 
+			sub_torpedo_medium_3
 		}
 		
 		research_cost = 1
