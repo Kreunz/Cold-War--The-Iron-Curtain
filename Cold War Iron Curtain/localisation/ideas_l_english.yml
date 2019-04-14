@@ -686,7 +686,7 @@
  air_chief:0 "Chief of Airforce"
  high_command:0 "Military High Command"
  theorist:0 "Theorist"
- british_austerity_idea:0 "Austerity"
+ british_austerity_idea:0 "British Austerity"
  british_fighter_discount:0 "Aircraft production group"
  british_arms_discount:0 "Birmingham Small Arms Company"
  british_convoy_discount:0 "Convoy system priority"
@@ -2549,7 +2549,7 @@
  idea_PAL_Mobilizate_League_Arabe:0 "Mobilize the Arab League"
  idea_SAU_Mobilizate_League_Arabe:0 "Mobilize the Arab League"
  idea_SYR_Mobilizate_League_Arabe:0 "Mobilize the Arab League"
- idea_ISR_Trump_to_Victory:0 "Triumph in 1949"
+ idea_ISR_Trump_to_Victory:0 "Trump to Victory 1949"
  idea_ISR_Military_to_Victory:0 "Militalizacion to Victory 1949"
  idea_ISR_Impulse_Settlements:0 "Impulse Creation to Kibutz"
  idea_ISR_Defence_of_the_Sionist_Nation:0 "Defence of the Zionist Nation"
@@ -2577,8 +2577,11 @@
  idea_EGY_Infantery_equipment:0 "Improve Infantery Equipment"
  idea_EGY_Motorized_Equipment:0 "Improve Motorized Equipment"
  idea_EGY_Industrial:0 "Improve Industrial"
- SYR_Accepted_Refugees:0 "Accepted Refugees"
- SYR_Soviet_Advisors:0 "Soviet Advisors"
+ idea_SYR_Accepted_Refugees:0 "Accepted Refugees"
+ idea_SYR_Palestinian_Soldiers:0 "Palestinian Soldiers"
+ idea_SYR_CIA_Influence:0 "CIA Influence"
+ idea_SYR_Aleppo_University:0 "University of Aleppo"
+ idea_SYR_Soviet_Advisors:0 "Soviet Advisors"
  idea_JOR_Scientifics:0 "Scientifics Jordan"
  idea_JOR_For_The_King:0 "For The King"
  
@@ -3021,19 +3024,6 @@
  zeth_hoglund:0 "Zeth Höglund"
  per_edvin_skold:0 "Per Edvin Sköld"
  
- #Finland
- Suomen_Kaapelitehdas:0 "Suomen Kaapelitehdas Oy"
- Suomen_Kaapelitehdas_desc:0 "Founded in 1917, Suomen Kaapelitehdas is an electronics company mainly producing various electrical, telegraph and telephone cables."
- Valmet_Lentokoneteollisuus:0 "Valmet Lentokoneteollisuus"
- Valmet_Lentokoneteollisuus_desc:0 "Founded in 1945, Valmet Lentokoneteollisuus has taken over the former Valtion lentokonetehdas."
- KONE:0 "KONE Oyj"
- Suomen_Autoteollisuus:0 "Oy Suomen Autoteollisuus Ab"
- Suomen_Autoteollisuus_desc:0 "Formed in 1931 from two neighbouring Helsinki-based automobile coach builders Autokoritehdas and Autoteollisuus-Bilindustri, both of which had fallen into financial troubles by the beginning of the 1930s, Suomen Autoteollisuus is a truck manufacturer company."
- sisu:0 "Oy Sisu Auto Ab"
- neste:0 "Neste Oy"
- tvh:0 "Tie- ja vesirakennushallitus"
- tvh_desc:0 "Governmental organization in charge of road and water way building."
- 
 #hungary
  soviet_payments:0 "Payments to the Soviets"
  soviet_reparations:0 "Soviet Reparations"
@@ -3053,12 +3043,7 @@
  repression:0 "Reression"
  death_squads:0 "Death Squads"
  leftist_persecution_fin:0 "Leftist Persecution"
- Israel_Aerospace_Industries:0 "Israeli Aerospace Industries"
+ 
+ #Japan
  unstable_economy:0 "Unstable Economy"
  us_intervention:0 "American Intervention"
- yugoslavia_railways:0 "Yugoslavia Railways"
- IWI:0 "Israel Weapons Industries"
- 
- #ussr
- Suchyi_voyny:0 "Suchyi Voyny"
- Suchyi_voyny_desc:0 "Suchyi voyny, know in english as Bitch Wars refers to series of conflicts in gulags where high ranking criminals and Second World War veteran prisoners fought in bloody conflicts resulting in high number of deaths. The prison authorities however have very little intrest in solving these, since prisoner deaths reduce the overall prison population."
