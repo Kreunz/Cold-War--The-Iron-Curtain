@@ -3,7 +3,10 @@ malaysian_emergency_category = {
 
 	}
 	allowed = {
-		original_tag = MLA
+		OR = {
+			original_tag = MLA
+			original_tag = MAL
+		}
 	}
 }
 
