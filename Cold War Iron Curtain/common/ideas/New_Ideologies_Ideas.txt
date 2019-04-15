@@ -4682,7 +4682,25 @@ ideas = {
 				stability_factor = 0.05
 			}
 		}
-		
+		soviet_aliyah = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+	
+			modifier = {
+				stability_factor = 0.05
+				MONTHLY_POPULATION = 1.5
+			}
+		}		
 		The_Old_Order = {	
 			picture = generic_production_bonus
 			allowed = {
