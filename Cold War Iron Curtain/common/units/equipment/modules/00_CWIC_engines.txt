@@ -4,7 +4,7 @@ equipment_modules = {
 ##### LIGHT SCREEN ENGINE #####
 
 	ww_screen_engine_small = {
-		category = small_screen_engine
+		category = light_screen_engine
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -13,7 +13,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = small_screen_engine
+			module_category = light_screen_engine
 			convert_cost_ic = 75
 		}
 
@@ -51,8 +51,8 @@ equipment_modules = {
 
 	}
 
-	small_screen_engine_0 = {
-		category = small_screen_engine
+	light_screen_engine_0 = {
+		category = light_screen_engine
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -67,15 +67,15 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = small_screen_engine
+			module_category = light_screen_engine
 			convert_cost_ic = 125
 		}
 
 	}
 
-	small_screen_engine_1 = {
-		category = small_screen_engine
-		parent = small_screen_engine_0
+	light_screen_engine_1 = {
+		category = light_screen_engine
+		parent = light_screen_engine_0
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -90,19 +90,19 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = small_screen_engine
+			module_category = light_screen_engine
 			convert_cost_ic = 125
 		}
 		
 		can_convert_from = {
-			module = small_screen_engine_0
+			module = light_screen_engine_0
 			convert_cost_ic = 115
 		}
 	}
 
-	small_screen_engine_2 = {
-		category = small_screen_engine
-		parent = small_screen_engine_1
+	light_screen_engine_2 = {
+		category = light_screen_engine
+		parent = light_screen_engine_1
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -117,18 +117,18 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = small_screen_engine
+			module_category = light_screen_engine
 			convert_cost_ic = 125
 		}
 		
 		can_convert_from = {
-			module = small_screen_engine_1
+			module = light_screen_engine_1
 			convert_cost_ic = 115
 		}
 	}
-	small_screen_engine_3 = {
-		category = small_screen_engine
-		parent = small_screen_engine_2
+	light_screen_engine_3 = {
+		category = light_screen_engine
+		parent = light_screen_engine_2
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -143,18 +143,18 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = small_screen_engine
+			module_category = light_screen_engine
 			convert_cost_ic = 125
 		}
 		
 		can_convert_from = {
-			module = small_screen_engine_2
+			module = light_screen_engine_2
 			convert_cost_ic = 115
 		}
 	}
-	small_screen_engine_4 = {
-		category = small_screen_engine
-		parent = small_screen_engine_3
+	light_screen_engine_4 = {
+		category = light_screen_engine
+		parent = light_screen_engine_3
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -169,12 +169,12 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = small_screen_engine
+			module_category = light_screen_engine
 			convert_cost_ic = 125
 		}
 		
 		can_convert_from = {
-			module = small_screen_engine_3
+			module = light_screen_engine_3
 			convert_cost_ic = 115
 		}
 	}
