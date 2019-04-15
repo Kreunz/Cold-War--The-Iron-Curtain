@@ -420,7 +420,9 @@ on_actions = {
 		effect = {
             every_country = {
                 ic_pulse = yes
-
+            }
+			every_country = {
+                army_experience = 50
             }
 			RAJ = {
 				869 = {
