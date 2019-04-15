@@ -257,8 +257,41 @@ create_country_leader = {
 	set_cosmetic_tag = UAR
 }
 
-1961.1.1 = {
+1961.09.28 = {
     drop_cosmetic_tag = yes
+	set_politics = {
+	    parties = {
+            democratic = { popularity = 0 }
+            communism = { popularity = 20 }
+            fascism = { popularity = 20 }
+            nationalism = { popularity = 10 }
+            monarchism = { popularity = 0 }
+            neutrality = { popularity = 0 }
+            islamism = { popularity = 10 }
+            radical_shiaism = { popularity = 0 }
+            Social_Democratic = { popularity = 0 }
+            Social_Liberalism = { popularity = 0 }
+            Salafism = { popularity = 0 }
+            Liberal_Conservatism = { popularity = 0 }
+            conservative = { popularity = 10 }
+            Christian_Democratic = { popularity = 0 }
+            socialist = { popularity = 0 }
+            centrist = { popularity = 0 }
+            liberal = { popularity = 0 }
+            trotskyism = { popularity = 0 }
+            maoism = { popularity = 0 }
+            libertarianism = { popularity = 30 }
+            
+
+	    }
+	    ruling_party = fascism
+	    last_election = "1961.9.28"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+}
+
+1963.3.8 = {
 	set_politics = {
 	    parties = {
             democratic = { popularity = 0 }
@@ -287,6 +320,14 @@ create_country_leader = {
 	    last_election = "1963.3.8"
 	    election_frequency = 48
 	    elections_allowed = no
+    }
+}
+
+1971.1.1 = {
+    create_country_leader = {
+	     name = "Nureddin Atassi"
+	     picture = "Nureddin_al_Atassi.dds"
+	     ideology = baathism
     }
 }
 
@@ -330,7 +371,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Lu'ay al-Atassi"
-	portrait_path = "gfx/leaders/SYR/GENERALS/Luay_al-Atassi.tga"
+	portrait_path = "gfx/leaders/SYR/GENERALS/Luay_al-Atassi.dds"
 	traits = {  }
 	skill = 1
 	attack_skill = 1
@@ -374,7 +415,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Rifaat al-Assad"
-	portrait_path = "gfx/leaders/SYR/GENERALS/Rifaat_al-Assad.tga"
+	portrait_path = "gfx/leaders/SYR/GENERALS/Rifaat_al-Assad.dds"
 	traits = { commando }
 	skill = 1
 	attack_skill = 1
