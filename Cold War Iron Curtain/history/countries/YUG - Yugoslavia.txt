@@ -2,7 +2,7 @@
 
 oob = "YUG_1949"
 
-set_research_slots = 4
+set_research_slots = 3
 
 add_ideas = {
 	YUG_anti_soviet
@@ -246,6 +246,16 @@ create_corps_commander = {
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
+	#planning_skill = 3
+	#logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Zorko Canadi"
+	picture = "Zorko_Canadi.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
 	#planning_skill = 3
 	#logistics_skill = 3
 }
