@@ -68,6 +68,7 @@ equipments = {
 		sub_attack = 1
 		armor_value = 0
 		surface_detection = 30
+		sub_detection = 10
 		sub_visibility = 12
 		naval_speed = 10
 		reliability = 0.8
@@ -335,6 +336,7 @@ equipments = {
 		sub_attack = 1
 		armor_value = 0
 		surface_detection = 30
+		sub_detection = 10
 		sub_visibility = 11
 		naval_speed = 16
 		reliability = 0.8
@@ -511,6 +513,321 @@ equipments = {
 			steel = 3
 			aluminium = 1
 			tungsten = 1
+		}
+	}
+	
+	sub_hull_large_double = {
+		year = 1950
+
+		is_archetype = yes
+		is_buildable = no
+		type = submarine
+		alias = small_single_sub
+		priority = 500
+
+		upgrades = {
+			ship_cum_tanks
+		}
+
+		module_slots = {
+			fixed_sub_torpedo_slot = {
+				required = yes
+				allowed_module_categories = { sub_torpedo_small sub_torpedo_medium }
+			}
+			fixed_sub_torpedo_slot_2 = {
+				required = no
+				allowed_module_categories = { sub_torpedo_small sub_torpedo_medium }
+			}
+			fixed_maritime_slot = {
+				required = no
+				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
+			}
+			fixed_mega_sub_engine_slot = {
+				required = yes
+				allowed_module_categories = { sub_engine_mega sub_engine_mega_nuclear }
+			}
+			fixed_sub_silo_slot = {
+				required = no
+				allowed_module_categories = { sub_slbm_tube sub_slbm_silo }
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_torpedo_small
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_torpedo_small
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_torpedo_medium
+					sub_torpedo_small
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_torpedo_medium
+					sub_torpedo_small
+				}
+			}
+		}
+		
+		module_count_limit = {
+			category = maritime_ew_ss
+			count < 2
+		}
+		
+		module_count_limit = {
+			category = ship_sonar
+			count < 2
+		}
+		
+		default_modules = {
+			fixed_maritime_slot = empty
+			fixed_mega_sub_engine_slot = empty
+			fixed_sub_torpedo_slot = empty
+			fixed_sub_torpedo_slot_2 = empty
+			fixed_sub_silo_slot = empty
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 1
+		armor_value = 0
+		surface_detection = 40
+		sub_detection = 13
+		sub_visibility = 14
+		naval_speed = 8
+		reliability = 0.8
+		naval_range = 3300
+		max_strength = 126
+		fuel_consumption = 8
+		build_cost_ic = 3600
+		resources = {
+			steel = 7
+		}
+		
+		manpower = 150
+	}
+
+	sub_hull_large_double_0 = {
+		year = 1950
+
+		archetype = sub_hull_large_double
+		priority = 500
+		#alias = frigate_0
+		
+		module_slots = inherit
+	}
+
+	sub_hull_large_double_1 = {
+		year = 1965
+
+		archetype = sub_hull_large_double
+		priority = 500
+		parent = sub_hull_large_double_0
+		
+		module_slots = {
+			fixed_sub_torpedo_slot = inherit
+			fixed_sub_torpedo_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_mega_sub_engine_slot = inherit
+			fixed_sub_silo_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_torpedo_small
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_torpedo_small
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_armament_asm
+					sub_torpedo_medium
+					sub_torpedo_small
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_armament_asm
+					sub_torpedo_medium
+					sub_torpedo_small
+				}
+			}
+		}
+
+		default_modules = {
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+
+
+		reliability = 0.85
+		surface_detection = 40
+		sub_detection = 13
+		sub_visibility = 16
+		naval_speed = 10
+		naval_range = 3800
+		max_strength = 144
+		fuel_consumption = 12
+		build_cost_ic = 4800
+		resources = {
+			steel = 9
+			aluminium = 1
+		}
+		manpower = 170
+	}
+
+	sub_hull_large_double_2 = {
+		year = 1980
+
+		archetype = sub_hull_large_double
+		priority = 500
+		parent = sub_hull_large_double_1
+
+		module_slots = {
+			fixed_sub_torpedo_slot = inherit
+			fixed_sub_torpedo_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_mega_sub_engine_slot = inherit
+			fixed_sub_silo_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_torpedo_medium
+					sub_torpedo_small
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_torpedo_medium
+					sub_torpedo_small
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_armament_asm
+					sub_torpedo_medium
+					sub_torpedo_small
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_armament_asm
+					sub_torpedo_medium
+					sub_torpedo_small
+				}
+			}
+		}
+
+		
+		resources = {
+			steel = 9
+			tungsten = 2
+			aluminium = 1
+		}
+
+		reliability = 0.85
+		surface_detection = 50
+		sub_detection = 16
+		sub_visibility = 18
+		naval_speed = 12
+		naval_range = 4300
+		max_strength = 162
+		fuel_consumption = 16
+		build_cost_ic = 6000
+		manpower = 200
+	}
+
+	sub_hull_large_double_3 = {
+		year = 1995
+
+		archetype = sub_hull_large_double
+		priority = 500
+		parent = sub_hull_large_double_2
+		
+		module_slots = {
+			fixed_sub_torpedo_slot = inherit
+			fixed_sub_torpedo_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_mega_sub_engine_slot = inherit
+			fixed_sub_silo_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_torpedo_medium
+					sub_torpedo_small
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sub_torpedo_medium
+					sub_torpedo_small
+				}
+			}
+			mid_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_armament_asm
+					ship_armament_heavyasm
+					sub_torpedo_medium
+					sub_torpedo_small
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_armament_asm
+					ship_armament_heavyasm
+					sub_torpedo_medium
+					sub_torpedo_small
+				}
+			}
+		}
+
+
+		reliability = 0.95
+		surface_detection = 50
+		sub_detection = 16
+		sub_visibility = 20
+		naval_speed = 14
+		naval_range = 4800
+		max_strength = 180
+		fuel_consumption = 16
+		build_cost_ic = 7200
+		manpower = 170
+		resources = {
+			steel = 9
+			tungsten = 3
+			aluminium = 1
 		}
 	}
 }

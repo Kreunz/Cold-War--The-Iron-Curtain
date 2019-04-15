@@ -1050,7 +1050,7 @@ technologies = {
 	
 	slbm_tube_1 = {
 		enable_equipment_modules = { 
-			slbm_tube_1
+			sub_slbm_tube_1
 		}
 		
 		research_cost = 2
@@ -1081,7 +1081,7 @@ technologies = {
 	
 	slbm_tube_2 = {
 		enable_equipment_modules = { 
-			slbm_tube_2
+			sub_slbm_tube_2
 		}
 		
 		research_cost = 2
@@ -1112,7 +1112,7 @@ technologies = {
 	
 	slbm_tube_3 = {
 		enable_equipment_modules = { 
-			slbm_tube_3
+			sub_slbm_tube_3
 		}
 		
 		research_cost = 2
@@ -1143,7 +1143,7 @@ technologies = {
 	
 	slbm_tube_4 = {
 		enable_equipment_modules = { 
-			slbm_tube_4
+			sub_slbm_tube_4
 		}
 		
 		research_cost = 2
@@ -1174,7 +1174,7 @@ technologies = {
 	
 	slbm_silo_1 = {
 		enable_equipment_modules = { 
-			slbm_silo_1
+			sub_slbm_silo_1
 		}
 		
 		research_cost = 3
@@ -1200,7 +1200,7 @@ technologies = {
 	
 	slbm_silo_2 = {
 		enable_equipment_modules = { 
-			slbm_silo_2
+			sub_slbm_silo_2
 		}
 		
 		research_cost = 3
@@ -1226,7 +1226,7 @@ technologies = {
 	
 	slbm_silo_3 = {
 		enable_equipment_modules = { 
-			slbm_silo_3
+			sub_slbm_silo_3
 		}
 		
 		research_cost = 3
