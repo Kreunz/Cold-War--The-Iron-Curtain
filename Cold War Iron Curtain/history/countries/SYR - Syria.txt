@@ -253,6 +253,10 @@ create_country_leader = {
     }
 }
 
+remove_idea = {
+	idea_SYR_CIA_Influence
+}
+
 1958.1.1 = {
 	set_cosmetic_tag = UAR
 }
@@ -361,17 +365,6 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "Adib Shishakli"
 	portrait_path = "gfx/leaders/SYR/Adib_Shishakli.dds"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	#planning_skill = 1
-	#logistics_skill = 1 
-}
-
-create_corps_commander = {
-	name = "Lu'ay al-Atassi"
-	portrait_path = "gfx/leaders/SYR/GENERALS/Luay_al-Atassi.dds"
 	traits = {  }
 	skill = 1
 	attack_skill = 1
