@@ -4444,31 +4444,31 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_IFA"
-		texturefile = "gfx/interface/ideas/IFA.dds"
+		texturefile = "gfx/interface/ideas/IFA.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_CSEPEL"
-		texturefile = "gfx/interface/ideas/CSEPEL.dds"
+		texturefile = "gfx/interface/ideas/CSEPEL.tga"
 	}	
 	spriteType = {
 		name = "GFX_idea_FEG"
-		texturefile = "gfx/interface/ideas/FEG.dds"
+		texturefile = "gfx/interface/ideas/FEG.tga"
 	}	
 	spriteType = {
 		name = "GFX_idea_Motovilikha_Plants"
-		texturefile = "gfx/interface/ideas/Motovilikha_Plants.dds"
+		texturefile = "gfx/interface/ideas/Motovilikha_Plants.tga"
 	}	
 	spriteType = {
 		name = "GFX_idea_Magyar_Villamosagi_Muvek"
-		texturefile = "gfx/interface/ideas/Magyar_Villamosagi_Muvek.dds"
+		texturefile = "gfx/interface/ideas/Magyar_Villamosagi_Muvek.tga"
 	}		
 	spriteType = {
 		name = "GFX_idea_Magyar_Villamosagi_GanzMAVAG"
-		texturefile = "gfx/interface/ideas/GanzMAVAG.dds"
+		texturefile = "gfx/interface/ideas/GanzMAVAG.tga"
 	}	
 	spriteType = {
 		name = "GFX_idea_KharkivMorozovMachineBuildingDesignBureau"
-		texturefile = "gfx/interface/ideas/KharkivMorozovMachineBuildingDesignBureau.dds"
+		texturefile = "gfx/interface/ideas/KharkivMorozovMachineBuildingDesignBureau.tga"
 	}	
 
 	######################################################################################################################################################
