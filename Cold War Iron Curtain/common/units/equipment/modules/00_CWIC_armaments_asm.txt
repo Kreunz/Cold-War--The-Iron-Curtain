@@ -25,7 +25,7 @@ equipment_modules = {
 			convert_cost_ic = 400
 		}
 
-		critical_parts = { damaged_medium_guns }
+		critical_parts = { damaged_heavy_guns }
 	}
 	
 	ship_armament_asm_1 = {
@@ -58,7 +58,7 @@ equipment_modules = {
 			convert_cost_ic = 300
 		}
 
-		critical_parts = { damaged_medium_guns }
+		critical_parts = { damaged_heavy_guns }
 	}
 
 	ship_armament_asm_2 = {
@@ -91,7 +91,7 @@ equipment_modules = {
 			module = ship_armament_asm_1
 			convert_cost_ic = 300
 		}
-		critical_parts = { damaged_medium_guns }
+		critical_parts = { damaged_heavy_guns }
 	}
 
 	ship_armament_asm_3 = {
@@ -124,7 +124,7 @@ equipment_modules = {
 			module= ship_armament_asm_2
 			convert_cost_ic = 300
 		}
-		critical_parts = { damaged_medium_guns }
+		critical_parts = { damaged_heavy_guns }
 	}
 
 ##### ASM [HEAVY] #####

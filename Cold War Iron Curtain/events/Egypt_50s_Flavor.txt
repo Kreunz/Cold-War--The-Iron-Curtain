@@ -29,6 +29,13 @@ country_event = {
 		EGY = { set_country_flag = england_sudan_yes }
 		ai_chance = {
 			factor = 85
+			modifier = {
+				factor = 1000
+				has_game_rule = {
+					rule = EGY_ai_behavior
+					option = FAROUK
+				}
+			}
 		}
 	}
 	option = {
@@ -302,6 +309,14 @@ country_event = {
 		complete_national_focus = EGY_Nasser_Consolidates_Power
 		ai_chance = {
 			factor = 80
+			modifier = {
+				factor = 1000
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = EGY_ai_behavior 
+					option = UAR_HISTORICAL
+				}
+			}
 		}
 	}
 	option = {
@@ -314,6 +329,19 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 10
+			modifier = {
+				factor = 1000
+				OR = {
+					has_game_rule = {
+						rule = EGY_ai_behavior 
+						option = DEMOCRATIC
+					}
+					has_game_rule = {
+						rule = EGY_ai_behavior 
+						option = ISLAMIC
+					}
+				}
+			}
 		}
 	}
 	option = {
@@ -329,6 +357,13 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 10
+			modifier = {
+				factor = 1000
+				has_game_rule = {
+					rule = EGY_ai_behavior 
+					option = UAR_AHISTORICAL
+				}
+			}
 		}
 	}
 }
@@ -345,6 +380,20 @@ country_event = {
 		complete_national_focus = EGY_Naguib_Victory
 		ai_chance = {
 			factor = 34
+			modifier = {
+				factor = 1000
+				has_game_rule = {
+					rule = EGY_ai_behavior 
+					option = DEMOCRATIC
+				}
+			}
+			modifier = {
+				factor = -1000
+				has_game_rule = {
+					rule = EGY_ai_behavior 
+					option = ISLAMIC
+				}
+			}
 		}
 	}
 	option = {

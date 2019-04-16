@@ -71,6 +71,9 @@ NDefines.NMilitary.CORPS_COMMANDER_ARMIES_CAP = -1
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 0
 NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 8
 NDefines.NMilitary.BASE_CAPTURE_EQUIPMENT_RATIO = 0.05
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 3 	--Base cost to unlock a regiment slot,
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 3	--Base cost to change a regiment column.
+NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 1 	--Base cost to unlock a support slot
 
 NDefines.NNavy.CARRIER_STACK_PENALTY = 8 -- The most efficient is 4 carriers in combat. 5+ brings the penalty to the amount of wings in battle.
 NDefines.NNavy.CARRIER_STACK_PENALTY_EFFECT = 0.1 -- Each carrier above the optimal amount decreases the amount of airplanes being able to takeoff by such %.

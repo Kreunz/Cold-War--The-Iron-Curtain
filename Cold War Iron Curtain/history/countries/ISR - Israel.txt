@@ -2,7 +2,7 @@
 
 oob = "ISR_1949"
 
-set_research_slots = 3
+set_research_slots = 2
 
 # Starting tech
 set_technology = {
@@ -203,6 +203,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "David Ben-Gurion"
+	desc = "BEN_GURION_DESC"
 	picture = "David_Ben-Gurion.dds"
 	ideology = democratic_socialist
 }

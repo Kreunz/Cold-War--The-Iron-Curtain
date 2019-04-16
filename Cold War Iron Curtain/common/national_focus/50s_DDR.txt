@@ -1759,7 +1759,9 @@ focus_tree = {
 			completion_reward = {
 					army_experience = 25
 					remove_ideas = Warsaw_Pact_Military_Restrictions
-					unlock_national_focus = DDR_expand_the_army
+					unlock_national_focus = DDR_Formation_of_the_Luftstreitkrafte_der_Nationalen_Volksarmee
+					unlock_national_focus = DDR_Formation_of_the_Nationale_Volksarmee
+					unlock_national_focus = DDR_Establish_the_Volksmarine
 				}
 
 	}

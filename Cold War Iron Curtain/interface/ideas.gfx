@@ -8,11 +8,13 @@ spriteTypes = {
 	### new tfv nat spirit icons
 
 	spriteType = {
+		name = "GFX_idea_PER_Iran_Khodro"
+		texturefile = "gfx/interface/ideas/PER/PER_Iran_Khodro.tga"
+	}
+	spriteType = {
 		name = "GFX_idea_generic_degauss_ship_hulls"
 		texturefile = "gfx/interface/ideas/idea_generic_degauss_ship_hulls.dds"
 	}
-		
-	
 	spriteType = {
 		name = "GFX_idea_generic_agrarian_society"
 		texturefile = "gfx/interface/ideas/idea_generic_agrarian_society.dds"

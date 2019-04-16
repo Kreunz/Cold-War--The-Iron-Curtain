@@ -4,7 +4,7 @@ equipment_modules = {
 ##### LIGHT SCREEN ENGINE #####
 
 	ww_screen_engine_small = {
-		category = small_screen_engine
+		category = light_screen_engine
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -13,7 +13,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = small_screen_engine
+			module_category = light_screen_engine
 			convert_cost_ic = 75
 		}
 
@@ -51,8 +51,8 @@ equipment_modules = {
 
 	}
 
-	small_screen_engine_0 = {
-		category = small_screen_engine
+	light_screen_engine_0 = {
+		category = light_screen_engine
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -67,15 +67,15 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = small_screen_engine
+			module_category = light_screen_engine
 			convert_cost_ic = 125
 		}
 
 	}
 
-	small_screen_engine_1 = {
-		category = small_screen_engine
-		parent = small_screen_engine_0
+	light_screen_engine_1 = {
+		category = light_screen_engine
+		parent = light_screen_engine_0
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -90,19 +90,19 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = small_screen_engine
+			module_category = light_screen_engine
 			convert_cost_ic = 125
 		}
 		
 		can_convert_from = {
-			module = small_screen_engine_0
+			module = light_screen_engine_0
 			convert_cost_ic = 115
 		}
 	}
 
-	small_screen_engine_2 = {
-		category = small_screen_engine
-		parent = small_screen_engine_1
+	light_screen_engine_2 = {
+		category = light_screen_engine
+		parent = light_screen_engine_1
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -117,18 +117,18 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = small_screen_engine
+			module_category = light_screen_engine
 			convert_cost_ic = 125
 		}
 		
 		can_convert_from = {
-			module = small_screen_engine_1
+			module = light_screen_engine_1
 			convert_cost_ic = 115
 		}
 	}
-	small_screen_engine_3 = {
-		category = small_screen_engine
-		parent = small_screen_engine_2
+	light_screen_engine_3 = {
+		category = light_screen_engine
+		parent = light_screen_engine_2
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -143,18 +143,18 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = small_screen_engine
+			module_category = light_screen_engine
 			convert_cost_ic = 125
 		}
 		
 		can_convert_from = {
-			module = small_screen_engine_2
+			module = light_screen_engine_2
 			convert_cost_ic = 115
 		}
 	}
-	small_screen_engine_4 = {
-		category = small_screen_engine
-		parent = small_screen_engine_3
+	light_screen_engine_4 = {
+		category = light_screen_engine
+		parent = light_screen_engine_3
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -169,12 +169,12 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = small_screen_engine
+			module_category = light_screen_engine
 			convert_cost_ic = 125
 		}
 		
 		can_convert_from = {
-			module = small_screen_engine_3
+			module = light_screen_engine_3
 			convert_cost_ic = 115
 		}
 	}
@@ -864,137 +864,9 @@ equipment_modules = {
 			convert_cost_ic = 2750
 		}
 	}
-##### SMALL SUB ENGINE #####
-	small_sub_engine_0 = {
-		category = small_sub_engine
-		sfx = sfx_ui_sd_module_engine
-
-		
-		add_stats = {
-			build_cost_ic = 90
-		}
-		
-		multiply_stats = {
-			fuel_consumption = 0.15
-			naval_speed = 0.2
-			reliability = -0.1
-		}
-		
-		can_convert_from = {
-			module_category = small_sub_engine
-			convert_cost_ic = 125
-		}
-
-	}
-
-	small_sub_engine_1 = {
-		category = small_sub_engine
-		parent = small_sub_engine_0
-		sfx = sfx_ui_sd_module_engine
-
-		
-		add_stats = {
-			build_cost_ic = 120
-		}
-		
-		multiply_stats = {
-			fuel_consumption = 0.2
-			naval_speed = 0.3
-			reliability = -0.1
-		}
-		
-		can_convert_from = {
-			module_category = small_sub_engine
-			convert_cost_ic = 125
-		}
-		
-		can_convert_from = {
-			module = small_sub_engine_0
-			convert_cost_ic = 115
-		}
-	}
-
-	small_sub_engine_2 = {
-		category = small_sub_engine
-		parent = small_sub_engine_1
-		sfx = sfx_ui_sd_module_engine
-
-		
-		add_stats = {
-			build_cost_ic = 150
-		}
-		
-		multiply_stats = {
-			fuel_consumption = 0.3
-			naval_speed = 0.4
-			reliability = -0.1
-		}
-		
-		can_convert_from = {
-			module_category = small_sub_engine
-			convert_cost_ic = 125
-		}
-		
-		can_convert_from = {
-			module = small_sub_engine_1
-			convert_cost_ic = 115
-		}
-	}
-	small_sub_engine_3 = {
-		category = small_sub_engine
-		parent = small_sub_engine_2
-		sfx = sfx_ui_sd_module_engine
-
-		
-		add_stats = {
-			build_cost_ic = 180
-		}
-		
-		multiply_stats = {
-			fuel_consumption = 0.35
-			naval_speed = 0.5
-			reliability = -0.1
-		}
-		
-		can_convert_from = {
-			module_category = small_sub_engine
-			convert_cost_ic = 125
-		}
-		
-		can_convert_from = {
-			module = small_sub_engine_2
-			convert_cost_ic = 115
-		}
-	}
-	small_sub_engine_4 = {
-		category = small_sub_engine
-		parent = small_sub_engine_3
-		sfx = sfx_ui_sd_module_engine
-
-		
-		add_stats = {
-			build_cost_ic = 210
-		}
-		
-		multiply_stats = {
-			fuel_consumption = 0.4
-			naval_speed = 0.6
-			reliability = -0.1
-		}
-		
-		can_convert_from = {
-			module_category = small_sub_engine
-			convert_cost_ic = 125
-		}
-		
-		can_convert_from = {
-			module = small_sub_engine_3
-			convert_cost_ic = 115
-		}
-	}
-##### MEDIUM SUB ENGINE #####
-	medium_sub_engine_0 = {
-		category = medium_sub_engine
+##### SUB ENGINES #####
+	sub_engine_alpha_0 = {
+		category = sub_engine_alpha
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1009,15 +881,15 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = medium_sub_engine
+			module_category = sub_engine_alpha
 			convert_cost_ic = 250
 		}
 
 	}
 
-	medium_sub_engine_1 = {
-		category = medium_sub_engine
-		parent = medium_sub_engine_0
+	sub_engine_alpha_1 = {
+		category = sub_engine_alpha
+		parent = sub_engine_alpha_0
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1032,19 +904,19 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = medium_sub_engine
+			module_category = sub_engine_alpha
 			convert_cost_ic = 250
 		}
 		
 		can_convert_from = {
-			module = medium_sub_engine_0
+			module = sub_engine_alpha_0
 			convert_cost_ic = 230
 		}
 	}
 
-	medium_sub_engine_2 = {
-		category = medium_sub_engine
-		parent = medium_sub_engine_1
+	sub_engine_alpha_2 = {
+		category = sub_engine_alpha
+		parent = sub_engine_alpha_1
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1059,18 +931,18 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = medium_sub_engine
+			module_category = sub_engine_alpha
 			convert_cost_ic = 250
 		}
 		
 		can_convert_from = {
-			module = medium_sub_engine_1
+			module = sub_engine_alpha_1
 			convert_cost_ic = 230
 		}
 	}
-	medium_sub_engine_3 = {
-		category = medium_sub_engine
-		parent = medium_sub_engine_2
+	sub_engine_alpha_3 = {
+		category = sub_engine_alpha
+		parent = sub_engine_alpha_2
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1085,18 +957,146 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = medium_sub_engine
+			module_category = sub_engine_alpha
 			convert_cost_ic = 250
 		}
 		
 		can_convert_from = {
-			module = medium_sub_engine_2
+			module = sub_engine_alpha_2
 			convert_cost_ic = 230
 		}
 	}
-	medium_sub_engine_4 = {
-		category = medium_sub_engine
-		parent = medium_sub_engine_3
+	sub_engine_alpha_4 = {
+		category = sub_engine_alpha
+		parent = sub_engine_alpha_3
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 420
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.4
+			naval_speed = 0.6
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = sub_engine_alpha
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = sub_engine_alpha_3
+			convert_cost_ic = 230
+		}
+	}
+##### MEDIUM SUB ENGINE #####
+	sub_engine_beta_0 = {
+		category = sub_engine_beta
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 180
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.15
+			naval_speed = 0.2
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = sub_engine_beta
+			convert_cost_ic = 250
+		}
+
+	}
+
+	sub_engine_beta_1 = {
+		category = sub_engine_beta
+		parent = sub_engine_beta_0
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 240
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.2
+			naval_speed = 0.3
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = sub_engine_beta
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = sub_engine_beta_0
+			convert_cost_ic = 230
+		}
+	}
+
+	sub_engine_beta_2 = {
+		category = sub_engine_beta
+		parent = sub_engine_beta_1
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 300
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.3
+			naval_speed = 0.4
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = sub_engine_beta
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = sub_engine_beta_1
+			convert_cost_ic = 230
+		}
+	}
+	sub_engine_beta_3 = {
+		category = sub_engine_beta
+		parent = sub_engine_beta_2
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 360
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.35
+			naval_speed = 0.5
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = sub_engine_beta
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = sub_engine_beta_2
+			convert_cost_ic = 230
+		}
+	}
+	sub_engine_beta_4 = {
+		category = sub_engine_beta
+		parent = sub_engine_beta_3
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1111,18 +1111,18 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = medium_sub_engine
+			module_category = sub_engine_beta
 			convert_cost_ic = 250
 		}
 		
 		can_convert_from = {
-			module = medium_sub_engine_3
+			module = sub_engine_beta_3
 			convert_cost_ic = 230
 		}
 	}
 ##### LARGE SUB ENGINE #####
-	large_sub_engine_0 = {
-		category = large_sub_engine
+	sub_engine_mega_0 = {
+		category = sub_engine_mega
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1137,15 +1137,15 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = large_sub_engine
+			module_category = sub_engine_mega
 			convert_cost_ic = 500
 		}
 
 	}
 
-	large_sub_engine_1 = {
-		category = large_sub_engine
-		parent = large_sub_engine_0
+	sub_engine_mega_1 = {
+		category = sub_engine_mega
+		parent = sub_engine_mega_0
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1160,19 +1160,19 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = large_sub_engine
+			module_category = sub_engine_mega
 			convert_cost_ic = 500
 		}
 		
 		can_convert_from = {
-			module = large_sub_engine_0
+			module = sub_engine_mega_0
 			convert_cost_ic = 460
 		}
 	}
 
-	large_sub_engine_2 = {
-		category = large_sub_engine
-		parent = large_sub_engine_1
+	sub_engine_mega_2 = {
+		category = sub_engine_mega
+		parent = sub_engine_mega_1
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1187,18 +1187,18 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = large_sub_engine
+			module_category = sub_engine_mega
 			convert_cost_ic = 500
 		}
 		
 		can_convert_from = {
-			module = large_sub_engine_1
+			module = sub_engine_mega_1
 			convert_cost_ic = 460
 		}
 	}
-	large_sub_engine_3 = {
-		category = large_sub_engine
-		parent = large_sub_engine_2
+	sub_engine_mega_3 = {
+		category = sub_engine_mega
+		parent = sub_engine_mega_2
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1213,18 +1213,18 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = large_sub_engine
+			module_category = sub_engine_mega
 			convert_cost_ic = 500
 		}
 		
 		can_convert_from = {
-			module = large_sub_engine_2
+			module = sub_engine_mega_2
 			convert_cost_ic = 460
 		}
 	}
-	large_sub_engine_4 = {
-		category = large_sub_engine
-		parent = large_sub_engine_3
+	sub_engine_mega_4 = {
+		category = sub_engine_mega
+		parent = sub_engine_mega_3
 		sfx = sfx_ui_sd_module_engine
 
 		
@@ -1239,12 +1239,139 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module_category = large_sub_engine
+			module_category = sub_engine_mega
 			convert_cost_ic = 500
 		}
 		
 		can_convert_from = {
-			module = large_sub_engine_3
+			module = sub_engine_mega_3
+			convert_cost_ic = 460
+		}
+	}
+	sub_engine_mega_nuclear_0 = {
+		category = sub_engine_mega_nuclear
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 1080
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.2
+			reliability = 0.1
+		}
+		
+		can_convert_from = {
+			module_category = sub_engine_mega_nuclear
+			convert_cost_ic = 500
+		}
+
+	}
+
+	sub_engine_mega_nuclear_1 = {
+		category = sub_engine_mega_nuclear
+		parent = sub_engine_mega_nuclear_0
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 1440
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.3
+			reliability = 0.1
+		}
+		
+		can_convert_from = {
+			module_category = sub_engine_mega_nuclear
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = sub_engine_mega_nuclear_0
+			convert_cost_ic = 460
+		}
+	}
+
+	sub_engine_mega_nuclear_2 = {
+		category = sub_engine_mega_nuclear
+		parent = sub_engine_mega_nuclear_1
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 1800
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.4
+			reliability = 0.1
+		}
+		
+		can_convert_from = {
+			module_category = sub_engine_mega_nuclear
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = sub_engine_mega_nuclear_1
+			convert_cost_ic = 460
+		}
+	}
+	sub_engine_mega_nuclear_3 = {
+		category = sub_engine_mega_nuclear
+		parent = sub_engine_mega_nuclear_2
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 2160
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.5
+			reliability = 0.1
+		}
+		
+		can_convert_from = {
+			module_category = sub_engine_mega_nuclear
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = sub_engine_mega_nuclear_2
+			convert_cost_ic = 460
+		}
+	}
+	sub_engine_mega_nuclear_4 = {
+		category = sub_engine_mega_nuclear
+		parent = sub_engine_mega_nuclear_3
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 2520
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.6
+			reliability = 0.1
+		}
+		
+		can_convert_from = {
+			module_category = sub_engine_mega_nuclear
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = sub_engine_mega_nuclear_3
 			convert_cost_ic = 460
 		}
 	}

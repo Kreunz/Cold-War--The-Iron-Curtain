@@ -882,7 +882,15 @@ focus_tree = {
 		}
 		x = 24
 		y = 14
-
+		completion_reward = {
+			every_owned_state = {
+				add_building_construction = {
+					type = state_infrastructure
+					level = 1
+					instant_build = yes
+				}				
+			}
+		}
 	}
 	focus = {
 		id = ISR_Aid_the_Poor
@@ -1171,7 +1179,9 @@ focus_tree = {
 		}
 		x = 26
 		y = 3
-
+		completion_reward = {
+			navy_experience = 50
+		}
 	}
 	focus = {
 		id = ISR_American_Naval_Advisors
@@ -1349,7 +1359,11 @@ focus_tree = {
 		}
 		x = 35
 		y = 9
-
+		completion_reward = {
+			add_stability = 0.02
+			add_threat = -1
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = ISR_Fund_Egged_Bus_Corporation
@@ -1463,7 +1477,21 @@ focus_tree = {
 		}
 		x = 35
 		y = 18
-
+		completion_reward = {
+					ISR = {
+							add_opinion_modifier = {
+									target = USA
+									modifier = small_increase
+								}
+						}
+					USA = {
+							add_opinion_modifier = {
+									target = ISR
+									modifier = small_increase
+								}
+						}
+						add_offsite_building = { type = arms_factory level = 1 }
+					}
 	}
 	focus = {
 		id = ISR_Egyptian_Tensions
@@ -1500,7 +1528,10 @@ focus_tree = {
 		}
 		x = 37
 		y = 10
-
+		completion_reward = {
+			add_war_support = 0.05
+			add_political_power = 150
+		}
 	}
 	focus = {
 		id = ISR_Condemn_the_Slansky_Trial
@@ -2149,7 +2180,12 @@ focus_tree = {
 		}
 		x = 61
 		y = 18
-
+		completion_reward = {
+			every_owned_state = {
+				add_manpower = 10000
+			}
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = ISR_Military_Expansion
@@ -2303,7 +2339,10 @@ focus_tree = {
 		}
 		x = 64
 		y = 20
-
+		completion_reward = {
+			remove_ideas = population_growth_rapid
+			add_ideas = population_growth_explosion
+		}
 	}
 	focus = {
 		id = ISR_Military_Service_As_A_Religous_Duty
@@ -2506,6 +2545,66 @@ focus_tree = {
 		}
 		x = 74
 		y = 18
+		completion_reward = {
+			add_threat = 1
+			781 = {
+				add_manpower = 5000
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = state_infrastructure
+					level = 1
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}	
+				add_extra_state_shared_building_slots = 2
+			}
+			921 = {
+				add_manpower = 10000
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = state_infrastructure
+					level = 1
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}	
+				add_extra_state_shared_building_slots = 2
+			}
+			801 = {
+				add_manpower = 10000
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = state_infrastructure
+					level = 1
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}	
+				add_extra_state_shared_building_slots = 2
+			}
+		}
 
 	}
 	focus = {
@@ -2651,7 +2750,23 @@ focus_tree = {
 		}
 		x = 67
 		y = 20
-
+		completion_reward = {
+			add_threat = 1
+			781 = {
+				add_manpower = 5000
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = state_infrastructure
+					level = 1
+					instant_build = yes
+				}	
+				add_extra_state_shared_building_slots = 2
+			}
+		}
 	}
 	focus = {
 		id = ISR_Tax_cuts
@@ -2774,6 +2889,27 @@ focus_tree = {
 		}
 		x = 71
 		y = 12
+		completion_reward = {
+			801 = {
+				add_manpower = 50000
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = state_infrastructure
+					level = 2
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}	
+				add_extra_state_shared_building_slots = 5
+			}
+		}
 	}
 	focus = {
 		id = ISR_Settle_East_Jerusalem
@@ -2787,7 +2923,27 @@ focus_tree = {
 		}
 		x = 73
 		y = 12
-
+		completion_reward = {
+			921 = {
+				add_manpower = 50000
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = state_infrastructure
+					level = 2
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}	
+				add_extra_state_shared_building_slots = 5
+			}
+		}
 	}
 	focus = {
 		id = ISR_Clashes_with_Syria
@@ -3027,7 +3183,10 @@ focus_tree = {
 		}
 		x = 33
 		y = 22
-
+		completion_reward = {
+			add_political_power = 150
+			add_war_support = 0.02
+		}
 	}
 	focus = {
 		id = ISR_A_United_Israel
@@ -3074,7 +3233,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 18
-
+		completion_reward = {
+			country_event = Elkayam.1
+		}
 	}
 	focus = {
 		id = ISR_Secret_French_Arms_Deal
@@ -3088,7 +3249,23 @@ focus_tree = {
 		}
 		x = 33
 		y = 19
-
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = mbt_equipment_2
+				amount = 250
+				producer = FRA
+			}		
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = FRA
+			}		
+			add_equipment_to_stockpile = {
+				type = jet_fighter_equipment_2
+				amount = 50
+				producer = FRA
+			}		
+		}
 	}
 	focus = {
 		id = ISR_Operation_Samaria
@@ -3102,7 +3279,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 20
-
+		completion_reward = {
+			country_event = Samaria.1
+		}
 	}
 	focus = {
 		id = ISR_Embrace_The_Eisenhower_Doctrine
@@ -3116,7 +3295,10 @@ focus_tree = {
 		}
 		x = 29
 		y = 21
-
+		completion_reward = {
+			army_experience = 25
+			add_offsite_building = { type = arms_factory level = 3 }
+		}
 	}
 	focus = {
 		id = ISR_Subway_Expansion
@@ -3152,7 +3334,13 @@ focus_tree = {
 		}
 		x = 33
 		y = 21
-
+			completion_reward = {
+					add_tech_bonus = {
+							name = nuclear_bonus
+							bonus = 0.75
+							category = nuclear
+						}
+				}
 	}
 	focus = {
 		id = ISR_Social_Welfare_Service_Law
@@ -3265,7 +3453,12 @@ focus_tree = {
 		}
 		x = 2
 		y = 20
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = soviet_aliyah
+				days = 1625
+			}
+		}
 	}
 	focus = {
 		id = ISR_Soviet_Negotiations
@@ -3397,7 +3590,9 @@ focus_tree = {
 		}
 		x = 9
 		y = 20
-
+		completion_reward = {
+			add_ideas = minority_recruitment
+		}
 	}
 	focus = {
 		id = ISR_Soviet_Backed_Arab_Israeli_Peace_Talks
@@ -3411,7 +3606,11 @@ focus_tree = {
 		}
 		x = 7
 		y = 21
-
+		completion_reward = {
+			add_threat = -5
+			add_political_power = 200
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = ISR_Legalize_Homosexuality
@@ -3495,7 +3694,47 @@ focus_tree = {
 		}
 		x = 68
 		y = 21
-
+		completion_reward = {
+			add_threat = 1
+			781 = {
+				add_manpower = 5000
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = state_infrastructure
+					level = 1
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}	
+				add_extra_state_shared_building_slots = 5
+			}
+			921 = {
+				add_manpower = 10000
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = state_infrastructure
+					level = 2
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}	
+				add_extra_state_shared_building_slots = 5
+			}
+		}
 	}
 	focus = {
 		id = ISR_Population_Expulsions
@@ -3509,7 +3748,25 @@ focus_tree = {
 		}
 		x = 72
 		y = 21
-
+		completion_reward = {
+			news_event = isr_pop_expulsion.1
+			921 = { add_manpower = -125000 }
+			781 = { add_manpower = -400000 }
+			801 = { add_manpower = -150000 }
+			JOR = {
+				808 = {
+					add_manpower = 350000
+				}
+				455 = {
+					add_manpower = 100000
+				}
+			}
+			EGY = {
+				805 = {
+					add_manpower = 125000
+				}
+			}
+		}
 	}
 	focus = {
 		id = ISR_Secular_Education_Reform

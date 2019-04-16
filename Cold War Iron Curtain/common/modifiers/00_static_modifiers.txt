@@ -433,3 +433,19 @@ capital_screening_bonus = {
   naval_retreat_speed = 0.2
   sortie_efficiency = 0.1
 }
+
+insurgency_tier1 = { # on Province
+	army_speed_factor = -0.20
+	dig_in_speed_factor = -0.2
+	attrition = 0.15
+}
+insurgency_tier2 = { # on Province
+	army_speed_factor = -0.35
+	dig_in_speed_factor = -0.35
+	attrition = 0.3
+}
+insurgency_tier3 = { # on Province
+	army_speed_factor = -0.50
+	dig_in_speed_factor = -0.5
+	attrition = 0.45
+}

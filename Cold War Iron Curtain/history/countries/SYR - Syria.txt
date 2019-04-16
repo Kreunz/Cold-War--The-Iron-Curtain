@@ -253,12 +253,49 @@ create_country_leader = {
     }
 }
 
+remove_idea = {
+	idea_SYR_CIA_Influence
+}
+
 1958.1.1 = {
 	set_cosmetic_tag = UAR
 }
 
-1961.1.1 = {
+1961.09.28 = {
     drop_cosmetic_tag = yes
+	set_politics = {
+	    parties = {
+            democratic = { popularity = 0 }
+            communism = { popularity = 20 }
+            fascism = { popularity = 20 }
+            nationalism = { popularity = 10 }
+            monarchism = { popularity = 0 }
+            neutrality = { popularity = 0 }
+            islamism = { popularity = 10 }
+            radical_shiaism = { popularity = 0 }
+            Social_Democratic = { popularity = 0 }
+            Social_Liberalism = { popularity = 0 }
+            Salafism = { popularity = 0 }
+            Liberal_Conservatism = { popularity = 0 }
+            conservative = { popularity = 10 }
+            Christian_Democratic = { popularity = 0 }
+            socialist = { popularity = 0 }
+            centrist = { popularity = 0 }
+            liberal = { popularity = 0 }
+            trotskyism = { popularity = 0 }
+            maoism = { popularity = 0 }
+            libertarianism = { popularity = 30 }
+            
+
+	    }
+	    ruling_party = fascism
+	    last_election = "1961.9.28"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+}
+
+1963.3.8 = {
 	set_politics = {
 	    parties = {
             democratic = { popularity = 0 }
@@ -287,6 +324,14 @@ create_country_leader = {
 	    last_election = "1963.3.8"
 	    election_frequency = 48
 	    elections_allowed = no
+    }
+}
+
+1971.1.1 = {
+    create_country_leader = {
+	     name = "Nureddin Atassi"
+	     picture = "Nureddin_al_Atassi.dds"
+	     ideology = baathism
     }
 }
 
@@ -321,39 +366,6 @@ create_corps_commander = {
 	name = "Adib Shishakli"
 	portrait_path = "gfx/leaders/SYR/Adib_Shishakli.dds"
 	traits = {  }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	#planning_skill = 2
-	#logistics_skill = 2 
-}
-
-create_corps_commander = {
-	name = "Sami al-Hinnawi"
-	portrait_path = "gfx/leaders/SYR/GENERALS/Sami_al-Hinnawi.tga"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	#planning_skill = 1
-	#logistics_skill = 1 
-}
-
-create_corps_commander = {
-	name = "Fawzi Selu"
-	portrait_path = "gfx/leaders/SYR/GENERALS/Fawzi_Selu.tga"
-	traits = {  }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	#planning_skill = 1
-	#logistics_skill = 1 
-}
-
-create_corps_commander = {
-	name = "Lu'ay al-Atassi"
-	portrait_path = "gfx/leaders/SYR/GENERALS/Luay_al-Atassi.tga"
-	traits = {  }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -365,6 +377,94 @@ create_corps_commander = {
 	name = "Amin al-Hafiz"
 	portrait_path = "gfx/leaders/SYR/GENERALS/Amin_al-Hafiz.tga"
 	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1 
+}
+
+create_corps_commander = {
+	name = "Salah Jadid"
+	portrait_path = "gfx/leaders/SYR/GENERALS/Salah_Jadid.tga"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1 
+}
+
+create_corps_commander = {
+	name = "Mustafa Tlass"
+	portrait_path = "gfx/leaders/SYR/GENERALS/Mustafa_Tlass.tga"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1 
+}
+
+create_corps_commander = {
+	name = "Rifaat al-Assad"
+	portrait_path = "gfx/leaders/SYR/GENERALS/Rifaat_al-Assad.dds"
+	traits = { commando }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1 
+}
+
+create_corps_commander = {
+	name = "Ali Aslan"
+	portrait_path = "gfx/leaders/SYR/GENERALS/Ali_Aslan.tga"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1 
+}
+
+create_corps_commander = {
+	name = "Hikmat Shihabi"
+	portrait_path = "gfx/leaders/SYR/GENERALS/Hikmat_Shihabi.tga"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1 
+}
+
+create_corps_commander = {
+	name = "Ali Haydar"
+	portrait_path = "gfx/leaders/SYR/GENERALS/Ali_Haydar.tga"
+	traits = { commando }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1 
+}
+
+create_corps_commander = {
+	name = "Hasan Turkmani"
+	portrait_path = "gfx/leaders/SYR/GENERALS/Hasan_Turkmani.tga"
+	traits = { cavalry_leader }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1 
+}
+
+create_corps_commander = {
+	name = "Ali Habib Mahmud"
+	portrait_path = "gfx/leaders/SYR/GENERALS/Ali_Habib_Mahmud.tga"
+	traits = { cavalry_leader infantry_leader }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1

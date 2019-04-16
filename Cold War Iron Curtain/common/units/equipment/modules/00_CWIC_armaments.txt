@@ -182,7 +182,7 @@ equipment_modules = {
 			convert_cost_ic = 120
 		}
 
-		critical_parts = { damaged_medium_guns }
+		critical_parts = { damaged_heavy_guns }
 	}
 	ship_armament_medium_0 = {
 		category = ship_armament_medium
@@ -203,7 +203,7 @@ equipment_modules = {
 			convert_cost_ic = 120
 		}
 
-		critical_parts = { damaged_medium_guns }
+		critical_parts = { damaged_heavy_guns }
 	}
 	
 	ship_armament_medium_1 = {
@@ -230,7 +230,7 @@ equipment_modules = {
 			convert_cost_ic = 120
 		}
 
-		critical_parts = { damaged_medium_guns }
+		critical_parts = { damaged_heavy_guns }
 	}
 
 	ship_armament_medium_2 = {
@@ -262,7 +262,7 @@ equipment_modules = {
 			module = ship_armament_medium_1
 			convert_cost_ic = 120
 		}
-		critical_parts = { damaged_medium_guns }
+		critical_parts = { damaged_heavy_guns }
 	}
 
 	ship_armament_medium_3 = {
@@ -293,7 +293,7 @@ equipment_modules = {
 			module= ship_armament_medium_2
 			convert_cost_ic = 120
 		}
-		critical_parts = { damaged_medium_guns }
+		critical_parts = { damaged_heavy_guns }
 	}
 
 	ship_armament_medium_4 = {
@@ -323,7 +323,7 @@ equipment_modules = {
 			module = ship_armament_medium_3
 			convert_cost_ic = 120
 		}
-		critical_parts = { damaged_medium_guns }
+		critical_parts = { damaged_heavy_guns }
 	}
 #####GUN (HEAVY)
 	ship_armament_heavy_ww = {

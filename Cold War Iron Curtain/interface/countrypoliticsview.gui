@@ -148,7 +148,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 172 y = -144 }
+				position = { x = 172 y = -142}
 				font = "hoi_20bs"
 				text = "ideology"
 				maxWidth = 155
@@ -166,7 +166,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "faction_name"
-				position = { x = 103 y = -45 }
+				position = { x = 109 y = -95 }
 				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 193
@@ -176,7 +176,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "dismantle_faction"
-				position = { x = 302 y = -50 }
+				position = { x = 334 y = -107 }
 				quadTextureSprite = "GFX_dismantle_faction_button"
 				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"

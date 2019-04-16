@@ -579,7 +579,7 @@ completion_reward = {
 				include_locked = yes
 			}
 		}
-		add_extra_state_shared_building_slots = 3
+		add_extra_state_shared_building_slots = 2
 		add_building_construction = {
 			type = dockyard
 			level = 2
@@ -752,7 +752,7 @@ completion_reward = {
 				include_locked = yes
 			}
 		}
-		add_extra_state_shared_building_slots = 3
+		add_extra_state_shared_building_slots = 2
 		add_building_construction = {
 			type = dockyard
 			level = 2
@@ -837,7 +837,7 @@ completion_reward = {
 #Focus for Husni al-Za'im
 focus = { 
 id = SYR_husnialzaim
-icon = GFX_goal_support_fascism
+icon = GFX_SYR_Focus_Husni_Al-Zaim
 x = 24
 y = 0
 cost = 10
@@ -945,7 +945,7 @@ add_stability = -0.02
 #Focus for Adib Shishakli
 focus = { 
 id = SYR_adibshishakli
-icon = GFX_goal_support_fascism
+icon = GFX_SYR_Focus_Adib_Shishakli
 x = 24
 y = 2
 cost = 10
@@ -1102,7 +1102,7 @@ navy_experience = 50
 #Focus for Syrian Army
 focus = { 
 id = SYR_syrianarmy
-icon = GFX_goal_generic_build_tank
+icon = GFX_SYR_Syrian_Army
 x = 9
 y = 2
 cost = 10
@@ -1491,7 +1491,7 @@ random_owned_controlled_state = {
 #Focus for The Nakba
 focus = { 
 id = SYR_thenakba
-icon = GFX_goal_generic_secret_weapon
+icon = GFX_PAL_Icon_Nakba
 x = 41
 y = 1
 cost = 10
