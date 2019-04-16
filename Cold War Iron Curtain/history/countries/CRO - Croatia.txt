@@ -164,7 +164,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vladimir Bakarić"
+	name = "Vladimir Bakaric"
 	picture = "Vladimir_Bakaric.dds"
 	expire = "1969.1.1"
 	ideology = titoism

@@ -2518,7 +2518,7 @@
  YUG_pp:0 "Communist support"
  YUG_goli_otok:0 "Goli otok camp"
  YUG_anti_soviet:0 "Tito–Stalin Split"
- YUG_anti_soviet_desc:0 "The Tito–Stalin Split, or Yugoslav–Soviet Split, was a conflict between the leaders of SFR Yugoslavia and the Soviet Union, which resulted in Yugoslavia's expulsion from the Communist Information Bureau (Cominform) in 1948. This was the beginning of the Informbiro period, marked by poor relations with the USSR, that came to an end in 1955."
+ YUG_anti_soviet_desc:0 "The Tito–Stalin Split, or Yugoslav–Soviet Split, was a conflict between the leaders of SFR Yugoslavia and the Soviet Union, which resulted in Yugoslavia's expulsion from the Communist Information Bureau in 1948. This was the beginning of the Informbiro period, marked by poor relations with the USSR."
  Boris_Kidric:0 "Boris Kidric"
  Boris_Kidric_desc:0 "Economic minister"
  Sreten_Zujovic:0 "Sreten Zujovic"
@@ -2539,7 +2539,7 @@
  Mosa_Pijade:0 "Mosa Pijade"
  Miljenko_Smoje:0 "Miljenko Smoje"
  YUG_ora:0 "Omladinske Radne Akcije"
- YUG_ora_desc:0 "Youth work actions (Serbo-Croatian: Omladinske radne akcije) were organized voluntary labor activities of young people in the Socialist Federal Republic of Yugoslavia. The actions were used to build public infrastructure such as roads, railways, and public buildings, as well as industrial infrastructure. The youth work actions were organized on local, republic and federal levels by the Young Communist League of Yugoslavia, and participants were organized into youth work brigades, generally named after their town or a local national hero. "
+ YUG_ora_desc:0 "Youth work actions were organized voluntary labor activities of young people in the Socialist Federal Republic of Yugoslavia. The actions were used to build public infrastructure such as roads, railways, and public buildings, as well as industrial infrastructure. The youth work actions were organized on local, republic and federal levels by the Young Communist League of Yugoslavia, and participants were organized into youth work brigades, generally named after their town or a local national hero. "
  
   ###Middle East###
  idea_EGY_Trump_Panarabismo:0 "Trump Panarabismo"

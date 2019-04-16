@@ -256,6 +256,7 @@ ideas = {
 			}
 		}
 		YUG_ora = {
+			picture = YUG_ora
 			allowed = {
 				always = no
 				}
