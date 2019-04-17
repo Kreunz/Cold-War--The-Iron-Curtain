@@ -205,7 +205,7 @@ create_country_leader = {
 	name = "David Ben-Gurion"
 	desc = "BEN_GURION_DESC"
 	picture = "David_Ben-Gurion.dds"
-	ideology = democratic_socialist
+	ideology = labour_zionism_mapai
 }
 
 create_country_leader = {
@@ -216,8 +216,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Menachem Begin"
-	picture = "Menachem_Begin.dds"
-	ideology = national_democrat
+	picture = "Menachem_Begin_young.dds"
+	ideology = revisionist_zionism
 }
 
 create_country_leader = {
@@ -227,15 +227,15 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Peretz Bernstein"
-	picture = "Peretz_Bernstein.dds"
-	ideology = libertarianism
+	name = "Israel Rokach"
+	picture = "Israel_Rokach.dds"
+	ideology = general_zionism
 }
 
 create_country_leader = {
 	name = "Golda Meir"
 	picture = "Golda_Meir.dds"
-	ideology = social_democrat
+	ideology = labour_zionism
 }
 
 create_country_leader = {
@@ -247,13 +247,13 @@ create_country_leader = {
 create_country_leader = {
 	name = "Haim-Moshe Shapira"
 	picture = "Haim-Moshe_Shapira.dds"
-	ideology = national_conservatism
+	ideology = religious_zionism
 }
 
 create_country_leader = {
 	name = "Meir Kahane"
 	picture = "Meir_Kahane.dds"
-	ideology = fascism_ideology
+	ideology = kahanism
 }
 
 create_field_marshal = {

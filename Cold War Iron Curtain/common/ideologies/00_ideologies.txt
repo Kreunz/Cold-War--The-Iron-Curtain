@@ -18,6 +18,9 @@ ideologies = {
 			republican = {
 			}
 			
+			religious_zionism = {
+			}
+	
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"
@@ -191,6 +194,9 @@ ideologies = {
 			african_socialism = {
 			}
 			
+			labour_zionism_mapai = {
+			}
+		
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"
@@ -240,6 +246,8 @@ ideologies = {
 			social_democrat = {
 			}
 			democratic_america = {
+			}
+			labour_zionism = {
 			}
 		}
 		
@@ -442,6 +450,8 @@ ideologies = {
 	
 		types = {
 			libertarianism = {
+			}
+			general_zionism = {
 			}
 		}
 		
@@ -667,6 +677,9 @@ ideologies = {
 			
 			ku_klux_klan = {
 			}
+			
+			kahanism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -720,6 +733,9 @@ ideologies = {
 			}
 			
             pan_arabism = {
+			}
+			
+			revisionist_zionism = {
 			}
 		}
 		
