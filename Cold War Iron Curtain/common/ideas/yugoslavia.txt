@@ -408,6 +408,7 @@ ideas = {
 				}
 				traits = { silent_workhorse }
 			}
+			
 			Djuro_Stari = { 
 				picture = Djuro_Stari
 				allowed = {
