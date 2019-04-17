@@ -20,6 +20,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/YUG/YUG_ora.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_Hendrik_van_den_Bergh"
+		texturefile = "gfx/interface/ideas/saf/Hendrik_van_den_Bergh.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Robey_Leibbrandt"
+		texturefile = "gfx/interface/ideas/saf/Robey_Leibbrandt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Frans_Erasmus"
+		texturefile = "gfx/interface/ideas/saf/Frans_Erasmus.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_generic_agrarian_society"
 		texturefile = "gfx/interface/ideas/idea_generic_agrarian_society.dds"
 	}	

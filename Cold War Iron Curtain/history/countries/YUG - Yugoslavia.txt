@@ -9,6 +9,7 @@ add_ideas = {
 	population_growth_steady
 	foreign_aggression_policy_6
 	YUG_ora
+	UDBA
 }
 set_technology = {
 
@@ -234,7 +235,7 @@ create_country_leader = {
         expire = "1970.11.3"
 }
 create_country_leader = {
-	name = "Vlado Dapčević"
+	name = "Vlado Dapcevic"
 	picture = "Vlado_Dapcevic.dds"
 	ideology = stalinism
 }
