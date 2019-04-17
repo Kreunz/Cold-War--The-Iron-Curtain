@@ -260,13 +260,29 @@ ideas = {
 			allowed = {
 				always = no
 				}
-				
-			picture = ora
 			
 			removal_cost = -1
 			
 			modifier = {
 				 production_speed_buildings_factor = 0.05
+			}
+		}
+	}
+	UDBA = {
+			picture = generic_spy_intel
+			allowed = {
+				always = no
+				}
+				
+			
+			removal_cost = -1
+			
+			modifier = {
+			    foreign_subversive_activites = -0.2
+				enemy_partisan_effect = -0.1
+				encryption = 1
+				decryption = 1
+				enemy_partisan_effect = -0.1
 			}
 		}
 	}
