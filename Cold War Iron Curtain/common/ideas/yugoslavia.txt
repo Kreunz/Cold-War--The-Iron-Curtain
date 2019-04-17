@@ -390,6 +390,31 @@ ideas = {
 				}
 				traits = { smooth_talking_charmer }
 			}
+			Boris_Furlan = { 
+				picture = Boris_Furlan
+				allowed = {
+					original_tag = YUG
+					NOT = {
+					  has_government = trotskyism
+					}
+				}
+				traits = { backroom_backstabber }
+			}
+
+			Milovan_Djilas = { 
+				picture = Milovan_Djilas
+				allowed = {
+					original_tag = YUG
+				}
+				traits = { silent_workhorse }
+			}
+			Djuro_Stari = { 
+				picture = Djuro_Stari
+				allowed = {
+					original_tag = YUG
+				}
+				traits = { popular_figurehead }
+			}			
 	}
 	intel_advisor = {
 			Aleksandar_Rankovic = { 
@@ -514,6 +539,22 @@ ideas = {
 			
 			traits = { army_chief_offensive_2 }
 		}
+		Sreten_Zujovic = {
+			picture = Sreten_Zujovic
+			allowed = {
+				original_tag = YUG
+			}
+			
+			traits = { old_guard }
+		}
+		Milan_Zezelj = {
+			picture = Milan_Zezelj
+			allowed = {
+				original_tag = YUG
+			}
+			
+			traits = { army_chief_offensive_2 }
+		}			
 
 	}
 }
