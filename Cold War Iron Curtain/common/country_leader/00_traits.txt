@@ -20,6 +20,16 @@ leader_traits = {
 		}
 	}
 	
+	unpopular = {
+		random = no
+		political_power_factor = -0.3
+		stability_factor = -0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	Corrupt = {
 		random = yes
 		political_power_factor = -0.1

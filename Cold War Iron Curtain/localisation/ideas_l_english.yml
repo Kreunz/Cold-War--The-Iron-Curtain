@@ -2513,6 +2513,10 @@
  small_arms_limited:0 "Small Arms Limited"
  cold_war_civil_war_ideological_idea:0 "Ongoing Colonial War"
  
+ ###Sud-Afrika
+ Hendrik_van_den_Bergh:0 "Hendrik van den Bergh"
+ Hendrik_van_den_Bergh_desc:0 "A lifelong Afrikaner nationalist, Hendrik opposed South African intervention in World War II, and, with future Prime Minister John Vorster, joined the Ossewabrandwag, a paramilitary organization modelled on the Nazi SA which engaged in acts of sabotage against the South African government to undermine the war effort. After the war, van den Bergh rose rapidly through the police ranks."
+ 
  ###YUGOSLAVAI
  UDBA:0 "Uprava Drzavne Bezbednosti"
  UDBA_desc:0 "The State Security Administration is our secret police organization responsible for internal state security. Although it operates with more restraint than other secret police agencies in Eastern Europe,it still is a feared tool of control."
