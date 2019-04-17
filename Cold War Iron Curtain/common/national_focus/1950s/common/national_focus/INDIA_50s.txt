@@ -63,7 +63,10 @@ focus_tree = {
 		cost = 10.00
 		x = 22
 		y = 13
-
+		completion_reward = {
+			add_political_power = 150
+			add_stability = 0.02
+		}
 	}
 	focus = {
 		id = IND_Embrace_Freedom_of_Religion
@@ -91,7 +94,20 @@ focus_tree = {
 		cost = 10.00
 		x = 35
 		y = 38
-
+			completion_reward = {
+					RAJ = {
+							add_opinion_modifier = {
+									target = FRA
+									modifier = large_decrease
+								}
+						}
+					FRA = {
+							add_opinion_modifier = {
+									target = RAJ
+									modifier = large_decrease
+								}
+						}
+				}
 	}
 	focus = {
 		id = IND_The_Indian_Armed_Forces
@@ -325,7 +341,9 @@ focus_tree = {
 		}
 		x = 15
 		y = 6
-
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}	
 	}
 	focus = {
 		id = IND_Manufacturing_Subsidies
@@ -339,7 +357,9 @@ focus_tree = {
 		}
 		x = 12
 		y = 7
-
+		completion_reward = {
+			add_ideas = activate_communism
+		}
 	}
 	focus = {
 		id = IND_American_Investors
@@ -353,7 +373,9 @@ focus_tree = {
 		}
 		x = 19
 		y = 2
-
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 3 }
+		}	
 	}
 	focus = {
 		id = IND_Apply_for_the_Point_Program
@@ -424,7 +446,9 @@ focus_tree = {
 		}
 		x = 18
 		y = 33
-
+		completion_reward = {
+			add_ideas = ideological_fanaticism_focus
+		}
 	}
 	focus = {
 		id = IND_American_Foriegn_Capital
@@ -499,7 +523,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 2
-
+		completion_reward = {
+			add_political_power = 200
+		}
 	}
 	focus = {
 		id = IND_Central_Reserve_Police_Force_Act
@@ -510,7 +536,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 3
-
+		completion_reward = {
+			add_ideas = military_expansion
+		}
 	}
 	focus = {
 		id = IND_Declare_the_Republic_of_India
@@ -595,7 +623,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 8
-
+		completion_reward = {
+			add_political_power = 150
+		}
 	}
 	focus = {
 		id = IND_The_First_General_Election
@@ -606,7 +636,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 9
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = IND_Socialist_Party_Victory
@@ -617,7 +649,9 @@ focus_tree = {
 		}
 		x = 21
 		y = 10
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = IND_Indian_National_Congress_Victory
@@ -628,7 +662,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 10
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = IND_The_Nehru_Administration
@@ -639,7 +675,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 11
-
+		completion_reward = {
+			add_political_power = 150
+		}
 	}
 	focus = {
 		id = IND_Reform_the_Caste_System
@@ -650,7 +688,10 @@ focus_tree = {
 		}
 		x = 31
 		y = 12
-
+		completion_reward = {
+			add_stability = 0.02
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = IND_Womens_Rights
@@ -661,7 +702,9 @@ focus_tree = {
 		}
 		x = 27
 		y = 12
-
+		completion_reward = {
+			add_ideas = womens_rights
+		}
 	}
 	focus = {
 		id = IND_Nationwide_Educational_Investments
@@ -678,7 +721,9 @@ focus_tree = {
 		}
 		x = 30
 		y = 13
-
+		completion_reward = {
+			add_ideas = more_escuelas
+		}
 	}
 	focus = {
 		id = IND_Establish_the_Indian_Institute_of_Technology
@@ -924,7 +969,11 @@ focus_tree = {
 		}
 		x = 39
 		y = 16
-
+		completion_reward = {
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
+			}	
+		}
 	}
 	focus = {
 		id = IND_Rebuild_Our_Officer_Corp
@@ -935,7 +984,9 @@ focus_tree = {
 		}
 		x = 45
 		y = 2
-
+		completion_reward = {
+			army_experience = 50
+		}
 	}
 	focus = {
 		id = IND_Lessons_From_World_War_2
@@ -960,7 +1011,9 @@ focus_tree = {
 		}
 		x = 43
 		y = 4
-
+		completion_reward = {
+			add_research_slot = 1
+		}
 	}
 	focus = {
 		id = IND_The_Indian_Navy
@@ -1029,7 +1082,12 @@ focus_tree = {
 		}
 		x = 11
 		y = 9
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = economic_growth
+				days = 1200
+			}
+		}
 	}
 	focus = {
 		id = IND_Formation_of_the_Western_Railway
@@ -1116,7 +1174,9 @@ focus_tree = {
 		}
 		x = 21
 		y = 14
-
+		completion_reward = {
+			add_research_slot = 1
+		}
 	}
 	focus = {
 		id = IND_Nationalize_Air_India
@@ -1176,7 +1236,9 @@ focus_tree = {
 		}
 		x = 12
 		y = 10
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = IND_The_Mookerjee_Administration
@@ -1187,7 +1249,13 @@ focus_tree = {
 		}
 		x = 12
 		y = 11
-
+		completion_reward = {
+			add_political_power = 10
+			add_popularity = {
+				ideology = nationalism
+				popularity = 0.15
+			}
+		}
 	}
 	focus = {
 		id = IND_Arrest_Communist_Politicans
@@ -1198,7 +1266,12 @@ focus_tree = {
 		}
 		x = 12
 		y = 12
-
+		completion_reward = {
+			add_timed_idea = {
+				ideas = repression
+				days = 1625
+			}
+		}
 	}
 	focus = {
 		id = IND_Crush_the_Hyderabad_Insurgency
@@ -1220,7 +1293,9 @@ focus_tree = {
 		}
 		x = 9
 		y = 12
-
+		completion_reward = {
+			add_ideas = communism_banned
+		}
 	}
 	focus = {
 		id = IND_Nationalize_Labor_Unions
@@ -1234,7 +1309,9 @@ focus_tree = {
 		}
 		x = 10
 		y = 13
-
+		completion_reward = {
+			add_ideas = gen_pro_employer_2
+		}
 	}
 	focus = {
 		id = IND_Increase_the_Military_Budget
@@ -1248,7 +1325,9 @@ focus_tree = {
 		}
 		x = 14
 		y = 13
-
+		completion_reward = {
+			add_ideas = militarism_focus
+		}
 	}
 	focus = {
 		id = IND_Diplomatic_Offensive
@@ -1351,7 +1430,9 @@ focus_tree = {
 		}
 		x = 38
 		y = 17
-
+		completion_reward = {
+			add_ideas = safety_net
+		}
 	}
 	focus = {
 		id = IND_Nationalize_Resources

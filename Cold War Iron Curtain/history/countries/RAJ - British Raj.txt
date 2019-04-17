@@ -126,8 +126,6 @@ set_stability = 0.5
 add_ideas = {
 	population_growth_explosion
 	idea_RAJ_Ehtos_Independence
-	ban_on_rss
-	caste_discrimination
 }
 
 
@@ -221,6 +219,9 @@ create_country_leader = {
 }
 
 1949.1.1 = {
+	add_dynamic_modifier = {
+		modifier = caste_dynamic_modifier
+	}
     if = {
 	    limit = {
 		    has_dlc = "Together for Victory"
@@ -235,6 +236,8 @@ create_country_leader = {
 	    }
     }
 	KAS = { set_politics = { parties = { monarchism = { popularity = 100 } } ruling_party = monarchism elections_allowed = no } }
+	set_variable = { var = var_caste_influence value = 0.15 }
+	set_variable = { var = var_caste_influence1 value = -0.15 }
 }
 
 1950.1.1 = {
@@ -242,6 +245,8 @@ create_country_leader = {
 }
 
 1960.1.1 = {
+set_variable = { var = var_caste_influence value = 0.11 }
+set_variable = { var = var_caste_influence1 value = -0.11 }
 set_politics = {
 
 	parties = {
@@ -520,6 +525,8 @@ create_corps_commander = {
 	#logistics_skill = 5
 }
 
+
 set_variable = { var = domestic_influence_amount value = 10000 }
+
 
 
