@@ -277,7 +277,32 @@ focus_tree = {
 		}
 		x = 7
 		y = 6
-
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 5
+							add_building_construction = {
+									type = coal_plant
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 5
+							add_building_construction = {
+									type = coal_plant
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 5
+							add_building_construction = {
+									type = coal_plant
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
 	}
 	focus = {
 		id = IND_Develop_Assam
@@ -410,7 +435,13 @@ focus_tree = {
 		}
 		x = 16
 		y = 32
-
+		completion_reward = {
+			add_popularity = {
+				ideology = nationalism
+				popularity = 0.15
+			}
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = IND_Apply_for_Marshall_Plan_Funding
@@ -421,7 +452,9 @@ focus_tree = {
 		}
 		x = 19
 		y = 3
-
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 3 }
+		}
 	}
 	focus = {
 		id = IND_Invest_in_Urban_Electric_Board_Initiatives
@@ -435,7 +468,32 @@ focus_tree = {
 		}
 		x = 17
 		y = 4
-
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 5
+							add_building_construction = {
+									type = coal_plant
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 5
+							add_building_construction = {
+									type = coal_plant
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 5
+							add_building_construction = {
+									type = coal_plant
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
 	}
 	focus = {
 		id = IND_Embrace_Hindutava
@@ -459,7 +517,9 @@ focus_tree = {
 		}
 		x = 22
 		y = 3
-
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 3 }
+		}
 	}
 	focus = {
 		id = IND_Improve_Transport_and_Trade_Logistics
