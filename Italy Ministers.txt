@@ -22,7 +22,7 @@ https://it.wikipedia.org/wiki/Arturo_Michelini				MSI
 https://it.wikipedia.org/wiki/Gianfranco_Fini				MSI
 	
 intel_advisor 
-https://it.wikipedia.org/wiki/Vito_Miceli
+https://it.wikipedia.org/wiki/Vito_Miceli					MSI
 https://en.wikipedia.org/wiki/Fulvio_Martini
 https://it.wikipedia.org/wiki/Bruno_Branciforte
 https://it.wikipedia.org/wiki/Emanuele_De_Francesco
@@ -76,14 +76,36 @@ https://en.wikipedia.org/wiki/Bruno_Visentini				Italian Republican Party
 https://en.wikipedia.org/wiki/Emilio_Colombo				Christian Democracy
 https://en.wikipedia.org/wiki/Rino_Formica					Italian Socialist Party
 
-army_chief
+army_chief	https://en.m.wikipedia.org/wiki/Chief_of_Staff_of_the_Italian_Army
 https://it.wikipedia.org/wiki/Giovanni_de_Lorenzo
+https://translate.googleusercontent.com/translate_c?depth=1&hl=en&prev=search&rurl=translate.google.com&sl=it&sp=nmt4&u=https://en.m.wikipedia.org/wiki/Raffaele_Cadorna,_Jr.&xid=17259,15700021,15700186,15700190,15700253,15700256,15700259&usg=ALkJrhjVuvHxayTK1zJ5v0mLjtUAp9sfwQ
+https://translate.googleusercontent.com/translate_c?depth=1&hl=en&prev=search&rurl=translate.google.com&sl=it&sp=nmt4&u=https://en.m.wikipedia.org/wiki/Giorgio_Liuzzi&xid=17259,15700021,15700186,15700190,15700253,15700256,15700259&usg=ALkJrhhhA4u5EkVzKrHOqb0t_F_KGUpaig
+https://translate.googleusercontent.com/translate_c?depth=1&hl=en&prev=search&rurl=translate.google.com&sl=it&sp=nmt4&u=https://en.m.wikipedia.org/wiki/Domenico_Corcione&xid=17259,15700021,15700186,15700190,15700253,15700256,15700259&usg=ALkJrhiTMIOcWch9Apo7a87yBMH66DEaxA
+Giuseppe Aloia	
+Luigi Efisio Marras	
+Francesco Mereu	
+Eugenio Rambaldi	
 
+air_chief https://en.wikipedia.org/wiki/Chief_of_Staff_of_the_Italian_Air_Force
+Aldo Remondino
+Aldo Urbani
+Dino Ciarlo
+Alessandro Mettimano	
 
-air_chief
-
-navy_chief
+navy_chief https://translate.google.com/translate?hl=en&sl=it&u=https://en.wikipedia.org/wiki/Chief_of_Staff_of_the_Italian_Navy&prev=search
 https://it.wikipedia.org/wiki/Eugenio_Henke
+https://en.m.wikipedia.org/wiki/Raffaele_de_Courten
+Emilio Ferreri
+Corso Pecori Giraldi	
+https://en.m.wikipedia.org/wiki/Gino_De_Giorgi
+Angelo Monassi	https://upload.wikimedia.org/wikipedia/commons/7/76/Visita-ammiraglio-monassi_%28cropped%29.jpg
+https://en.m.wikipedia.org/wiki/Guido_Venturoni
 
 high_command
 https://it.wikipedia.org/wiki/Eugenio_Henke
+https://en.wikipedia.org/wiki/Giuseppe_Mancinelli_(general)
+Aldo Rossi
+Claudio Trezzani
+Andrea Viglione
+Lamberto Bartolucci
+Vittorio Santini
