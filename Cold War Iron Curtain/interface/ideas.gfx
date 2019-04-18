@@ -5389,4 +5389,64 @@ spriteTypes = {
 		name = "GFX_idea_slow_growth"
 		texturefile = "gfx/interface/ideas/slow_growth.dds"
 	}
+    spriteType = {
+		name = "GFX_idea_Guido_Gonella"
+		texturefile = "gfx/interface/ideas/ita/Guido_Gonella.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Franca_Falucci"
+		texturefile = "gfx/interface/ideas/ita/Franca_Falucci.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Guido_Bodrato"
+		texturefile = "gfx/interface/ideas/ita/Guido_Bodrato.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Salvatore_Valitutti"
+		texturefile = "gfx/interface/ideas/ita/Salvatore_Valitutti.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_giovanni_Spadolini"
+		texturefile = "gfx/interface/ideas/ita/giovanni_Spadolini.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Franco_Maria_Malfatti"
+		texturefile = "gfx/interface/ideas/ita/Franco_Maria_Malfatti.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Luigi_Gui"
+		texturefile = "gfx/interface/ideas/ita/Luigi_Gui.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Paolo_Rossi"
+		texturefile = "gfx/interface/ideas/ita/Paolo_Rossi.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Gaetano_Martino"
+		texturefile = "gfx/interface/ideas/ita/Gaetano_Martino.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Antonio_Segni"
+		texturefile = "gfx/interface/ideas/ita/Antonio_Segni.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Palmiro_Togliatti"
+		texturefile = "gfx/interface/ideas/ita/Palmiro_Togliatti.tga"
+    }
+     spriteType = {
+		name = "GFX_idea_Augusto_De_Marsanich"
+		texturefile = "gfx/interface/ideas/ita/Augusto_De_Marsanich.tga"
+    }
+     spriteType = {
+		name = "GFX_idea_Bettino_Craxi"
+		texturefile = "gfx/interface/ideas/ita/Bettino_Craxi.tga"
+    }
+     spriteType = {
+		name = "GFX_idea_Mariano_Rumor"
+		texturefile = "gfx/interface/ideas/ita/Mariano_Rumor.tga"
+    }
+     spriteType = {
+		name = "GFX_idea_Gino_De_Giorgi"
+		texturefile = "gfx/interface/ideas/ita/somedude2.tga"
+    }
 }
