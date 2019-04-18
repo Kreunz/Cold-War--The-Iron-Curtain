@@ -5040,6 +5040,18 @@ spriteTypes = {
 		name = "GFX_idea_Sreten_Zujovic"
 		texturefile = "gfx/interface/ideas/yug/Sreten_Zujovic.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_Djuro_Stari"
+		texturefile = "gfx/interface/ideas/yug/Djuro_Stari.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Milovan_Dilas"
+		texturefile = "gfx/interface/ideas/yug/Milovan_Dilas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Boris_Furlan"
+		texturefile = "gfx/interface/ideas/yug/Boris_Furlan.dds"
+	}			
 	
 	spriteType = {
 		name = "GFX_idea_Boris_Kidric"
