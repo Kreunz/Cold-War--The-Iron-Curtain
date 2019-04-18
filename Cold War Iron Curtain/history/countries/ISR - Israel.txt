@@ -166,14 +166,14 @@ set_politics = {
         islamism = { popularity = 0 }
         radical_shiaism = { popularity = 0 }
         Social_Democratic = { popularity = 0 }
-        Social_Liberalism = { popularity = 0 }
+        Social_Liberalism = { popularity = 5.0 }
         Salafism = { popularity = 0 }
         Liberal_Conservatism = { popularity = 0 }
-        conservative = { popularity = 11.5 }
+        conservative = { popularity = 12.0 }
         Christian_Democratic = { popularity = 0 }
-        socialist = { popularity = 48.8 }
+        socialist = { popularity = 40.3 }
         centrist = { popularity = 0 }
-        liberal = { popularity = 9.3 }
+        liberal = { popularity = 12.3 }
         trotskyism = { popularity = 14.7 }
         maoism = { popularity = 0 }
         
@@ -230,6 +230,12 @@ create_country_leader = {
 	name = "Israel Rokach"
 	picture = "Israel_Rokach.dds"
 	ideology = general_zionism
+}
+
+create_country_leader = {
+	name = "Pinchas Rosen"
+	picture = "Pinchas_Rosen.dds"
+	ideology = social_liberal
 }
 
 create_country_leader = {
