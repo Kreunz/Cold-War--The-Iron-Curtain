@@ -9049,7 +9049,7 @@ guiTypes = {
 			format = right
 		}
 	}
-
+	##### PRAW
 	containerWindowType = {
 		name = "techtree_artillery_folder_item"
 		position = { x=-55 y=0 }
@@ -9393,10 +9393,11 @@ guiTypes = {
 		}
 	}	
 	
+	#### PRAW
 	containerWindowType = {
 		name = "techtree_mtgnavalfolder_item"
-		position = { x=1 y=1 }
-		size = { width = 204 height = 72 }
+		position = { x=-55 y=0 }
+		size = { width = 182 height = 84 }
 		clipping = no
 
 		background = {
@@ -9404,35 +9405,35 @@ guiTypes = {
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
 		}
 
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = 10 y = 65 }
+			textureFile = ""
+			font = "bombardier_20_caps"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			maxWidth = 166
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+		}
 
 		iconType = {
 			name = "Icon"
 			position = { x=1 y=1 }
 			spriteType = "GFX_technology_medium"
-			centerposition = no		
+			centerposition = no	
 			alwaystransparent = yes
-		}		
-		
-		instantTextBoxType = {
-			name = "Name"
-			position = { x = -11 y = 64 }
-			textureFile = ""
-			font = "bombardier_20_caps"
-			borderSize = {x = 0 y = 0}
-			text = ""
-			maxWidth = 204
-			maxHeight = 20
-			fixedsize = yes
-			format = center
 		}
+
 		iconType = {
 			name = "bonus_icon"
-			position = { x=261 y=-18 }
+			position = { x=115 y=-22 }
 			spriteType = "GFX_tech_bonus"
 		}
 		instantTextBoxType = {
 			name = "bonus"
-			position = { x = 275 y = -18 }
+			position = { x = 129 y = -22 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
@@ -9440,6 +9441,25 @@ guiTypes = {
 			maxWidth = 50
 			maxHeight = 20
 			format = right
+		}
+
+		containerWindowType = {
+			name = "sub_technology_slot_0"
+			position = { x=142 y=0 }
+			size = { width = 15 height = 6 }
+			clipping = no
+			
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtech_carrier_plane_bg"
+			}
+			
+			iconType = {
+				name = "picture"
+				position = { x=6 y=2 }
+				spriteType = "GFX_airwing_carrier_icon"
+				alwaystransparent = yes
+			}
 		}
 	}
 	
@@ -9459,7 +9479,7 @@ guiTypes = {
 			name = "Icon"
 			position = { x=1 y=1 }
 			spriteType = "GFX_technology_medium"
-			centerposition = no		
+			centerposition = no
 			alwaystransparent = yes
 		}		
 		
@@ -9495,8 +9515,8 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "techtree_mtgnavallargefolder_item"
-		position = { x=1 y=1 }
-		size = { width = 204 height = 72 }
+		position = { x=-55 y=0 }
+		size = { width = 182 height = 84 }
 		clipping = no
 
 		background = {
@@ -9509,7 +9529,7 @@ guiTypes = {
 			name = "Icon"
 			position = { x=1 y=1 }
 			spriteType = "GFX_technology_medium"
-			centerposition = no		
+			centerposition = no	
 			alwaystransparent = yes
 		}		
 		
@@ -9559,7 +9579,7 @@ guiTypes = {
 			name = "Icon"
 			position = { x=1 y=1 }
 			spriteType = "GFX_technology_medium"
-			centerposition = no		
+			centerposition = no	
 			alwaystransparent = yes
 		}		
 		
@@ -9595,8 +9615,8 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "techtree_mtgnavalmodulefolder_item"
-		position = { x=1 y=1 }
-		size = { width = 204 height = 72 }
+		position = { x=-55 y=0 }
+		size = { width = 182 height = 84 }
 		clipping = no
 
 		background = {
