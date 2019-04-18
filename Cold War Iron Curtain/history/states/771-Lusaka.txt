@@ -40,9 +40,9 @@ state={
 	}
 
 	provinces={
-		5199 13613 
+		5199  
 	}
-	manpower=1742979
+	manpower=1394383
 	buildings_max_level_factor=1.000
 	state_category=pop1dev1
 }

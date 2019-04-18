@@ -166,14 +166,14 @@ set_politics = {
         islamism = { popularity = 0 }
         radical_shiaism = { popularity = 0 }
         Social_Democratic = { popularity = 0 }
-        Social_Liberalism = { popularity = 0 }
+        Social_Liberalism = { popularity = 5.0 }
         Salafism = { popularity = 0 }
         Liberal_Conservatism = { popularity = 0 }
-        conservative = { popularity = 11.5 }
+        conservative = { popularity = 12.0 }
         Christian_Democratic = { popularity = 0 }
-        socialist = { popularity = 48.8 }
+        socialist = { popularity = 40.3 }
         centrist = { popularity = 0 }
-        liberal = { popularity = 9.3 }
+        liberal = { popularity = 12.3 }
         trotskyism = { popularity = 14.7 }
         maoism = { popularity = 0 }
         
@@ -230,6 +230,12 @@ create_country_leader = {
 	name = "Israel Rokach"
 	picture = "Israel_Rokach.dds"
 	ideology = general_zionism
+}
+
+create_country_leader = {
+	name = "Pinchas Rosen"
+	picture = "Pinchas_Rosen.dds"
+	ideology = social_liberal
 }
 
 create_country_leader = {
@@ -412,7 +418,7 @@ create_corps_commander = {
     create_country_leader = {
 	    name = "Levi Eshkol"
 	    picture = "Levi_Eshkol.dds"
-	    ideology = democratic_socialist
+	    ideology = labour_zionism
     }
 }
 
@@ -458,7 +464,7 @@ create_corps_commander = {
 
 1973.1.1 = {
 	set_party_name = {
-		ideology = conservative
+		ideology = Liberal_Conservatism
 		long_name = "Likud-National Liberal Movement"
 		name = "Likud"
 	}
@@ -478,7 +484,7 @@ create_corps_commander = {
     create_country_leader = {
 	    name = "Shimon Peres"
 	    picture = "Shimon_Peres.dds"
-	    ideology = social_democrat
+	    ideology = labour_zionism
     }
 }
 
@@ -486,7 +492,7 @@ create_corps_commander = {
     create_country_leader = {
 	    name = "Yitzhak Shamir"
 	    picture = "Yitzhak_Shamir.dds"
-	    ideology = national_conservatism
+	    ideology = liberal_conservativm
     }
 }
 
@@ -502,7 +508,7 @@ create_corps_commander = {
     create_country_leader = {
 	    name = "Ehud Barak"
 	    picture = "Ehud_Barak.dds"
-	    ideology = social_democrat
+	    ideology = labour_zionism
     }
 }
 
@@ -510,7 +516,7 @@ create_corps_commander = {
     create_country_leader = {
 	    name = "Ariel Sharon"
 	    picture = "Ariel_Sharon.dds"
-	    ideology = national_conservatism
+	    ideology = liberal_conservativm
     }
 }
 
@@ -518,7 +524,7 @@ create_corps_commander = {
     create_country_leader = {
 	    name = "Benjamin Netanyahu"
 	    picture = "Benjamin_Netanyahu.dds"
-	    ideology = national_conservatism
+	    ideology = liberal_conservativm
     }
 }
 
