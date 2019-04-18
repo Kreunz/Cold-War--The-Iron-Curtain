@@ -418,7 +418,7 @@ create_corps_commander = {
     create_country_leader = {
 	    name = "Levi Eshkol"
 	    picture = "Levi_Eshkol.dds"
-	    ideology = democratic_socialist
+	    ideology = labour_zionism
     }
 }
 
@@ -464,7 +464,7 @@ create_corps_commander = {
 
 1973.1.1 = {
 	set_party_name = {
-		ideology = conservative
+		ideology = Liberal_Conservatism
 		long_name = "Likud-National Liberal Movement"
 		name = "Likud"
 	}
@@ -484,7 +484,7 @@ create_corps_commander = {
     create_country_leader = {
 	    name = "Shimon Peres"
 	    picture = "Shimon_Peres.dds"
-	    ideology = social_democrat
+	    ideology = labour_zionism
     }
 }
 
@@ -492,7 +492,7 @@ create_corps_commander = {
     create_country_leader = {
 	    name = "Yitzhak Shamir"
 	    picture = "Yitzhak_Shamir.dds"
-	    ideology = national_conservatism
+	    ideology = liberal_conservativm
     }
 }
 
@@ -508,7 +508,7 @@ create_corps_commander = {
     create_country_leader = {
 	    name = "Ehud Barak"
 	    picture = "Ehud_Barak.dds"
-	    ideology = social_democrat
+	    ideology = labour_zionism
     }
 }
 
@@ -516,7 +516,7 @@ create_corps_commander = {
     create_country_leader = {
 	    name = "Ariel Sharon"
 	    picture = "Ariel_Sharon.dds"
-	    ideology = national_conservatism
+	    ideology = liberal_conservativm
     }
 }
 
@@ -524,7 +524,7 @@ create_corps_commander = {
     create_country_leader = {
 	    name = "Benjamin Netanyahu"
 	    picture = "Benjamin_Netanyahu.dds"
-	    ideology = national_conservatism
+	    ideology = liberal_conservativm
     }
 }
 
