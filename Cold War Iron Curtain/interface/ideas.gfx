@@ -32,6 +32,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/saf/Frans_Erasmus.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_Hendrik_van_den_Bergh"
+		texturefile = "gfx/interface/ideas/saf/Hendrik_van_den_Bergh.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Charles_Swart"
+		texturefile = "gfx/interface/ideas/saf/Charles_Swart.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Johannes_Van_Rensburg"
+		texturefile = "gfx/interface/ideas/saf/Johannes_Van_Rensburg.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_generic_agrarian_society"
 		texturefile = "gfx/interface/ideas/idea_generic_agrarian_society.dds"
 	}	
