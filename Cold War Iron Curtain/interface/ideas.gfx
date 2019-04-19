@@ -5461,4 +5461,20 @@ spriteTypes = {
 		name = "GFX_idea_Gino_De_Giorgi"
 		texturefile = "gfx/interface/ideas/ita/somedude2.tga"
     }
+     spriteType = {
+		name = "GFX_idea_Nilde_Iotti"
+		texturefile = "gfx/interface/ideas/ita/Nilde_Iotti.tga"
+    }
+     spriteType = {
+		name = "GFX_idea_Giorgio_Almirante"
+		texturefile = "gfx/interface/ideas/ita/Giorgio_Almirante.tga"
+    }
+     spriteType = {
+		name = "GFX_idea_Mino_Martinazzoli"
+		texturefile = "gfx/interface/ideas/ita/Mino_Martinazzoli.tga"
+    }
+	spriteType = {
+		name = "GFX_idea_D_F_malan"
+		texturefile = "gfx/interface/ideas/saf/D_F_malan.tga"
+	}
 }

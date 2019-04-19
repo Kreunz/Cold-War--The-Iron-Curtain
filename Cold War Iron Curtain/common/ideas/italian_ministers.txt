@@ -129,7 +129,29 @@ ideas = {
               }
             traits = { capitalist_reformer }
         }
+       Nilde_Iotti = {
+          picture = Nilde_Iotti        
+             allowed = {
+               original_tag = ITA
+              }
+            traits = { Cost_Cutter_minister }
+        }
+      Giorgio_Almirante = {
+          picture = Giorgio_Almirante      
+             allowed = {
+               original_tag = ITA
+              }
+            traits = { fascist_demagogue }
+        }
+      Mino_Martinazzoli = {
+          picture = Mino_Martinazzoli      
+             allowed = {
+               original_tag = ITA
+              }
+            traits = { Tax_Shelterer_minister }
+        }
       }
+
     navy_chief = {
       Gino_De_Giorgi  = {
           picture =  Gino_De_Giorgi    
@@ -145,5 +167,6 @@ ideas = {
             traits = { naval_theorist }
                   
         }   
+
+      }
     }
-  }
