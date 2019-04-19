@@ -3350,7 +3350,7 @@ focus_tree = {
 					news_event = Honecker.100
 					create_country_leader = {
 							name = "Erich Honecker"
-							picture = "Portrait_EastGermany_Erich_Honecker.dds"
+							picture = "Erich_Honecker.dds"
 							expire = "1994.5.29"
 							ideology = marxism_leninism
 						}

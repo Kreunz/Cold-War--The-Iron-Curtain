@@ -26,6 +26,9 @@ state={
 		victory_points = {
 			9627 5 
 		}
+		victory_points = {
+			596 2 
+		}		
 		add_core_of = YUG
 		add_core_of = SLV
 
