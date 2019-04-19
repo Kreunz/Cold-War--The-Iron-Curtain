@@ -1173,6 +1173,16 @@ spriteTypes = {
 		name = "GFX_SM_submarine_hull_snorkel@highlight"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/module_blueprint_snorkel.dds"
 	}
+	##### CWIC CONTENT #####
+	spriteType = {
+		name = "GFX_SM_screen_hull_medium_rear_2_screen_aviation"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/screen_hull_medium/screen_hull_medium_screen_aviation.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_screen_hull_medium_rear_2_screen_aviation@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/screen_hull_medium/screen_hull_medium_screen_aviation@highlight.dds"
+	}
+}
 
 
 	
