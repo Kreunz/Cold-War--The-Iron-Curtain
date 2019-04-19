@@ -184,7 +184,7 @@ set_politics = {
         communism = { popularity = 0 }
         fascism = { popularity = 0 }
         nationalism = { popularity = 0 }
-        monarchism = { popularity = 14 }
+        monarchism = { popularity = 17 }
         neutrality = { popularity = 0 }
         islamism = { popularity = 0 }
         radical_shiaism = { popularity = 0 }
@@ -193,7 +193,7 @@ set_politics = {
         Social_Liberalism = { popularity = 0 }
         Salafism = { popularity = 0 }
         
-        Liberal_Conservatism = { popularity = 6 }
+        Liberal_Conservatism = { popularity = 3 }
         
         conservative = { popularity = 0 }
         Christian_Democratic = { popularity = 0 }
@@ -243,6 +243,16 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Milovan Djilas"
 	picture = "Milovan_Djilas.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	#planning_skill = 3
+	#logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Ivan Gošnjak"
+	picture = "Ivan_Gosnjak.dds"
 	traits = { }
 	skill = 3
 	attack_skill = 3

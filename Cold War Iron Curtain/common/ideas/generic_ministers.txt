@@ -11,6 +11,9 @@ ideas = {
 		        NOT = { original_tag = IRQ } 
 			    NOT = { original_tag = KOR }
 				NOT = { original_tag = DDR }
+				NOT = { original_tag = ITA }
+				NOT = { original_tag = SAF }
+
 			}
 			picture = mr_bean
 			
@@ -21,10 +24,13 @@ ideas = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
 				NOT = { original_tag = PRC }
+				NOT = { original_tag = SAF }
 		        NOT = { original_tag = KOR }
 			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = ISR }
 				NOT = { original_tag = DDR }
+				NOT = { original_tag = ITA }
+
 			}
 			picture = mr_bean
 			
@@ -36,8 +42,10 @@ ideas = {
 				NOT = { original_tag = USA }
 		        NOT = { original_tag = KOR }
 				NOT = { original_tag = PRC }
+				NOT = { original_tag = SAF }
 			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = ISR }
+				NOT = { original_tag = ITA }
 				NOT = { original_tag = DDR }
 			}
 			picture = mr_bean
@@ -48,9 +56,11 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
+				NOT = { original_tag = SAF }
 				NOT = { original_tag = PRC }
 			    NOT = { original_tag = KOR }
 			    NOT = { original_tag = IRQ } 
+				NOT = { original_tag = ITA }
 				NOT = { original_tag = ISR }
 				NOT = { original_tag = DDR }
 			}
@@ -66,6 +76,8 @@ ideas = {
 				NOT = { original_tag = PRC }
 			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = ISR }
+				NOT = { original_tag = ITA }
+				NOT = { original_tag = SAF }
 				NOT = { original_tag = DDR }
 			}
 			picture = mr_bean
@@ -81,7 +93,9 @@ ideas = {
 				NOT = { original_tag = PRC }
 			    NOT = { original_tag = IRQ } 
 			    NOT = { original_tag = KOR }			
+				NOT = { original_tag = ITA }
 				NOT = { original_tag = ISR }
+				NOT = { original_tag = SAF }
 				NOT = { original_tag = DDR }
 			}
 			picture = mr_bean
@@ -94,6 +108,9 @@ ideas = {
 		        NOT = { original_tag = KOR }
 				NOT = { original_tag = USA }
 			    NOT = { original_tag = IRQ } 
+				NOT = { original_tag = SAF }
+				NOT = { original_tag = ITA }
+				NOT = { original_tag = DDR }
 				NOT = { original_tag = PRC }
 				NOT = { original_tag = ISR }
 				NOT = { original_tag = DDR }
@@ -108,8 +125,10 @@ ideas = {
 				NOT = { original_tag = GRE }
 			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = KOR }
+				NOT = { original_tag = SAF }
 			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = PRC }
+				NOT = { original_tag = ITA }
 				NOT = { original_tag = ISR }
 				NOT = { original_tag = DDR }
 			}
@@ -121,10 +140,12 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = PRC }
+				NOT = { original_tag = SAF }
 				NOT = { original_tag = GRE }
 			    NOT = { original_tag = KOR }
 			    NOT = { original_tag = IRQ } 
 			    NOT = { original_tag = IRQ }
+				NOT = { original_tag = ITA }
 				NOT = { original_tag = ISR }
 				NOT = { original_tag = DDR }
 			}
@@ -137,8 +158,10 @@ ideas = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = IRQ } 
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = SAF }
 				NOT = { original_tag = PRC }
 			    NOT = { original_tag = KOR }
+				NOT = { original_tag = ITA }
 				NOT = { original_tag = ISR }
 				NOT = { original_tag = DDR }
 			}
@@ -152,8 +175,10 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = SAF }
 				NOT = { original_tag = PRC }
 			    NOT = { original_tag = KOR }
+				NOT = { original_tag = ITA }
 			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = ISR }
 				NOT = { original_tag = DDR }
@@ -168,6 +193,8 @@ ideas = {
 			    NOT = { original_tag = KOR }
 			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = SAF }
+				NOT = { original_tag = ITA }
 				NOT = { original_tag = PRC }
 				NOT = { original_tag = ISR }
 				NOT = { original_tag = DDR }
@@ -183,8 +210,10 @@ ideas = {
 				NOT = { original_tag = PRC }
 				NOT = { original_tag = IRQ } 
 				NOT = { original_tag = ISR }
+				NOT = { original_tag = SAF }
 			    NOT = { original_tag = KOR }
 				NOT = { original_tag = DDR }
+				NOT = { original_tag = ITA }
 			}
 			picture = mr_bean
 			
@@ -197,8 +226,10 @@ ideas = {
 			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = PRC }
 			    NOT = { original_tag = KOR }
+				NOT = { original_tag = SAF }
 			    NOT = { original_tag = ISR }
 				NOT = { original_tag = DDR }
+				NOT = { original_tag = ITA }
 			}
 			picture = mr_bean
 			
@@ -209,9 +240,11 @@ ideas = {
 		Police_Statist = { 
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = ITA }
 				NOT = { original_tag = GRE }
 			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = PRC }
+				NOT = { original_tag = SAF }
 				NOT = { original_tag = ISR }
 				NOT = { original_tag = KOR }
 				NOT = { original_tag = DDR }
@@ -223,8 +256,10 @@ ideas = {
 		Auditor = {
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = SAF }
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
+				NOT = { original_tag = ITA }
 				NOT = { original_tag = IRQ } 
 				NOT = { original_tag = ISR }
 				NOT = { original_tag = KOR }
@@ -238,6 +273,8 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = ITA }
+				NOT = { original_tag = SAF }
 				NOT = { original_tag = PRC }
 				NOT = { original_tag = ISR }
 			    NOT = { original_tag = IRQ } 
@@ -253,7 +290,9 @@ ideas = {
 			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = SAF }
 				NOT = { original_tag = PRC }
+				NOT = { original_tag = ITA }
 				NOT = { original_tag = ISR }
 				NOT = { original_tag = KOR }
 				NOT = { original_tag = DDR }

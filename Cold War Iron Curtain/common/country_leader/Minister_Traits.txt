@@ -5,7 +5,30 @@ leader_traits = {
 		sprite = 13
 		trade_opinion_factor = 0.30
 		consumer_goods_factor = 0.03
-		opinion_gain_monthly_factor = 1
+		opinion_gain_monthly_factor = 0.1	
+		
+		ai_will_do = {
+			factor = 0.2
+		}
+	}	
+	Isolationist_minister = {
+		random = no
+		sprite = 13
+		trade_opinion_factor = -0.25
+		consumer_goods_factor = -0.05
+		research_speed_factor = -0.01
+		
+		
+		ai_will_do = {
+			factor = 0.2
+		}
+	}	
+	Protectionist_minister = {
+		random = no
+		sprite = 13
+		trade_opinion_factor = -0.30
+		consumer_goods_factor = -0.05
+		production_factory_efficiency_gain_factor = -0.05
 		
 		
 		ai_will_do = {
@@ -24,11 +47,58 @@ leader_traits = {
 			factor = 0.2
 		}
 	}	
+	Enviromentalist_minister = {
+		random = no
+		sprite = 13
+		trade_opinion_factor = -0.05
+		consumer_goods_factor = 0.01
+		opinion_gain_monthly_factor = 0.2
+		MONTHLY_POPULATION = 0.10
+		
+		ai_will_do = {
+			factor = 0.2
+		}
+	}	
+	Revolutionary_Exporter_minister = {
+		random = no
+		sprite = 13
+		trade_opinion_factor = -0.2
+		opinion_gain_monthly_same_ideology_factor = 0.25
+		send_volunteer_size = 5
+
+		
+		ai_will_do = {
+			factor = 0.2
+		}
+	}	
+	Foriegn_Adventurist_minister = {
+		random = no
+		sprite = 13
+		trade_opinion_factor = -0.05
+		opinion_gain_monthly_factor = -0.1
+		justify_war_goal_time = -0.25
+		send_volunteers_tension = -0.25
+		
+		ai_will_do = {
+			factor = 0.2
+		}
+	}	
 	Tax_Shelterer_minister = {
 		random = no
 		sprite = 13
 		trade_opinion_factor = -0.1
 		consumer_goods_factor = -0.015
+		
+		
+		ai_will_do = {
+			factor = 0.2
+		}
+	}
+	Mega_Corporation_minister = {
+		random = no
+		sprite = 13
+		trade_opinion_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.01
 		
 		
 		ai_will_do = {
@@ -57,6 +127,7 @@ leader_traits = {
 			factor = 0.2
 		}
 	}	
+	#
 	Police_Statist_minister = {
 		random = no
 		sprite = 13
@@ -227,7 +298,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 		trade_opinion_factor = 0.15
-		opinion_gain_monthly_factor = 1
+		opinion_gain_monthly_factor = 0.1
 		
 		
 		ai_will_do = {
@@ -560,7 +631,45 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	
+	planned_economy_advocate = {
+		sprite = 10
+		random = yes
+		consumer_goods_factor = 0.05
+		production_speed_industrial_complex_factor = 0.05
+		production_speed_infrastructure_factor = 0.05
+		production_speed_synthetic_refinery_factor = 0.05
+		production_speed_buildings_factor = 0.15
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+	economic_liberalization_advocate = {
+		sprite = 10
+		random = yes
+		consumer_goods_factor = -0.05
+		production_speed_buildings_factor = -0.05
+		MONTHLY_POPULATION = -0.10
+		stability_factor = -0.05
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	Keynesian_Economist = {
+		sprite = 10
+		random = yes
+		consumer_goods_factor = 0.10
+		production_speed_buildings_factor = 0.15
+		stability_factor = 0.05
+		production_factory_efficiency_gain_factor = 0.15
+		production_factory_max_efficiency_factor = 0.15
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
 	###EDUCATION MINISTRY###
 	
 	capitalist_reformer = {
