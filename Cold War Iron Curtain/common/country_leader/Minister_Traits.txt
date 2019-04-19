@@ -152,7 +152,17 @@ leader_traits = {
 			factor = 0.25
 		}
 	}	
-	
+	Traditionalist_minister = {
+		random = no
+		sprite = 13
+		conscription_factor	= 0.05
+		political_power_factor = -0.10
+		MONTHLY_POPULATION = 0.10
+
+		ai_will_do = {
+			factor = 0.25
+		}
+	}		
 	Intelligence_Specialist_minister = {
 		random = no
 		sprite = 13
@@ -238,6 +248,17 @@ leader_traits = {
 		sprite = 13
 		consumer_goods_factor = -0.03
 		research_speed_factor = -0.02
+
+		ai_will_do = {
+			factor = 0.2
+		}
+	}	
+	Parochial_Educator_minister = {
+		random = no
+		sprite = 13
+		consumer_goods_factor = -0.01
+		research_speed_factor = -0.01
+		MONTHLY_POPULATION = 0.10
 
 		ai_will_do = {
 			factor = 0.2
@@ -434,7 +455,13 @@ leader_traits = {
 		
 		random = no
 	}
-	
+	censorship_specialist = {
+		drift_defence_factor = 0.25
+		stability_factor = 0.01
+		enemy_partisan_effect = -0.05
+
+		random = no
+	}	
 	spymaster = {
 		subversive_activites_upkeep = -0.35
 		drift_defence_factor = 0.35
