@@ -6,8 +6,11 @@ state={
 	history={
 		owner = YUG
 		victory_points = {
-			3617 5
+			11580 3
 		}
+		victory_points = {
+			9621 1
+		}		
 		set_state_flag = temperate
 		set_state_flag = riverlarge
 		set_state_flag = small

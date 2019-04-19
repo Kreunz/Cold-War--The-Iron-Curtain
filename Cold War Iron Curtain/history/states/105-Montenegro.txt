@@ -16,6 +16,9 @@ state={
 		victory_points = {
 			9809 2 
 		}
+		victory_points = {
+			11858 1 
+		}		
 		2006.6.3 = {
 			owner = MNT
 

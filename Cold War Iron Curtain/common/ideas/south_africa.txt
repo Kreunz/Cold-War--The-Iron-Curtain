@@ -458,9 +458,11 @@ ideas = {
 		Robey_Leibbrandt = {
 			
 			allowed = {
-				original_tag = SAF
-				has_government = Nationalism
-				
+				original_tag = SAF	
+			}
+			available = {
+				date > 1950.3.10
+				date < 1966.8.1
 			}
 			
 			picture = Robey_Leibbrandt
@@ -472,64 +474,15 @@ ideas = {
 			}
 		}
 
+		Johannes_Van_Rensburg = {
 
-		SAF_abram_fischer = {
-
-			allowed = {
-				original_tag = SAF
-			}
-
-
-
-			picture = generic_communist_revolutionary_western_european_2d
-			
-			traits = { communist_revolutionary }
-
-			do_effect = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-
-		}
-
-		SAF_j_f_van_rensburg_fascist = {
-			
-			allowed = {
-				original_tag = SAF
-				
-			}
-
-
-
-			picture = generic_political_advisor_europe_4
-			
-			traits = { fascist_demagogue }
-		
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-		
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		SAF_nicolaas_havenga = {
-
-			picture = generic_political_advisor_europe_2
+			picture = Johannes_Van_Rensburg
 
 			allowed = {
 				original_tag = SAF
 			}
 			
-			traits = { captain_of_industry }
+			traits = { Nationalist_minister }
 		}
 
 		SAF_d_f_malan = {
@@ -665,6 +618,18 @@ ideas = {
 				date < 1980.7.1
 			}
 			traits = { basic_state_security }
+		}
+		Charles_Swart = {
+			picture = Charles_Swart
+			allowed = {
+				original_tag = SAF
+			}
+
+			available = {
+				date > 1948.1.1
+				date < 1960.1.1
+			}
+			traits = { ideological_crusader_intel }
 		}
 	}
 

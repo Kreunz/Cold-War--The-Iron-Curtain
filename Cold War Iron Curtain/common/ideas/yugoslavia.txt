@@ -444,7 +444,7 @@ ideas = {
 			}
 
 			Milovan_Djilas = { 
-				picture = Milovan_Djilas
+				picture = Milovan_Dilas
 				allowed = {
 					original_tag = YUG
 				}
