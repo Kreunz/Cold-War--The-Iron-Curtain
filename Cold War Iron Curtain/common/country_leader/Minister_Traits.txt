@@ -5,8 +5,7 @@ leader_traits = {
 		sprite = 13
 		trade_opinion_factor = 0.30
 		consumer_goods_factor = 0.03
-		opinion_gain_monthly_factor = 1
-		
+		opinion_gain_monthly_factor = 0.1	
 		
 		ai_will_do = {
 			factor = 0.2
@@ -299,7 +298,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 		trade_opinion_factor = 0.15
-		opinion_gain_monthly_factor = 1
+		opinion_gain_monthly_factor = 0.1
 		
 		
 		ai_will_do = {

@@ -5489,4 +5489,16 @@ spriteTypes = {
 		name = "GFX_idea_D_F_malan"
 		texturefile = "gfx/interface/ideas/saf/D_F_malan.tga"
 	}
+	spriteType = {
+		name = "GFX_idea_Pik_Botha"
+		texturefile = "gfx/interface/ideas/saf/pik_botha.tga" 
+	}
+	spriteType = {
+		name = "GFX_idea_Hilgard_Muller"
+		texturefile = "gfx/interface/ideas/saf/Hilgard_Muller.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Eric_Louw"
+		texturefile = "gfx/interface/ideas/saf/Eric_Louw.tga"
+	}
 }
