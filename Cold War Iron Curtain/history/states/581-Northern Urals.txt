@@ -3,43 +3,34 @@ state={
 	id=581
 	name="STATE_581"
 	history={
-		owner = SOV
+		owner = ZAM
 		set_state_flag = temperate
-		set_state_flag = lakes
-		set_state_flag = micro
-		set_state_flag = decent
-	    victory_points = {
-			3686 20 
-		}
+		set_state_flag = riverlarge
+		set_state_flag = small
+		set_state_flag = undeveloped
+	    
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			state_infrastructure = 2
-
-			coal_plant = 1
-			dockyard = 2
-			3686 = {
-				naval_base = 8
-
-			}
+		}
+		add_core_of = ZAM
+		1951.1.1 = {
+			owner = ZIM
+			add_core_of = ZIM
 
 		}
-		add_core_of = SOV
-		1954.1.1 = {
-			add_core_of = UKR
-
-		}
-		1985.1.1 = {
-			owner = UKR
-			remove_core_of = SOV
+		1963.1.1 = {
+			owner = ZAM
+			remove_core_of = ZIM
 
 		}
 
 	}
 
 	provinces={
-		3686 
+		 13613
 	}
-	manpower=418987
+	manpower=348595
 	buildings_max_level_factor=1.000
-	state_category=pop1dev3
+	state_category=pop1dev1
 }
