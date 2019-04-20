@@ -8724,7 +8724,6 @@ guiTypes = {
 			position = { x=4 y=4 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
-			centerposition = yes
 		}	
 		
 		iconType = {
@@ -8891,7 +8890,6 @@ guiTypes = {
 			position = { x=4 y=4 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
-			centerposition = yes
 		}
 		
 		iconType = {
@@ -9033,7 +9031,6 @@ guiTypes = {
 			position = { x=4 y=4 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
-			centerposition = yes
 		}
 		iconType = {
 			name = "bonus_icon"
@@ -9277,7 +9274,6 @@ guiTypes = {
 			position = { x=4 y=4 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
-			centerposition = yes
 		}
 		iconType = {
 			name = "bonus_icon"
@@ -9363,7 +9359,7 @@ guiTypes = {
 			name = "Icon"
 			position = { x=1 y=1 }
 			spriteType = "GFX_technology_medium"
-			centerposition = yes
+			centerposition = no		
 			alwaystransparent = yes
 		}		
 		
@@ -9483,7 +9479,7 @@ guiTypes = {
 			name = "Icon"
 			position = { x=1 y=1 }
 			spriteType = "GFX_technology_medium"
-			centerposition = yes
+			centerposition = no
 			alwaystransparent = yes
 		}		
 		
@@ -9583,7 +9579,7 @@ guiTypes = {
 			name = "Icon"
 			position = { x=1 y=1 }
 			spriteType = "GFX_technology_medium"
-			centerposition = yes
+			centerposition = no	
 			alwaystransparent = yes
 		}		
 		
@@ -9683,7 +9679,6 @@ guiTypes = {
 			position = { x=3 y=3 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
-			centerposition = yes
 		}
 		iconType = {
 			name = "bonus_icon"
@@ -9719,7 +9714,6 @@ guiTypes = {
 			position = { x=3 y=3 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
-			centerposition = yes
 		}
 		iconType = {
 			name = "bonus_icon"
@@ -9755,7 +9749,6 @@ guiTypes = {
 			position = { x=3 y=3 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
-			centerposition = yes
 		}
 		iconType = {
 			name = "bonus_icon"
@@ -10029,7 +10022,6 @@ guiTypes = {
 			position = { x=4 y=4 }
 			spriteType = "GFX_technology_medium"
 			alwaystransparent = yes
-			centerposition = yes
 		}
 		iconType = {
 			name = "bonus_icon"
