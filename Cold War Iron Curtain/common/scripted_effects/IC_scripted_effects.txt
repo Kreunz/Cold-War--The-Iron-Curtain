@@ -6046,4 +6046,13 @@ ic_pulse = {
         }
         country_event = { id = lavonmania.2 days = 0 }
     }
+	if = {
+        limit = {
+            original_tag = ISR
+            date > 1956.10.1
+            date < 1956.10.31
+		has_global_flag = IsraelSuezCrisis
+        }
+        country_event = { id = OperationKadesh days = 0 }
+    }
 }
