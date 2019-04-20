@@ -349,7 +349,7 @@ country_event = {
 
 country_event = {
 	id = israel.18
-	title = "A deal with Mapai"
+	title = "Chaos in Mapai"
 	desc = "israel.18.d"
     picture = GFX_politics
 
@@ -357,85 +357,136 @@ country_event = {
 
     trigger = {
         tag = ISR
-		has_country_flag = GenZionist1951
+		has_country_flag = MapaiLoses
         }
     mean_time_to_happen = {
-        days = 7
+        days = 20
     }
 
 	option = {
-		name = "Ok, if it secures our position then sure"
-	add_political_power = 5
-	set_country_flag = LavonDefenseMinister
+		name = "Eshkol opposes the anti Ben-Gurionists"
+        ai_chance = { factor = 30 }
+		country_event = {
+			id = israel.19
+			days = 0
+		}
+	}
+	option = {
+		name = "Eshkol backs the anti Ben-Gurionists"
+        ai_chance = { factor = 20 }
+		country_event = {
+			id = israel.21
+			days = 0
+		}
+	}
+	option = {
+		name = "Eshkol promises neutrality"
+        ai_chance = { factor = 50 }
+		country_event = {
+			id = israel.20
+			days = 0
+		}
 	}
 }
 
 country_event = {
 	id = israel.19
-	title = "An offer from Mapai"
+	title = "Takeover by anti Ben-Gurionists fails"
 	desc = "israel.19.d"
     picture = GFX_politics
-	
+
 	fire_only_once = yes
 
-    trigger = {
-        tag = ISR
-		has_country_flag = Mapam1951
-        }
+	is_triggered_only
+
     mean_time_to_happen = {
-        days = 7
+        days = 0
     }
 
 	option = {
-		name = "Ok, if it secures our position then sure"
-	add_political_power = 5
-	set_country_flag = LavonDefenseMinister
+		name = "Ben-Gurion has secured his position within the party"
+        ai_chance = { factor = 100 }
+	create_country_leader = {
+	name = "David Ben-Gurion"
+	desc = "BEN_GURION_DESC"
+	picture = "David_Ben-Gurion.dds"
+	ideology = labour_zionism_mapai
+		}
 	}
 }
 
 country_event = {
 	id = israel.20
-	title = "An agreement with Mapai"
+	title = "Takeover by anti Ben-Gurionists succeeds"
 	desc = "israel.20.d"
     picture = GFX_politics
-	
+
 	fire_only_once = yes
 
-    trigger = {
-        tag = ISR
-		has_country_flag = Religious1951
-        }
+	is_triggered_only
+
     mean_time_to_happen = {
-        days = 7
+        days = 0
     }
 
 	option = {
-		name = "Ok, if it secures our position then sure"
-	add_political_power = 5
-	set_country_flag = LavonDefenseMinister
+		name = "Moshe Sharett becomes leader of the party"
+        ai_chance = { factor = 70 }
+	create_country_leader = {
+	name = "Moshe Sharett"
+	desc = "Sharett_desc"
+	picture = "Sharett.dds"
+	ideology = labour_zionism_mapai
+		}
+	}
+	option = {
+		name = "Pinhas Lavon becomes leader of the party"
+		trigger = {
+			has_country_flag = NoLavon
+			}
+        ai_chance = { factor = 100 }
+	create_country_leader = {
+	name = "Pinhas Lavon"
+	desc = "Lavon_desc"
+	picture = "Pinhas_Lavon.dds"
+	ideology = labour_zionism_mapai
+		}
 	}
 }
 
 country_event = {
 	id = israel.21
-	title = "A deal with the devil"
+	title = "Takeover by anti Ben-Gurionists succeeds"
 	desc = "israel.21.d"
     picture = GFX_politics
-	
+
 	fire_only_once = yes
 
-    trigger = {
-        tag = ISR
-		has_country_flag = Herut1951
-        }
+	is_triggered_only
+
     mean_time_to_happen = {
-        days = 7
+        days = 0
     }
 
 	option = {
-		name = "Ok, if it secures our position then sure"
-	add_political_power = 5
-	set_country_flag = LavonDefenseMinister
+		name = "Levi Eshkol accepts the nomination"
+        ai_chance = { factor = 100 }
+	create_country_leader = {
+	name = "Levi Eshkol"
+	desc = "Eshkol_desc"
+	picture = "Levi_Eshkol.dds"
+	ideology = labour_zionism_mapai
+		}
+	}
+	option = {
+		name = "Levi Eshkol turns the nomination down, Golda Meir gets the nomination"
+        ai_chance = { factor = 70 }
+	create_country_leader = {
+	name = "Golda Meir"
+	desc = "Golda_desc"
+	picture = "Golda_Meir.dds"
+	ideology = labour_zionism_mapai
+		}
 	}
 }
 
@@ -460,7 +511,7 @@ country_event = {
 				ruling_party = socialist
         }
 	set_country_flag = Mapai1951
-	set_country_flag = 1951ElectionHeld
+	set_country_flag = Election1951
 	}
 
 	option = {
@@ -478,7 +529,8 @@ country_event = {
 				ruling_party = liberal
         }
 	set_country_flag = GenZionist1951
-	set_country_flag = 1951ElectionHeld
+	set_country_flag = Election1951
+	set_country_flag = MapaiLoses
 	}
 	
 	option = {
@@ -496,7 +548,8 @@ country_event = {
 				ruling_party = trotskyism
         }
 	set_country_flag = Mapam1951
-	set_country_flag = 1951ElectionHeld
+	set_country_flag = Election1951
+	set_country_flag = MapaiLoses
 	}
 	
 	option = {
@@ -514,7 +567,8 @@ country_event = {
 				ruling_party = conservative
         }
 	set_country_flag = Religious1951
-	set_country_flag = 1951ElectionHeld
+	set_country_flag = Election1951
+	set_country_flag = MapaiLoses
 	}
 
 	option = {
@@ -532,7 +586,8 @@ country_event = {
 				ruling_party = nationalism
         }
 	set_country_flag = Herut1951
-	set_country_flag = 1951ElectionHeld
+	set_country_flag = Election1951
+	set_country_flag = MapaiLoses
 	}
 }
 
@@ -556,7 +611,7 @@ country_event = {
 				ruling_party = socialist
         }
 	set_country_flag = Mapai1955
-	set_country_flag = 1955ElectionHeld
+	set_country_flag = Election1955
 	}
 
 	option = {
@@ -574,7 +629,8 @@ country_event = {
 				ruling_party = liberal
         }
 	set_country_flag = GenZionist1955
-	set_country_flag = 1955ElectionHeld
+	set_country_flag = Election1955
+	set_country_flag = MapaiLoses
 	}
 	
 	option = {
@@ -592,7 +648,8 @@ country_event = {
 				ruling_party = trotskyism
         }
 	set_country_flag = Mapam1955
-	set_country_flag = 1955ElectionHeld
+	set_country_flag = Election1955
+	set_country_flag = MapaiLoses
 	}
 	
 	option = {
@@ -610,7 +667,8 @@ country_event = {
 				ruling_party = conservative
         }
 	set_country_flag = Religious1955
-	set_country_flag = 1955ElectionHeld
+	set_country_flag = Election1955
+	set_country_flag = MapaiLoses
 	}
 
 	option = {
@@ -628,7 +686,8 @@ country_event = {
 				ruling_party = nationalism
         }
 	set_country_flag = Herut1955
-	set_country_flag = 1955ElectionHeld
+	set_country_flag = Election1955
+	set_country_flag = MapaiLoses
 	}
 
 	option = {
@@ -646,7 +705,8 @@ country_event = {
 				ruling_party = communist
         }
 	set_country_flag = LeftFaction1955
-	set_country_flag = 1955ElectionHeld
+	set_country_flag = Election1955
+	set_country_flag = MapaiLoses
 	}
 }
 
@@ -750,6 +810,10 @@ is_triggered_only = yes
 option = {
 	   name = "A silly idea"
 	set_country_flag = OperationSusannah
+	}
+option = {
+	   name = "A dangerous idea, turn it down"
+	set_country_flag = NoLavon
 	}
 }
 
