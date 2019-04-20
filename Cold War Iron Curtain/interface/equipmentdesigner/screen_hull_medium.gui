@@ -788,7 +788,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_screen_hull_medium_rear_2_screen_aviation"
-						position = { x=10 y=0 }
+						position = { x=11 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -799,7 +799,7 @@ guiTypes = {
 					iconType = {
 						name = "image"
 						spriteType = "GFX_SM_screen_hull_medium_rear_2_screen_aviation@highlight"
-						position = { x=10 y=0 }
+						position = { x=11 y=0 }
 					}
 				}
 				#### MODULE: RHIB DECK ####
