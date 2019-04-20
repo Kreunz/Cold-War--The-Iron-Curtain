@@ -5501,4 +5501,52 @@ spriteTypes = {
 		name = "GFX_idea_Eric_Louw"
 		texturefile = "gfx/interface/ideas/saf/Eric_Louw.tga"
 	}
+	spriteType = {
+		name = "GFX_idea_Vito_Miceli"
+		texturefile = "gfx/interface/ideas/ita/Vito_Miceli.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Giuseppe_Santovito"
+		texturefile = "gfx/interface/ideas/ita/Giuseppe_Santovito.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Giulio_Grassini"
+		texturefile = "gfx/interface/ideas/ita/Giulio_Grassini.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_iveco"
+		texturefile = "gfx/interface/ideas/ita/iveco.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_AgustaWestland"
+		texturefile = "gfx/interface/ideas/ita/AgustaWestland.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_panavia"
+		texturefile = "gfx/interface/ideas/ita/panavia.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Westland_Aircraft"
+		texturefile = "gfx/interface/ideas/eng/westland.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Leyland"
+		texturefile = "gfx/interface/ideas/eng/Leyland.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_BAC"
+		texturefile = "gfx/interface/ideas/eng/BAC.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Airbus"
+		texturefile = "gfx/interface/ideas/eng/airbus.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Royal_Ordinance_Factory"
+		texturefile = "gfx/interface/ideas/eng/Royal_Ordnance_Factory.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Vickers_Shipbuilding"
+		texturefile = "gfx/interface/ideas/eng/Vickers_Shipbuilding.tga"
+	}
 }

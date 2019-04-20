@@ -169,4 +169,27 @@ ideas = {
         }   
 
       }
+  intel_advisor = {
+      Vito_Miceli = {
+          picture = Vito_Miceli      
+             allowed = {
+               original_tag = ITA
+              }
+            traits = { Intelligence_Specialist_minister }
+        }
+      Giuseppe_Santovito = {
+          picture = Giuseppe_Santovito      
+             allowed = {
+               original_tag = ITA
+              }
+            traits = { Police_Statist_minister }
+        }
+      Giulio_Grassini = {
+          picture = Giulio_Grassini      
+             allowed = {
+               original_tag = ITA
+              }
+            traits = { Auditor_minister }
+        }
+      }
     }
