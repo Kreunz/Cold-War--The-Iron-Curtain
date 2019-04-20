@@ -14,7 +14,7 @@ guiTypes = {
 
 		iconType = {
 			name = "equipment_image"
-			spriteType = "GFX_SD_tv_light"
+			spriteType = "GFX_SD_tv_screen_hull_medium"
 			position = { x=0 y=0 }
 		}
 
@@ -787,8 +787,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_light_hull_mid_1_mine_layer"
-						position = { x=200 y=0 }
+						spriteType = "GFX_SM_screen_hull_medium_rear_2_screen_aviation"
+						position = { x=11 y=0 }
 					}
 				}
 				containerWindowType = {
@@ -798,8 +798,8 @@ guiTypes = {
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_light_hull_mid_1_mine_layer@highlight"
-						position = { x=200 y=0 }
+						spriteType = "GFX_SM_screen_hull_medium_rear_2_screen_aviation@highlight"
+						position = { x=11 y=0 }
 					}
 				}
 				#### MODULE: RHIB DECK ####
