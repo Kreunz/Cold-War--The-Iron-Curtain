@@ -28,6 +28,8 @@ ideas = {
 		}	
 		Royal_Ordinance_Factory = {
 			
+        picture = Royal_Ordinance_Factory
+
 			allowed = {
 				original_tag = ENG
 			}
@@ -48,6 +50,8 @@ ideas = {
 			}
 		}	
 		Leyland = {
+
+		picture = Leyland
 			
 			allowed = {
 				original_tag = ENG
@@ -94,7 +98,8 @@ ideas = {
 		}		
 		OTO_Melara = {
 
-			
+			picture = AgustaWestland
+
 			allowed = {
 				original_tag = ITA
 			}
@@ -329,6 +334,7 @@ ideas = {
 		}
 		Vickers_Shipbuilding = {
 		
+		picture = Vickers_Shipbuilding
 			
 			allowed = {
 				original_tag = ENG
@@ -790,6 +796,8 @@ ideas = {
 			}
 		}
 		BAC = {
+        
+        picture = BAC
 
 			allowed = {
 				original_tag = ENG
@@ -877,7 +885,7 @@ ideas = {
 		}		
 		Panavia = {
 
-			picture = Panavia
+			picture = panavia
 			allowed = {
 				OR = {
 					original_tag = ENG
@@ -927,6 +935,8 @@ ideas = {
 			}
 		}
 		Airbus = {
+ 
+        picture = Airbus
 
 			allowed = {
 				OR = {
@@ -985,7 +995,7 @@ ideas = {
 		}
 		Augusta_Westland = {
 			
-			picture = Augusta_Westland 
+			picture = AgustaWestland 
 			
 			allowed = {
 				original_tag = ITA
@@ -1331,7 +1341,8 @@ ideas = {
 		
 		Iveco = {
 			
-			
+			picture = iveco
+
 			allowed = {
 				original_tag = ITA
 			}
@@ -1383,25 +1394,6 @@ ideas = {
 				infantry_equipment = {
 					build_cost_ic = -0.08
 					soft_attack = 0.10
-					instant = yes
-				}
-			}			
-			traits = { infantry_equipment_manufacturer }
-		}	
-		Franchi = {
-			
-			
-			allowed = {
-				original_tag = ITA
-			}
-			
-
-			
-			research_bonus = {
-			}
-			equipment_bonus = {
-				infantry_equipment = {
-					build_cost_ic = -0.07
 					instant = yes
 				}
 			}			

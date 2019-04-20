@@ -17,16 +17,9 @@ https://it.wikipedia.org/wiki/Pino_Rauti					MSI
 https://it.wikipedia.org/wiki/Arturo_Michelini				MSI
 				
 intel_advisor 
-https://it.wikipedia.org/wiki/Vito_Miceli					MSI
 https://en.wikipedia.org/wiki/Fulvio_Martini
-https://it.wikipedia.org/wiki/Bruno_Branciforte
 https://it.wikipedia.org/wiki/Emanuele_De_Francesco
 https://it.wikipedia.org/wiki/Giovanni_de_Lorenzo
-https://it.wikipedia.org/wiki/Benito_Gavazza
-https://it.wikipedia.org/wiki/Giulio_Grassini
-https://it.wikipedia.org/wiki/Eugenio_Henke
-https://it.wikipedia.org/wiki/Vincenzo_Parisi
-https://it.wikipedia.org/wiki/Giuseppe_Santovito
 
 foriegn_advisor
 https://en.wikipedia.org/wiki/Pietro_Nenni					Italian Socialist Party
@@ -75,7 +68,6 @@ Angelo Monassi	https://upload.wikimedia.org/wikipedia/commons/7/76/Visita-ammira
 https://en.m.wikipedia.org/wiki/Guido_Venturoni
 
 high_command
-https://it.wikipedia.org/wiki/Eugenio_Henke
 https://en.wikipedia.org/wiki/Giuseppe_Mancinelli_(general)
 Aldo Rossi
 Claudio Trezzani
