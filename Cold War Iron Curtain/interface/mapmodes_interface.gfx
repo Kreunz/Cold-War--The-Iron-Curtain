@@ -28,12 +28,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_mapmode_buttons_selected_big"
 		texturefile = "gfx//interface//mapmode_buttons_selected_big.dds"
-		noOfFrames = 7
+		noOfFrames = 3
 	}
 	spriteType = {
 		name = "GFX_mapmode_buttons_deselected_big"
 		texturefile = "gfx//interface//mapmode_buttons_deselected_big.dds"
-		noOfFrames = 7
+		noOfFrames = 3
 	}
 	spriteType = {
 		name = "GFX_mapmode_buttons_configure"
@@ -91,9 +91,4 @@ spriteTypes = {
 	#	texturefile = "gfx//interface//mapmode_marker.dds"
 	#	allwaystransparent = yes
 	#}
-	spriteType = {
-		name = "GFX_mapmode_button_population"
-		texturefile = "gfx//interface//mapmode_button_population.dds"
-		noOfFrames = 2
-	}
 }
