@@ -86,7 +86,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name ="research_slots"
-			position = { x=0 y=165 }
+			position = { x=0 y=125 }
 			size = { width=550 height=-86 }
 			verticalScrollbar = "right_vertical_slider"
 			margin = { top = 0 bottom = 0 }
@@ -97,8 +97,7 @@ guiTypes = {
 				size = { width = -20 height = 100%% }
 				slotsize = { width = 500 height = 100 }
 				format = "UPPER_LEFT"
-			}
-			
+			}	
 		}
 
 
