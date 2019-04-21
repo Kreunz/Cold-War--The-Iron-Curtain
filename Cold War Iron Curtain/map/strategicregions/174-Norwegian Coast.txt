@@ -4,6 +4,10 @@ strategic_region={
 	provinces={
 		 2578 2530 2554 5869 5942 6026 6234 5966 5895 
 	}
+	naval_terrain=water_shallow_sea
+	static_modifiers={
+		water_modifier_arctic_water=always
+	}
 	weather={
 		period={
 			between={ 0.0 30.0 }

@@ -1,5 +1,18 @@
 ﻿l_english:
   EFFECT_CHANGE_LAW_lgbt_policies:0 "Changes LGBT Policies to "$NAME|Y$", causing ($DESC$)."
+  EFFECT_CHANGE_LAW_foreign_aggression_policy:0 "Change our Foreign Aggression Policy to "$NAME|Y$", causing ($DESC$)"
+  EFFECT_CHANGE_LAW_veterans_policy:0 "Change our Policy toward Veterans to "$NAME|Y$", causing ($DESC$)"
+  EFFECT_CHANGE_LAW_media_laws:0 "Change our Policy toward Medias to "$NAME|Y$", causing ($DESC$)"
+  EFFECT_CHANGE_LAW_military_funding:0 "Change our Military Funding to "$NAME|Y$", causing ($DESC$)"
+  EFFECT_CHANGE_LAW_education_policy:0 "Change our Education Policy to "$NAME|Y$", causing ($DESC$)"
+  EFFECT_CHANGE_LAW_economic_policy:0 "Change our Economic Policy to "$NAME|Y$", causing ($DESC$)"
+  EFFECT_CHANGE_LAW_healthcare_policy:0 "Change our Healthcare Policy to "$NAME|Y$", causing ($DESC$)"
+  EFFECT_CHANGE_LAW_welfare_policy:0 "Change our Welfare Policy to "$NAME|Y$", causing ($DESC$)"
+  EFFECT_CHANGE_LAW_labour_policies:0 "Change our Labour Policies to "$NAME|Y$", causing ($DESC$)"
+  EFFECT_CHANGE_LAW_enviromental_policies:0 "Change our Environmental Policies to "$NAME|Y$", causing ($DESC$)"
+  EFFECT_CHANGE_LAW_cultural_policies:0 "Change our Cultural Policies to "$NAME|Y$", causing ($DESC$)"
+  EFFECT_CHANGE_LAW_military_policies:0 "Change our Military Policies to "$NAME|Y$", causing ($DESC$)"
+  EFFECT_CHANGE_LAW_trade_policy:0 "Change our Trade Policy to "$NAME|Y$", causing ($DESC$)"
 
  #### Ammo equipment
  ammo_equipment_category:0 "Ammunition rearment"

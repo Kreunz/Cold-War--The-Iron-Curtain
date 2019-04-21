@@ -4,7 +4,11 @@ strategic_region={
 	provinces={
 		5316 5340 5563 8993 9017 
 	}
-	naval_terrain=water_deep_ocean
+	naval_terrain=water_shallow_sea
+	static_modifiers={
+		water_modifier_shipping_channel=always
+		weather_unpredictable_storms=always
+	}
 	weather={
 		period={
 			between={ 0.0 30.0 }

@@ -1302,20 +1302,34 @@ focus_tree = {
 		}
 		x = 19
 		y = 3
-			available = {
-					has_full_control_of_state = 559
-				}
-			bypass = {
-					SOM = {
-							owns_state = 559
-						}
-				}
-			completion_reward = {
-					SOM = {
-							transfer_state = 559
-						}
-				}
-
+		available = {
+			has_full_control_of_state = 1158
+			has_full_control_of_state = 1240
+			has_full_control_of_state = 559
+			has_full_control_of_state = 794
+			has_full_control_of_state = 880
+			has_full_control_of_state = 988
+		}
+		bypass = {
+			SOM = {
+				owns_state = 1158
+				owns_state = 1240
+				owns_state = 559
+				owns_state = 794
+				owns_state = 880
+				owns_state = 988
+			}
+		}
+		completion_reward = {
+			SOM = {
+				transfer_state = 559
+				transfer_state = 1158
+				transfer_state = 1240
+				transfer_state = 794
+				transfer_state = 880
+				transfer_state = 988
+			}
+		}
 	}
 	focus = {
 		id = ITA_Centrist_Coalition
