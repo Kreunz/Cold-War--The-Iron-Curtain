@@ -436,11 +436,11 @@ water_modifier_shipping_channel = {
 #	sub_detection = -0.25
 #}
 water_modifier_posadist_dolphin_infestation = {
-	navy_casualty_on_sink = -0.1
+
 }
-water_modifier_whale_infestation = {
-	naval_accidents_chance = 0.01
-}
+#water_modifier_whale_infestation = {
+#
+#}
 
 screening_bonus = { 
   naval_retreat_speed = 0.2 
