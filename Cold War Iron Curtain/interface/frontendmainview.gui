@@ -208,7 +208,7 @@ guiTypes = {
 			spriteType = "GFX_discord_button"
 			clicksound = click_default
 			pdx_tooltip = ""
-			web_link = "https://discord.gg/jcAR76f"
+			web_link = "https://discord.gg/PT9kcwS"
 		}
 		
 		ButtonType = {

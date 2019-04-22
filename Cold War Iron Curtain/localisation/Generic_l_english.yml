@@ -281,7 +281,7 @@
  have_furries_control_government_desc:0 "This country protects its environment with strict regulation."
  activate_capitalism:0 "Capitalist Economy"
  activate_capitalism_desc:0 "This country has embraced capitalism"
- capitalism_intensifies:0 "Lazziez-Faire Economy"
+ capitalism_intensifies:0 "Laissez-Faire Economy"
  capitalism_intensifies_desc:0 "This country's state attempts to avoid intervening in its economy. Aside from other spirits and policies, there is virtually no general regulation."
  education_minister:0 "Appoint Minister of Education and Research"
  education_minister_desc:0 "The time has come to choose a minister of education and research"

@@ -191,5 +191,11 @@ ideas = {
               }
             traits = { Auditor_minister }
         }
-      }
-    }
+      Giovanni_de_Lorenzo = {
+          picture = Giovanni_de_Lorenzo      
+             allowed = {
+               original_tag = ITA
+              }
+            traits = { Cultural_Militarist_minister }
+        }
+      

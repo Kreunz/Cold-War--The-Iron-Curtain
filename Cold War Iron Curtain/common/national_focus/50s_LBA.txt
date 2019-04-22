@@ -591,22 +591,14 @@ focus_tree = {
 			
 
 		prerequisite = {
-			
 			focus = LBA_tripolitan_and_fezzan_autonomy
-			
-			focus = LBA_insufficent_resource_management
-			
-		}	
-		
-		prerequisite = {
-			
 			focus = LBA_tripolitian_and_fezzan_discontent
-			
-			focus = LBA_efficent_resource_management
-			
 		}
-		
-	}
+		prerequisite = {
+			focus = LBA_insufficent_resource_management
+			focus = LBA_efficent_resource_management	
+		}
+	}	
 	
 	focus = {
 		id = LBA_monarchial_status_quo
@@ -930,11 +922,11 @@ focus_tree = {
 			
 			focus = LBA_tolerate_pan_arabism
 			
-			focus = LBA_diversification_of_cabinet
-		
-			focus = LBA_devalue_tribal_cyrenaican_chiefs
+			focus = LBA_diversification_of_cabinet	
 			
-			focus = LBA_adequate_tax_collection
+			focus = LBA_anti_pan_arabism
+			
+			focus = LBA_form_loyalist_cabinet		
 			
 		}	
 		
@@ -943,10 +935,10 @@ focus_tree = {
 			focus = LBA_insufficent_tax_collection
 			
 			focus = LBA_appeal_to_cyrenaican_cheifs
-		
-			focus = LBA_anti_pan_arabism
+
+			focus = LBA_devalue_tribal_cyrenaican_chiefs
 			
-			focus = LBA_form_loyalist_cabinet
+			focus = LBA_adequate_tax_collection
 			
 		}
 			
@@ -976,11 +968,11 @@ focus_tree = {
 			
 			focus = LBA_tolerate_pan_arabism
 			
-			focus = LBA_diversification_of_cabinet
-		
-			focus = LBA_devalue_tribal_cyrenaican_chiefs
+			focus = LBA_diversification_of_cabinet	
 			
-			focus = LBA_adequate_tax_collection
+			focus = LBA_anti_pan_arabism
+			
+			focus = LBA_form_loyalist_cabinet		
 			
 		}	
 		
@@ -989,10 +981,10 @@ focus_tree = {
 			focus = LBA_insufficent_tax_collection
 			
 			focus = LBA_appeal_to_cyrenaican_cheifs
-		
-			focus = LBA_anti_pan_arabism
+
+			focus = LBA_devalue_tribal_cyrenaican_chiefs
 			
-			focus = LBA_form_loyalist_cabinet
+			focus = LBA_adequate_tax_collection
 			
 		}
 			
