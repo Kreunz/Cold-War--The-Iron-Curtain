@@ -1,4 +1,4 @@
-ideas = {
+#ideas = {
 	veterans_policy = {
 		law = yes
 		veteran_affairs_generic = {
