@@ -460,7 +460,8 @@ technologies = {
 	
 	software_II = {
 		
-		electronics_research_time_factor = -0.02
+		research_bonus = { electronics = 0.02 }
+
 	
 		path = {
 			leads_to_tech = software_III
@@ -488,7 +489,7 @@ technologies = {
 	
 	software_III = {
 		
-		electronics_research_time_factor = -0.02
+		research_bonus = { electronics = 0.02 }
 	
 		path = {
 			leads_to_tech = software_IV
@@ -643,8 +644,8 @@ technologies = {
 	
 	software_VIII = {
 		
-		electronics_research_time_factor = -0.02
-		consumer_electronics_tech_research_time_factor = -0.02
+		research_bonus = { electronics = 0.02 }
+		research_bonus = { consumer_electronics_tech = 0.02 }
 	
 		path = {
 			leads_to_tech = software_IX
@@ -700,8 +701,8 @@ technologies = {
 	
 	software_X = {
 		
-		electronics_research_time_factor = -0.02
-		consumer_electronics_tech_research_time_factor = -0.02
+		research_bonus = { electronics = 0.02 }
+		research_bonus = { consumer_electronics_tech = 0.02 }
 		
 		path = {
 			leads_to_tech = software_XI
