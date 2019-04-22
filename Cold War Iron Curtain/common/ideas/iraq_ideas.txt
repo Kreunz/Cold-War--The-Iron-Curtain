@@ -169,17 +169,17 @@ ideas = {
 	}
 	foriegn_advisor = {
 		#Abdullah_Sallum_al_Samarra_i2 = {
-			
-			allowed = {
-				original_tag = IRQ
-			}
-
-			available = {
-				NOT = { has_government = monarchism }
-				NOT = { has_government = islamism }
-			}
-			traits = { propaganda_expert }
-		}	
+		#	
+		#	allowed = {
+		#		original_tag = IRQ
+		#	}
+#
+#			available = {
+#				NOT = { has_government = monarchism }
+#				NOT = { has_government = islamism }
+#			}
+#			traits = { propaganda_expert }
+#		}	
 		Tariq_Aziz = {
 			
 			allowed = {
@@ -261,43 +261,43 @@ ideas = {
 	}
 
 	#economic_advisor = {
-		Muhammad_Mahdi_Salih = {
-			
-			allowed = {
-				original_tag = IRQ
-			}
-
-			available = {
-				NOT = { has_government = monarchism }
-				NOT = { has_government = islamism }
-			}
-			traits = { quartermaster_general }
-		}	
-		Abd_al_Khaliq_al_Samarra_i = {
-			
-			allowed = {
-				original_tag = IRQ
-			}
-
-			available = {
-				NOT = { has_government = monarchism }
-				NOT = { has_government = islamism }
-			}
-			traits = { captain_of_industry }
-		}	
-		Hikmat_Mizban_Ibrahim_al_Azzawi = {
-			
-			allowed = {
-				original_tag = IRQ
-			}
-
-			available = {
-				NOT = { has_government = monarchism }
-				NOT = { has_government = islamism }
-			}
-			traits = { financial_expert }
-		}	
-	}
+	#	Muhammad_Mahdi_Salih = {
+	#		
+	#		allowed = {
+	#			original_tag = IRQ
+	#		}
+#
+	#		available = {
+	#			NOT = { has_government = monarchism }
+	#			NOT = { has_government = islamism }
+	#		}
+	#		traits = { quartermaster_general }
+	#	}	
+	#	Abd_al_Khaliq_al_Samarra_i = {
+	#		
+	#		allowed = {
+	#			original_tag = IRQ
+	#		}
+#
+#			available = {
+#				NOT = { has_government = monarchism }
+#				NOT = { has_government = islamism }
+#			}
+#			traits = { captain_of_industry }
+#		}	
+##		Hikmat_Mizban_Ibrahim_al_Azzawi = {
+#			
+#			allowed = {
+#				original_tag = IRQ
+#			}
+#
+#			available = {
+#				NOT = { has_government = monarchism }
+#				NOT = { has_government = islamism }
+#			}
+#			traits = { financial_expert }
+#		}	
+#	}
 	army_chief = {
 		Maher_Abd_al_Rashid = {
 
