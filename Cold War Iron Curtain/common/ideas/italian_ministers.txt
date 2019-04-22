@@ -198,4 +198,19 @@ ideas = {
               }
             traits = { Cultural_Militarist_minister }
         }
-      
+     Fulvio_Martini = {
+          picture = Fulvio_Martini       
+             allowed = {
+               original_tag = ITA
+              }
+            traits = { Cultural_Militarist_minister }
+        }
+      Emanuele_De_Francesco = {
+          picture = Emanuele_De_Francesco       
+             allowed = {
+               original_tag = ITA
+              }
+            traits = { Traditionalist_minister }
+        }
+      }
+    }

@@ -16,10 +16,6 @@ https://it.wikipedia.org/wiki/Achille_Lauro					PDIUM
 https://it.wikipedia.org/wiki/Pino_Rauti					MSI
 https://it.wikipedia.org/wiki/Arturo_Michelini				MSI
 				
-intel_advisor 
-https://en.wikipedia.org/wiki/Fulvio_Martini
-https://it.wikipedia.org/wiki/Emanuele_De_Francesco
-https://it.wikipedia.org/wiki/Giovanni_de_Lorenzo
 
 foriegn_advisor
 https://en.wikipedia.org/wiki/Pietro_Nenni					Italian Socialist Party

@@ -5553,4 +5553,12 @@ spriteTypes = {
 		name = "GFX_idea_Giovanni_de_Lorenzo"
 		texturefile = "gfx/interface/ideas/ita/Giovanni_de_Lorenzo.tga"
 	}
+	spriteType = {
+		name = "GFX_idea_Fulvio_Martini"
+		texturefile = "gfx/interface/ideas/ita/Fulvio_Martini.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Emanuele_De_Francesco"
+		texturefile = "gfx/interface/ideas/ita/Emanuele_De_Francesco.tga"
+	}
 }
