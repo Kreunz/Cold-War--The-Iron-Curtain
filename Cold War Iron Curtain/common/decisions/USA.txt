@@ -31,6 +31,9 @@ PBSUCCESS = {
 
 			allowed = {
 				tag = USA
+				
+			}
+			visible = {
 				has_global_flag = pbsuccess_contact_carlos
 			}
 
@@ -65,9 +68,12 @@ PBSUCCESS = {
 
 			allowed = {
 				tag = USA
+				
+			}
+			visible = {
 				has_global_flag = pbsuccess_contact_carlos
 			}
-
+			
 			complete_effect = {
 				set_global_flag = pbsuccess_train_rebels_gua
 		
@@ -87,12 +93,14 @@ PBSUCCESS = {
 
 			allowed = {
 				tag = USA
+
+			}
+			visible = {
 				has_global_flag = pbsuccess_contact_carlos
 				has_global_flag = pbsuccess_sent_guns_gua
 				has_global_flag = pbsuccess_train_rebels_gua
 				has_global_flag = pbsuccess_criticize_gua
 			}
-
 			
 			complete_effect = {
 			}
@@ -118,9 +126,11 @@ PBSUCCESS = {
 
 			allowed = {
 				tag = USA
+				
+			}
+			visible = {
 				has_global_flag = pbsuccess_contact_carlos
 			}
-
 			
 			complete_effect = {
 				set_global_flag = pbsuccess_sent_guns_gua
