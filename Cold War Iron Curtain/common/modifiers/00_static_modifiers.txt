@@ -69,6 +69,11 @@ weather_arctic_water = { # on Region
 	naval_retreat_speed = -0.05
 	positioning = -0.2
 }
+weather_unpredictable_storms = { # on Region 
+	navy_casualty_on_sink = 0.4
+	positioning = 0.1
+	naval_accidents_chance = 0.05
+}
 
 weather_mud = { # on Province
 	attrition = 0.7
@@ -423,6 +428,18 @@ pride_of_the_fleet_sunk_temporary = {
 water_modifier_shark_infested = {
 	navy_casualty_on_sink = 0.6
 }
+water_modifier_shipping_channel = {
+	navy_casualty_on_sink = -0.6
+}
+#water_modifier_dense_thermal_layers = {
+#	sub_detection = -0.25
+#}
+water_modifier_posadist_dolphin_infestation = {
+
+}
+#water_modifier_whale_infestation = {
+#
+#}
 
 screening_bonus = { 
   naval_retreat_speed = 0.2 

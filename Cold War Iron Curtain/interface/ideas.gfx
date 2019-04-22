@@ -5549,4 +5549,8 @@ spriteTypes = {
 		name = "GFX_idea_Vickers_Shipbuilding"
 		texturefile = "gfx/interface/ideas/eng/Vickers_Shipbuilding.tga"
 	}
+	spriteType = {
+		name = "GFX_idea_Giovanni_de_Lorenzo"
+		texturefile = "gfx/interface/ideas/ita/Giovanni_de_Lorenzo.tga"
+	}
 }
