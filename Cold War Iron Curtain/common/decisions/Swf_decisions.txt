@@ -5,14 +5,15 @@ mobilize_the_old_fleet = {
 
 		allowed = {
 			tag = ENG
-			OR = {
-				threat > 70
-				has_war_with = KPA
-			}
 		}
 		visible = {
 			tag = ENG
 			NOT = { has_global_flag = eng_recommission }
+			OR = {
+				threat > 70
+				has_war_with = KPA
+			}
+
 		}
 
 		
@@ -40,13 +41,14 @@ mobilize_the_old_fleet = {
 
 		allowed = {
 			tag = USA
+
+		}
+		visible = {
+			tag = USA
 			OR = {
 				threat > 70
 				has_war_with = KPA
 			}
-		}
-		visible = {
-			tag = USA
 		}
 
 		
@@ -75,7 +77,6 @@ mobilize_the_old_fleet = {
 
 		allowed = {
 			tag = USA
-			threat > 85
 		}
 		visible = {
 			OR = {

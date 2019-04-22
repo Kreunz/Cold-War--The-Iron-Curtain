@@ -96,10 +96,14 @@ SPACE_RACE_USA = {
 	the_atlas_program_government_funding = {
 
 		icon = generic_research
+		
+		visible = {
+			NOT = { has_global_flag = usa_atlas_program }
+		}
 
 		allowed = {
 			original_tag = USA
-			NOT = { has_global_flag = usa_atlas_program }
+			
 		}
 
 		available = {
@@ -151,15 +155,6 @@ SPACE_RACE_USA = {
 
 		icon = generic_research
 
-		allowed = {
-			OR = {
-				AND = {
-					original_tag = USA
-					has_global_flag = usa_atlas_program
-				}
-				USA = { has_country_flag = usa_atlas_program }
-			}
-		}
 
 		available = {
 			USA = { has_country_flag = not_selectable }
@@ -198,16 +193,11 @@ SPACE_RACE_USA = {
 
 		icon = generic_research
 
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_atlas_program
-				NOT = { has_global_flag = usa_sm65A_atlas_missile }
-			}
-		}
+
 
 		available = {
 			has_global_flag = usa_atlas_program
+			NOT = { has_global_flag = usa_sm65A_atlas_missile }
 		}
 
 		cost = 200
@@ -245,16 +235,9 @@ SPACE_RACE_USA = {
 
 		icon = generic_research
 
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_atlas_program
-				NOT = { USA = { has_country_flag = usa_sm65A_atlas_missile_test2 } }
-			}
-		}
-
 		available = {
 			has_global_flag = usa_sm65A_atlas_missile
+			NOT = { USA = { has_country_flag = usa_sm65A_atlas_missile_test2 }
 		}
 
 		cost = 200
@@ -292,19 +275,13 @@ SPACE_RACE_USA = {
 
 		icon = generic_research
 
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_atlas_program
-				NOT = { USA = { has_country_flag = usa_sm65A_atlas_missile_test3 } }
-			}
-		}
 
 		available = {
 			OR = {
 				USA = { has_country_flag = atlas_sm65a_test2_failed_start }
 				USA = { has_country_flag = atlas_sm65a_test2_failed_air }
 			}
+			NOT = { USA = { has_country_flag = usa_sm65A_atlas_missile_test3 } 
 		}
 
 		cost = 200
@@ -586,10 +563,6 @@ SPACE_RACE_USA = {
 
 		icon = generic_research
 
-		allowed = {
-			original_tag = USA
-			NOT = { has_global_flag = usa_project_vanguard }
-		}
 
 		available = {
 			date > 1955.7.29
@@ -637,12 +610,6 @@ SPACE_RACE_USA = {
 
 		icon = generic_research
 
-		allowed = {
-			AND = {
-				original_tag = USA
-				NOT = { has_global_flag = usa_project_vanguard }
-			}
-		}
 
 		available = {
 			USA = { has_country_flag = not_selectable }
@@ -679,14 +646,6 @@ SPACE_RACE_USA = {
 	project_vanguard_navy_proposal = {
 
 		icon = generic_research
-
-		allowed = {
-			AND = {
-				original_tag = USA
-				USA = { has_country_flag = usa_project_vanguard_navy }
-				NOT = { has_global_flag = usa_project_vanguard_navy }
-			}
-		}
 
 		available = {
 			USA = { has_country_flag = usa_project_vanguard_navy }
@@ -734,13 +693,6 @@ SPACE_RACE_USA = {
 
 		icon = generic_research
 
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_project_vanguard_navy
-			}
-		}
-
 		available = {
 			has_global_flag = usa_project_vanguard_navy
 		}
@@ -786,13 +738,6 @@ SPACE_RACE_USA = {
 
 		icon = generic_research
 
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_project_vanguard_navy
-			}
-		}
-
 		available = {
 			has_global_flag = usa_project_vanguard_navy
 		}
@@ -832,13 +777,6 @@ SPACE_RACE_USA = {
 	project_vanguard_navy_engine2 = {
 
 		icon = generic_research
-
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_project_vanguard_navy
-			}
-		}
 
 		available = {
 			has_global_flag = usa_project_vanguard_navy
@@ -880,13 +818,6 @@ SPACE_RACE_USA = {
 
 		icon = generic_research
 
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_project_vanguard_navy
-			}
-		}
-
 		available = {
 			has_global_flag = usa_project_vanguard_navy
 		}
@@ -926,14 +857,6 @@ SPACE_RACE_USA = {
 	project_vanguard_navy_rocket_test = {
 
 		icon = generic_research
-
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_project_vanguard_navy
-				check_variable = { var = USA_vanguard_level value = 20 compare = greater_than_or_equals }
-			}
-		}
 
 		available = {
 			has_global_flag = usa_project_vanguard_navy
@@ -976,13 +899,6 @@ SPACE_RACE_USA = {
 
 		icon = generic_research
 
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_project_vanguard_navy
-				USA = { has_country_flag = usa_project_vanguard_rework_needed }
-			}
-		}
 
 		available = {
 			has_global_flag = usa_project_vanguard_navy
@@ -1024,15 +940,6 @@ SPACE_RACE_USA = {
 	project_vanguard_navy_rocket_test2 = {
 
 		icon = generic_research
-
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_project_vanguard_navy
-				check_variable = { var = USA_vanguard_level value = 30 compare = greater_than_or_equals }
-				USA = { has_country_flag = usa_project_vanguard_rework_needed }
-			}
-		}
 
 		available = {
 			has_global_flag = usa_project_vanguard_navy
@@ -1076,14 +983,6 @@ SPACE_RACE_USA = {
 
 		icon = generic_research
 
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_project_vanguard_navy
-				check_variable = { var = USA_vanguard_level value = 35 compare = greater_than_or_equals }
-				USA = { has_country_flag = usa_project_vanguard_success }
-			}
-		}
 
 		available = {
 			has_global_flag = usa_project_vanguard_navy
@@ -1127,16 +1026,6 @@ SPACE_RACE_USA = {
 	project_vanguard_airforce_proposal = {
 
 		icon = generic_research
-
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_country_flag = usa_atlas_program
-				has_global_flag = usa_project_vanguard
-				NOT = { has_global_flag = usa_project_vanguard_navy }
-				USA = { has_country_flag = usa_project_vanguard_airforce }
-			}
-		}
 
 		available = {
 			USA = { has_country_flag = usa_atlas_program }
@@ -1188,13 +1077,6 @@ SPACE_RACE_USA = {
 
 		icon = generic_research
 
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_project_vanguard_airforce
-			}
-		}
-
 		available = {
 			USA = { has_country_flag = usa_atlas_program }
 		}
@@ -1234,14 +1116,6 @@ SPACE_RACE_USA = {
 	project_vanguard_airforce_rocket_booster = {
 
 		icon = generic_research
-
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_project_vanguard_airforce
-				USA = { has_country_flag = usa_project_vanguard_airforce_rocket_modification }
-			}
-		}
 
 		available = {
 			USA = { has_country_flag = usa_atlas_program }
@@ -1284,14 +1158,6 @@ SPACE_RACE_USA = {
 
 		icon = generic_research
 
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_project_vanguard_airforce
-				USA = { has_country_flag = usa_project_vanguard_airforce_rocket_modification }
-			}
-		}
-
 		available = {
 			USA = { has_country_flag = usa_atlas_program }
 			USA = { has_country_flag = usa_project_vanguard_airforce_rocket_modification }
@@ -1332,13 +1198,6 @@ SPACE_RACE_USA = {
 	project_vanguard_airforce_use_sm65b = {
 
 		icon = generic_research
-
-		allowed = {
-			AND = {
-				original_tag = USA
-				has_global_flag = usa_project_vanguard_airforce
-			}
-		}
 
 		available = {
 			has_country_flag = usa_atlas_program
