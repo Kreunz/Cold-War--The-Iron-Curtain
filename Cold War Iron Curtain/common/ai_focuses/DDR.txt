@@ -2,7 +2,6 @@ ai_historical_focus_list_DDR = {
 	ai_national_focuses = {
 		DDR_promulgate_a_constitution
 		DDR_formally_establish_the_ddr
-		DDR_purge_spd_members
 		DDR_continue_agrarian_reforms
 		DDR_third_party_congress
 		DDR_peoples_enterprises
@@ -28,19 +27,13 @@ ai_historical_focus_list_DDR = {
 		DDR_promote_private_agriculture
 		DDR_continue_military_industrialisation
 		DDR_develop_east_berlin
-		DDR_protect_berlin
 		DDR_berlin_roads
 		DDR_northern_expansion
 		DDR_northern_airports
 		DDR_coastal_protection
 		DDR_investigate_industrial_corruption
 		DDR_inner_german_border
-		DDR_the_berlin_wall
 		DDR_treaty_of_zgorzelec
-		DDR_export_socialism
-		DDR_train_rebels_in_ethiopia
-		DDR_train_rebels_in_south_africa
-		DDR_train_rebels_in_iran
 		DDR_the_german_question
 		DDR_status_quo
 		
@@ -49,14 +42,12 @@ ai_historical_focus_list_DDR = {
 		DDR_Complete_Collectivization_of_Agriculture
 		DDR_Finish_Collectivization_of_industry
 		DDR_Cultural_Policy
-		DDR_Empaphize_a_New_Identity
 		DDR_Anti_Prussian_Propaganda
 		DDR_Traditional_Marxist_View_of_Prussia
 		DDR_Failure_of_the_Seven_Year_Plan
 		DDR_Build_the_Wall
 		DDR_Ulbricht_Doctrine
 		DDR_Embrace_Neues_Okonomisches_System
-		DDR_Legacy_of_the_Peasants_War
 		DDR_Anti_Luther_Propaganda
 		DDR_Refuse_to_Recognize_West_Germany
 		DDR_Resource_Efficiency
@@ -72,7 +63,6 @@ ai_historical_focus_list_DDR = {
 		DDR_Subsidize_Unprofitable_Buisnesses
 		DDR_Price_Controls
 		DDR_Soviet_Doctrine
-		DDR_Personal_Exchanges
 		DDR_Introduce_Conscription
 		DDR_Political_Commisars
 		DDR_Construction_Soldiers
@@ -86,7 +76,6 @@ ai_historical_focus_list_DDR = {
 		DDR_Fully_Integrated_Army
 		DDR_Militarized_Society
 		DDR_Expansion_of_Volksmarine
-		DDR_Suppoer_the_Invasion
 		DDR_Economic_System_of_Socialism
 		DDR_Electronics_Investments
 		DDR_Petrochemical_Investments
@@ -94,7 +83,7 @@ ai_historical_focus_list_DDR = {
 		DDR_Western_Loans
 		DDR_Appeal_to_Soviets_for_economic_aid
 		DDR_Failure_of_ESS
-		DDR_The_Fall_of_Ulbricht
+
 		DDR_Honecker
 		DDR_Housing_Expansion
 		DDR_Increased_Standards_of_Living

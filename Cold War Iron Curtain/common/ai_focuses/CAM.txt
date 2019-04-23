@@ -1,6 +1,5 @@
 ai_historical_focus_list_CAM = {
 	ai_national_focuses = {
-		CAM_Political_Dysfunction
 		CAM_Fifty_Percent_Independence
 		CAM_release_Son_Ngoc_Thanh
 		CAM_Suspend_the_Constitution

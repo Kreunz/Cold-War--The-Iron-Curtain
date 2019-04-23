@@ -35,7 +35,7 @@ ai_historical_focus_list_KOR = {
 		KOR_Increase_American_Relations
 		KOR_weaken_the_judiciary
 		KOR_Anti_Japanese_Rhetoric
-		KOR_Tention_with_the_National_Assembly
+		KOR_Tension_with_the_National_Assembly
 		KOR_Hongik_Ingan_Curriculum
 		KOR_Support_the_Textile_Industry
 		KOR_Support_Small_Buisness
@@ -94,14 +94,14 @@ ai_historical_focus_list_KOR = {
 		KOR_60s_Elecrtification_Campaign
 		KOR_60s_german_economic_ties
 		KOR_60s_Rise_of_the_Chaebols
-		KOR_60s_Ban_Traditional_Korean_Measurments
+		KOR_60s_Ban_Traditional_Korean_Measurements
 		KOR_60s_Economic_Development
 		KOR_60s_American_Aid
 		KOR_60s_Further_Education_Reforms
 		KOR_60s_Increasing_Academic_Competition
 		KOR_60s_Charter_of_National_Education
 		KOR_60s_Korean_Corporatism
-		KOR_60s_Expand_Defens_Industries
+		KOR_60s_Expand_Defense_Industries
 		KOR_60s_Miliary_Modernization
 		KOR_60s_Normalize_Relations_with_Japan
 		KOR_60s_Japanese_Economic_Investments_Copy
@@ -117,13 +117,12 @@ ai_historical_focus_list_KOR = {
 		GRE_1960s_american_doctrine_air
 		GRE_1960s_american_anti_air_defences
 		GRE_1960s_american_rocket_tech
-		GRE_1960s_american_development
 		GRE_1960s_american_mic_contracts
 		KOR_60s_Korean_realpolitik
 		KOR_60s_Establish_Electronics_Industry
 		KOR_60s_Repress_leftist_activity
 		KOR_60s_New_Village_Movement
-		KOR_60s_another_year_of_peace
+		KOR_another_year_of_peace
 		KOR_60s_Send_Advisors_to_Vietnam
 		KOR_60s_Enter_The_Vietnam_War
 		KOR_60s_Further_American_Aid

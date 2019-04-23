@@ -18,7 +18,6 @@ ai_historical_focus_list_CUB = {
 		BRA_production_effort_3
 		BRA_infrastructure_effort_2
 		BRA_construction_effort_3
-		BRA_chromium_development
 		CUB_50s_the_coup
 		CUB_50s_the_radicalization_of_cuban_populism
 		CUB_50s_workers_wages
@@ -50,7 +49,6 @@ ai_historical_focus_list_CUB = {
 		BRA_soviet_advisors
 		BRA_soviet_trainer_pilots
 		BRA_surplus_soviet_equipment
-		BRA_personnel_exchanges
 		BRA_soviet_fighters
 		BRA_soviet_army_doctrine
 		BRA_soviet_bombers
